@@ -11,6 +11,11 @@
 - [x] Research stop rules drafted.
 - [x] Acceptance criteria and status record drafted.
 
+## Structural review record
+- Reviewed all 8 tracked Markdown files for source hierarchy, evidence provenance, claim classification, bounded research, and status reporting.
+- Added stable claim/evidence IDs, source publisher and checked-time fields, version/environment scope, contradiction handling, bounded-search stop records, and explicit report outcomes.
+- No real research/reporting walkthrough was performed; Section 09 remains RED.
+
 ## Outstanding
 - [ ] Validate with a real report and trace material claims to evidence.
 - [ ] Cross-check Sections 05–08, 10–13, and 17.
@@ -21,4 +26,4 @@
 The section contains policy drafts and templates, not evidence of real-world validation.
 
 ## Next action
-Continue the structure build, then run the repository-wide consistency review.
+Run a report walkthrough with conflicting and time-sensitive sources; verify every material claim links to evidence, scope, and checked date before considering GREEN.
