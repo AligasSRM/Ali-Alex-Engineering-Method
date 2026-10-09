@@ -105,16 +105,16 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `01-identity-and-purpose/TARGET-USERS.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
 | `01-identity-and-purpose/VALUE-PROPOSITION.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
 | `01-identity-and-purpose/VISION.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
-| `02-planning-before-implementation/ACCEPTANCE-CRITERIA.md` | Targeted review performed; full file review pending | TBD | TBD |
-| `02-planning-before-implementation/ARCHITECTURE-OVERVIEW.md` | Pending full file review | TBD | TBD |
-| `02-planning-before-implementation/CURRENT-STATE-AUDIT.md` | Pending full file review | TBD | TBD |
-| `02-planning-before-implementation/DELIVERY-PLAN.md` | Pending full file review | TBD | TBD |
-| `02-planning-before-implementation/DEPENDENCIES.md` | Pending full file review | TBD | TBD |
-| `02-planning-before-implementation/PROJECT-DISCOVERY.md` | Pending full file review | TBD | TBD |
-| `02-planning-before-implementation/README.md` | Targeted review performed; full file review pending | TBD | TBD |
-| `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md` | Targeted review performed; full file review pending | TBD | TBD |
-| `02-planning-before-implementation/REQUIREMENTS.md` | Targeted review performed; full file review pending | TBD | TBD |
-| `02-planning-before-implementation/STATUS.md` | Pending full file review | TBD | TBD |
+| `02-planning-before-implementation/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
+| `02-planning-before-implementation/ARCHITECTURE-OVERVIEW.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
+| `02-planning-before-implementation/CURRENT-STATE-AUDIT.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
+| `02-planning-before-implementation/DELIVERY-PLAN.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
+| `02-planning-before-implementation/DEPENDENCIES.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
+| `02-planning-before-implementation/PROJECT-DISCOVERY.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
+| `02-planning-before-implementation/README.md` | Purpose and inventory reviewed; targeted structural review completed; acceptance pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
+| `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + canonical traceability schema | Section 02 review; acceptance evidence pending |
+| `02-planning-before-implementation/REQUIREMENTS.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
+| `02-planning-before-implementation/STATUS.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
 | `03-modern-technologies-and-engineering-standards/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `03-modern-technologies-and-engineering-standards/ACCESSIBILITY-STANDARDS.md` | Pending full file review | TBD | TBD |
 | `03-modern-technologies-and-engineering-standards/DEPENDENCY-POLICY.md` | Pending full file review | TBD | TBD |
