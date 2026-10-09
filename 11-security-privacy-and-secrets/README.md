@@ -21,5 +21,8 @@ Applies across all project sections and deployments.
 ## Traceability and security decision model
 Assign stable asset, data-flow, threat, control, exception, and test IDs. Link threats to controls, owners, verification evidence, residual risk, and release disposition. Record scope, environment, version, reviewer, and checked date for material security decisions. Separate implemented controls from planned controls and accepted residual risks.
 
+## Cross-section precedence
+Mandatory security/privacy and fail-closed controls cannot be overridden by general user approval, role assignment, GREEN/LOCKED status, or a release checklist. Validate the integrated scenarios in `13-dependencies-and-blockers/GOVERNANCE-PRECEDENCE-AND-SCENARIOS.md` before claiming the precedence model is verified.
+
 ## Guardrail
 Never place credentials, private user data, or secrets in repository files or public logs. An exception cannot silently disable a mandatory control or override applicable law.
