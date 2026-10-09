@@ -211,3 +211,14 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 - Relative Markdown links checked across all 10 Section 02 files: no missing local targets detected in this scan. Markdown table column counts checked: no mismatches detected in these files.
 
 **Limitations:** These were targeted structural reviews, not project-specific substantive acceptance. Sections 01 and 02 remain RED until owner decisions, complete cross-method validation, and applicable evidence are recorded.
+
+
+### Pass 3 — Section 03 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 9 tracked Markdown files in `03-modern-technologies-and-engineering-standards/`: README, technology decisions, runtime support, engineering standards, security standards, accessibility standards, dependency policy, acceptance criteria, and status.
+
+**Structural changes:** Added a consistent distinction between mandatory/conditional/recommended rules; authoritative source/version/edition and checked-date fields; explicit technology decision states and revisit triggers; runtime/toolchain compatibility evidence; dependency provenance/license/lifecycle/advisory evidence; accessibility target/claim boundaries; and time-bounded exception records with risk, compensating controls, approver, and review/expiry date. Updated Section 03 acceptance criteria and status; all nine files remain structural templates awaiting real-project application.
+
+**Validation:** The working branch tree was previously confirmed complete. This pass includes a programmatic scan of relative Markdown links and Markdown table column counts across the nine Section 03 files. Results are recorded below after the scan. These checks do not prove that external references are current, standards are complied with, or a real stack is compatible.
+
+**State:** Section 03 remains 🔴 RED. No technology choice, certification, security/accessibility compliance, runtime support claim, or production readiness is approved by these structural edits.
