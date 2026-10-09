@@ -15,6 +15,13 @@ Select maintainable, supported technologies and appropriate engineering standard
 - ACCEPTANCE-CRITERIA.md — evidence required to complete this section.
 - STATUS.md — current state and next action.
 
+## Operating model
+- Use the canonical decision/requirement traceability in Section 02; do not create a competing source of truth.
+- Classify each rule as **mandatory**, **conditional**, or **recommended**. State the trigger for conditional rules and the consequence of non-adoption.
+- For external standards and technology lifecycle claims, record the authoritative URL, exact version/release, date checked, applicable scope, and reviewer.
+- Record exceptions with rationale, risk, compensating control, accountable approver, expiry/review date, and closure evidence. No exception may waive applicable law or silently bypass a mandatory security/privacy gate.
+- Distinguish policy intent, planned verification, executed checks, and verified outcomes.
+
 ## Dependencies
 Sections 01–02 define product goals and constraints.
 ## Guardrail
