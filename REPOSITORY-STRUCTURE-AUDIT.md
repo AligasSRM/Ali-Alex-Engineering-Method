@@ -367,3 +367,7 @@ All 153 tracked Markdown files under Sections 01–18 now have a recorded dispos
 The dependency map now contains 35 identified initial edges, including explicit cross-cutting stop-work and security/privacy controls plus the approved-scope prerequisite for substantive project implementation. The map's edge classifications remain proposed until checked against every declared dependency and downstream document. Its table scan reports no column mismatch.
 
 **Remaining gate:** full semantic dependency reconciliation of all 35 edges, execution of the 12 governance-precedence scenarios, blocking-cycle validation, and full PR diff/review inspection. A precedence matrix is now drafted; owner approval and scenario execution remain pending. Current GitHub API reports PR #2 as mergeable/clean and ahead of main with no commits behind; no commit status checks were returned. The PR remains Draft and unmerged. Structural review and Markdown checks do not establish real-project acceptance or production readiness.
+
+
+### Cross-section governance precedence — first executable test plan
+Added `13-dependencies-and-blockers/GOVERNANCE-PRECEDENCE-AND-SCENARIOS.md` with eight precedence layers and 12 scenario test cases. Linked the shared oracle from Sections 05, 11, 12, 13, and 17. Also corrected literal `\\n` sequences in Sections 11 and 17 acceptance checklists and removed a duplicate controls heading in Section 12 transition rules. These are structural repairs only; the scenarios have not been executed and all affected sections remain RED.
