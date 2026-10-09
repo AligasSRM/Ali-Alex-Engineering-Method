@@ -8,7 +8,8 @@ Track dependencies and impediments without hiding unresolved risks or confusing 
 ## Planned documents
 - DEPENDENCY-REGISTER.md — dependency, owner, version, and criticality.
 - DEPENDENCY-MAP.md — typed cross-section edges, sequencing rules, and unresolved cycle decisions.
-- GOVERNANCE-PRECEDENCE-AND-SCENARIOS.md — shared precedence rules and executable cross-section approval/security/status/release scenarios.
+- GOVERNANCE-PRECEDENCE-AND-SCENARIOS.md — shared precedence rules and cross-section approval/security/status/release scenarios.
+- GOVERNANCE-SCENARIO-TEST-RESULTS.md — provisional tabletop model-check results; not production or owner-approved workflow evidence.
 - BLOCKER-REGISTER.md — impact, evidence, owner, and next action.
 - EXTERNAL-SERVICE-DEPENDENCIES.md — vendors, APIs, and availability assumptions.
 - RISK-ESCALATION.md — thresholds for escalation and approval.
