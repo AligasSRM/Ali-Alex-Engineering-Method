@@ -131,14 +131,14 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `04-two-phase-project-construction/PHASE-TRANSITION-GATE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 04 review; link/table scan pending or structural evidence only |
 | `04-two-phase-project-construction/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit | Section 04 review; link/table scan pending or structural evidence only |
 | `04-two-phase-project-construction/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 04 review; link/table scan pending or structural evidence only |
-| `05-autonomous-execution-and-approvals/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `05-autonomous-execution-and-approvals/APPROVAL-MATRIX.md` | Pending full file review | TBD | TBD |
-| `05-autonomous-execution-and-approvals/AUTONOMY-BOUNDARIES.md` | Pending full file review | TBD | TBD |
-| `05-autonomous-execution-and-approvals/CHANGE-CONTROL.md` | Pending full file review | TBD | TBD |
-| `05-autonomous-execution-and-approvals/ESCALATION-PROTOCOL.md` | Pending full file review | TBD | TBD |
-| `05-autonomous-execution-and-approvals/HIGH-IMPACT-ACTIONS.md` | Pending full file review | TBD | TBD |
-| `05-autonomous-execution-and-approvals/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `05-autonomous-execution-and-approvals/STATUS.md` | Pending full file review | TBD | TBD |
+| `05-autonomous-execution-and-approvals/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
+| `05-autonomous-execution-and-approvals/APPROVAL-MATRIX.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
+| `05-autonomous-execution-and-approvals/AUTONOMY-BOUNDARIES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
+| `05-autonomous-execution-and-approvals/CHANGE-CONTROL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
+| `05-autonomous-execution-and-approvals/ESCALATION-PROTOCOL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
+| `05-autonomous-execution-and-approvals/HIGH-IMPACT-ACTIONS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
+| `05-autonomous-execution-and-approvals/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
+| `05-autonomous-execution-and-approvals/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
 | `06-root-cause-problem-solving/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `06-root-cause-problem-solving/DIAGNOSTIC-PROTOCOL.md` | Pending full file review | TBD | TBD |
 | `06-root-cause-problem-solving/INCIDENT-INTAKE.md` | Pending full file review | TBD | TBD |
