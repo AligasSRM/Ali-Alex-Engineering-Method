@@ -20,10 +20,18 @@ Move from symptoms to a supported causal explanation using explicit hypotheses a
 Use Section 05 approval gates for high-impact actions. Never expose secrets in logs. Preserve a known-good state before risky modifications. Do not treat correlation as proof of causation.
 
 ## Required diagnostic log
-Hypothesis | evidence | prediction | test | result | conclusion | next action.
+| Diagnostic ID | Incident ID | Hypothesis / confidence before test | Supporting and contradicting evidence | Prediction / discriminating criterion | Safe test / environment | Actual result / evidence link | Conclusion / confidence after test | Next action / owner |
+|---|---|---|---|---|---|---|---|---|
+| DIAG-001 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+
+For each test, state what result would support, weaken, or falsify the hypothesis before running it. Record command/tool version and exit status where applicable. If the test cannot run, record the blocker; do not treat an unexecuted test as evidence.
+
 
 ## Dependencies
 Sections 05, 09, 10, and 13; aligns with Section 07 patch review.
+
+## Causal confidence
+Use explicit labels such as **confirmed**, **strongly supported**, **provisional**, or **unknown**, with criteria defined by the project. Explain alternative causes not ruled out. A test passing after a change is evidence of behavior, but does not alone prove the proposed root cause.
 
 ## Acceptance evidence
 A real issue has a traceable hypothesis-to-test record and a conclusion calibrated to the evidence.
