@@ -3,7 +3,7 @@
 **Current state:** RED
 
 ## Structure
-- [x] README and planned file list inspected.
+- [x] README reconciled with actual files.
 - [x] Roles and responsibilities drafted.
 - [x] Review protocol drafted.
 - [x] Communication rules drafted.
@@ -20,4 +20,4 @@
 No project-specific role assignment or practical collaboration workflow has been validated.
 
 ## Next action
-Continue with Section 17, then run the full consistency review.
+Complete the cross-section consistency audit before returning to Section 01 for substantive implementation.
