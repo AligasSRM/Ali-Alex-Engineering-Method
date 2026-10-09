@@ -228,16 +228,16 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `16-collaboration-and-mutual-accountability/REVIEW-PROTOCOL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 16 review; link/table scan and structural evidence only |
 | `16-collaboration-and-mutual-accountability/ROLES-AND-RESPONSIBILITIES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 16 review; link/table scan and structural evidence only |
 | `16-collaboration-and-mutual-accountability/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 16 review; link/table scan and structural evidence only |
-| `17-final-review-and-release/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `17-final-review-and-release/CUSTOMER-SUPPORT-AND-AI-ASSISTANCE-READINESS.md` | Targeted review performed; full file review pending | TBD | TBD |
-| `17-final-review-and-release/FINAL-REVIEW-PROTOCOL.md` | Pending full file review | TBD | TBD |
-| `17-final-review-and-release/POST-RELEASE-VERIFICATION.md` | Pending full file review | TBD | TBD |
-| `17-final-review-and-release/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `17-final-review-and-release/RELEASE-READINESS-CHECKLIST.md` | Pending full file review | TBD | TBD |
-| `17-final-review-and-release/RELEASE-RECORD-TEMPLATE.md` | Pending full file review | TBD | TBD |
-| `17-final-review-and-release/ROLLBACK-AND-RECOVERY.md` | Pending full file review | TBD | TBD |
-| `17-final-review-and-release/STATUS.md` | Pending full file review | TBD | TBD |
-| `17-final-review-and-release/WEB-DISCOVERABILITY-AND-DOMAIN-EMAIL-READINESS.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `17-final-review-and-release/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
+| `17-final-review-and-release/CUSTOMER-SUPPORT-AND-AI-ASSISTANCE-READINESS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
+| `17-final-review-and-release/FINAL-REVIEW-PROTOCOL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
+| `17-final-review-and-release/POST-RELEASE-VERIFICATION.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
+| `17-final-review-and-release/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
+| `17-final-review-and-release/RELEASE-READINESS-CHECKLIST.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
+| `17-final-review-and-release/RELEASE-RECORD-TEMPLATE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
+| `17-final-review-and-release/ROLLBACK-AND-RECOVERY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
+| `17-final-review-and-release/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
+| `17-final-review-and-release/WEB-DISCOVERABILITY-AND-DOMAIN-EMAIL-READINESS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
 | `18-living-agreement-and-method-evolution/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `18-living-agreement-and-method-evolution/LESSONS-LEARNED.md` | Pending full file review | TBD | TBD |
 | `18-living-agreement-and-method-evolution/METHOD-EVOLUTION-POLICY.md` | Pending full file review | TBD | TBD |
