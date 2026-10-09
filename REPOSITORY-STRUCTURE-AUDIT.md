@@ -371,3 +371,9 @@ The dependency map now contains 33 identified initial edges, including explicit 
 
 ### Cross-section governance precedence — first executable test plan
 Added `13-dependencies-and-blockers/GOVERNANCE-PRECEDENCE-AND-SCENARIOS.md` with eight precedence layers and 12 scenario test cases. Linked the shared oracle from Sections 05, 11, 12, 13, and 17. Also corrected literal `\\n` sequences in Sections 11 and 17 acceptance checklists and removed a duplicate controls heading in Section 12 transition rules. These are structural repairs only; the scenarios have not been executed and all affected sections remain RED.
+
+
+### F-08 — Dependency-map count drift and Section 04 relationship omission
+**Severity:** Medium · **State:** Corrected structurally; semantic validation pending
+
+The Section 13 status file used inconsistent edge totals (35 in one line and 33 in another), while the map contained IDs EDGE-001 through EDGE-033. Reconciliation also found that Section 04's README explicitly named Sections 05–07, 09–13, 15, and 17 as supporting controls without a single matching grouped map edge. Added EDGE-034 as a coordination/reference relationship and aligned the Section 13 status count to 34. This is a documentation consistency repair, not owner approval or proof that all edge classifications are correct. The full dependency/acceptance-criteria reconciliation and blocking-cycle check remain open.
