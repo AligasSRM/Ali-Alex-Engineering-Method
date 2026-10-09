@@ -2,6 +2,14 @@
 
 **Status:** 🔴 RED — checklist drafted; real change review pending.
 
+## Patch record
+- Patch/change ID and linked incident/diagnostic ID:
+- Requirement/decision IDs and approved scope:
+- Repository / branch / baseline SHA / resulting SHA:
+- Change class: PERMANENT FIX / TEMPORARY MITIGATION / REFACTOR / ARCHITECTURE CHANGE:
+- Author / reviewer / approver / review date:
+- Evidence links and test IDs:
+
 Before approving or applying a patch, check:
 
 - [ ] Does the change address an evidence-supported cause rather than only hiding a symptom?
@@ -18,7 +26,7 @@ Before approving or applying a patch, check:
 - [ ] Is the final diff reviewed for unrelated changes and accidental secret exposure?
 
 ## Review outcome
-Record **approve**, **revise**, or **reject**, with evidence and any conditions. A checklist alone does not prove a patch is safe.
+Record **APPROVE**, **REVISE**, **REJECT**, or **BLOCKED**, with reviewer, date, evidence, conditions, residual risks, and any approval ID. A blocked item must not be treated as approved. A checklist alone does not prove a patch is safe.
 
 ## Dependencies
 Sections 03, 05–06, 09–10, 11–14, and 17.
