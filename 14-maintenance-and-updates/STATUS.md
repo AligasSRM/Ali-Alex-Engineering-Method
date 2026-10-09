@@ -12,6 +12,11 @@
 - [x] Technical debt register drafted.
 - [x] Acceptance criteria and status record drafted.
 
+## Structural review record
+- Reviewed all 9 tracked Markdown files for maintenance ownership, runtime lifecycle, dependency updates, migration/recovery, technical debt, and observability/incident operations.
+- Added stable IDs, official lifecycle source/check dates, baseline/target version records, GO/NO-GO evidence, time-bounded accepted-risk fields, and signal/alert ownership/runbook metadata.
+- No project-specific maintenance inventory, restore exercise, migration, or incident exercise was performed; Section 14 remains RED.
+
 ## Outstanding
 - [ ] Inventory real components, runtimes, and dependencies.
 - [ ] Verify support and lifecycle facts from official sources.
@@ -23,4 +28,4 @@
 No project-specific maintenance inventory or tested update/migration procedure has been completed.
 
 ## Next action
-Continue with Section 15, then conduct a repository-wide dependency and consistency review.
+Apply these records to actual components and validate one dependency update plus one recovery/alert exercise in a safe environment before considering GREEN.
