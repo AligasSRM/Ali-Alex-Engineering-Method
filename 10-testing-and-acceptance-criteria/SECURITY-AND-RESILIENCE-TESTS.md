@@ -16,6 +16,15 @@ Verify safe behavior when permissions, dependencies, inputs, or infrastructure f
 - Fail-closed behavior when a safety or authorization control is required but unavailable.
 - Privacy-related access, retention, and deletion requirements.
 
+## Security test record
+- Test ID / linked threat, risk, and control IDs:
+- Authorized scope, target, environment, and test window:
+- Test account/data classification and blast radius:
+- Expected safe/fail-closed behavior:
+- Containment and rollback plan / responsible owner:
+- Actual result, evidence, deviations, and residual risk:
+- Approver/authorization evidence where required:
+
 ## Execution controls
 Define scope, test accounts/data, environment, blast radius, and rollback before running intrusive tests. Security testing against live systems requires explicit authorization. Stop if a test risks real user data or unauthorized access.
 
