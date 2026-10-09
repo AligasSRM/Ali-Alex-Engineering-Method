@@ -3,15 +3,17 @@
 **Status:** 🔴 RED — structure exists; cross-section audit and governance decisions remain open.
 
 ## Phase A — Structure
-Create a consistent skeleton for all 18 sections, document responsibilities and dependencies, and define acceptance criteria without prematurely claiming completion.
+Create a consistent skeleton for the numbered sections, document responsibilities and dependencies, and define acceptance criteria without prematurely claiming completion. The current baseline has 18 sections; any additional section requires a documented gap that cannot be cleanly assigned to existing sections.
 
 ## Phase A.1 — Cross-section compatibility gate
 Before substantive implementation:
 - Compare each section's purpose and declared dependencies with the other sections.
-- Verify README file inventories against the live repository tree.
+- Verify README file inventories against the live repository tree and validate internal Markdown links.
+- Validate the typed dependency map in `13-dependencies-and-blockers/DEPENDENCY-MAP.md` against every section's declared dependencies.
 - Resolve dependency cycles and distinguish blocking prerequisites from coordination/reference links.
 - Reconcile approval, security/privacy, testing, status/locking, documentation, and release gates.
 - Confirm a single source-of-truth model for status and history records.
+- Decide from document-level evidence whether operational observability requires a new section or can be assigned to Sections 06, 11, 14, and 17.
 - Record findings, decisions, and evidence in `REPOSITORY-STRUCTURE-AUDIT.md`.
 - Keep all sections RED until their applicable criteria are verified.
 
