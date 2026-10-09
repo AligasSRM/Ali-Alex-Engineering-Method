@@ -19,6 +19,11 @@
 - [ ] Post-launch search and mail checks have an owner and review cadence.
 
 
+- [ ] Applicable support inbox/contact/ticket channels have an owner and successful end-to-end tests.
+- [ ] Support response expectations and escalation ownership are documented.
+- [ ] If AI support is approved, disclosure, data handling, authorization boundaries, evaluation, failure behavior, and human handoff are tested and approved before enablement.
+- [ ] AI does not claim a ticket/message/action succeeded without authoritative confirmation.
+
 ## GREEN gate
 A complete release lifecycle is traceable from readiness through final review, deployment, and post-release verification.
 
