@@ -315,3 +315,12 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 **Structural changes:** Added stable dependency/edge/blocker/risk/deferral IDs and lifecycle states, official source/check-date and compatibility evidence, failure/recovery behavior, owner/escalation metadata, and expiry/re-entry controls for deferrals. The dependency map now assigns IDs to its 16 initial typed edges and requires an owner plus clearing evidence; classifications remain proposed until reviewed against every source/consumer document.
 
 **Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 9 reviewed files; Markdown table-column scan found 0 mismatched rows. Full edge validation, blocking-cycle review, and real project inventory remain pending. Section 13 remains RED.
+
+
+### Pass 3 — Section 14 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 9 tracked Markdown files in `14-maintenance-and-updates/`.
+
+**Structural changes:** Added stable maintenance/component/update/migration/debt/observability IDs, official lifecycle source and checked-date evidence, baseline/target version records, explicit migration GO/NO-GO and recovery constraints, time-bounded accepted-risk fields, and signal/alert ownership, threshold rationale, runbook, and exercise evidence.
+
+**Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 9 reviewed files; Markdown table-column scan found 0 mismatched rows. No project-specific maintenance inventory, restore exercise, migration, or incident exercise was performed. Section 14 remains RED.
