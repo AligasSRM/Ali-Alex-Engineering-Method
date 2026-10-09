@@ -19,6 +19,9 @@ Ensure release readiness is demonstrated through functional, security, operation
 ## Dependencies
 Requires applicable evidence from Sections 01–16 and governance/evolution controls from Section 18.
 
+## Cross-section precedence
+A release decision must consume the applicable approval, security/privacy, dependency, status, recovery, and role-authority evidence. The release gate cannot waive an upstream mandatory control. Validate the integrated precedence scenarios in `13-dependencies-and-blockers/GOVERNANCE-PRECEDENCE-AND-SCENARIOS.md`.
+
 ## Release evidence model
 Use stable release, finding, recovery, support-channel, and readiness-check IDs. Bind each decision to the exact source commit and artifact, target environment, test/evidence IDs, accountable approver, unresolved risks, and post-release observation window. Approval, deployment, and verified outcome are separate events.
 
