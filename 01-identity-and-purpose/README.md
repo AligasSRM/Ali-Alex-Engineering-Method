@@ -17,6 +17,9 @@ Define the project's identity, reason for existence, intended users, core value,
 - `ASSUMPTIONS-AND-RISKS.md` — unverified assumptions and initial risks.
 - `ACCEPTANCE-CRITERIA.md` — conditions required to complete this section.
 - `DECISIONS.md` — approved decisions and rationale.
+
+## Traceability and cross-document consistency
+Use `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md` as the canonical location for requirement IDs and links from approved identity/scope decisions to design, implementation, tests, and release disposition. Keep product facts, assumptions, and hypotheses explicitly distinguished. Before acceptance, compare vision, mission, target users, value proposition, product boundaries, account/identity scope, success criteria, assumptions/risks, and decisions for contradictions.
 - `STATUS.md` — current status, gaps, evidence, and next action.
 
 ## Dependencies
