@@ -3,6 +3,11 @@
 **Status:** RED — lifecycle guidance drafted; actual runtime inventory pending.
 
 ## Inventory
+| Component ID | Runtime/framework/platform/tool and version | Official lifecycle URL / checked date | Support/EOL status and date | Consumers / compatibility evidence | Upgrade trigger / owner | Risk / next review |
+|---|---|---|---|---|---|---|
+| LIFE-001 | TBD | TBD | TBD | TBD | TBD | TBD |
+
+
 For each runtime, framework, platform, database, and build tool, record version, support policy, published end-of-life date, upstream source, upgrade path, and dependent components.
 
 ## Policy
