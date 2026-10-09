@@ -16,11 +16,19 @@ Ensure identities can perform only the actions explicitly permitted for their ro
 - Use secure session/token handling, expiry, and revocation appropriate to the system.
 - Log security-relevant events without exposing credentials or sensitive payloads.
 
+## Permission matrix
+| Role / identity ID | Resource / action | Allowed condition | Explicitly denied cases | Enforcement boundary | Test ID / evidence | Owner / review date |
+|---|---|---|---|---|---|---|
+| ROLE-001 | TBD | TBD | TBD | TBD | TBD | TBD |
+
 ## Failure behavior
 If required identity or authorization checks are unavailable or inconclusive, reject the protected operation safely. Do not silently grant access as a fallback.
 
 ## Dependencies
 Sections 03, 05, 09–10, and 14–17.
+
+## Access review record
+Record privileged-role owner, approval evidence, last review date, revocation trigger, and verification that revoked credentials/sessions no longer work. Recheck resource ownership and tenant isolation at the server-side enforcement point.
 
 ## Acceptance evidence
 Authorization tests cover allowed and denied cases, role boundaries, resource ownership, revocation, and failure behavior.
