@@ -10,6 +10,14 @@ Help decide whether a defect needs a local fix, a broader refactor, or an archit
 - **Refactor:** consider when duplication, unclear boundaries, or coupling repeatedly causes similar defects and a bounded refactor reduces risk.
 - **Architecture change:** consider when requirements cannot be met reliably within the current design or persistent systemic evidence justifies changing a major boundary.
 
+## Decision record
+- Decision ID / linked incident, patch, and requirement IDs:
+- Current state and evidence supporting the proposed level:
+- Alternatives considered and why rejected/deferred:
+- Risk, cost, compatibility, migration, rollback, and verification impact:
+- Decision state: PROPOSED / APPROVED / REJECTED / DEFERRED / SUPERSEDED:
+- Owner / approver / date / revisit trigger:
+
 ## Evaluation criteria
 Compare root-cause evidence, user impact, recurrence, complexity, security/privacy risk, compatibility, migration cost, reversibility, testability, schedule, and long-term maintenance. Record at least one viable alternative and why it was not selected.
 
