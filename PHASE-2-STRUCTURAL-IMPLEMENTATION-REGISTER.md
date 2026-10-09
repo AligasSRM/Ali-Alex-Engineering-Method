@@ -161,14 +161,14 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `08-fatigue-and-work-stoppage-protocol/RESUME-PROTOCOL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 08 review; link/table scan and structural evidence only |
 | `08-fatigue-and-work-stoppage-protocol/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 08 review; link/table scan and structural evidence only |
 | `08-fatigue-and-work-stoppage-protocol/STOP-WORK-TRIGGERS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 08 review; link/table scan and structural evidence only |
-| `09-research-evidence-and-communication/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `09-research-evidence-and-communication/CLAIM-CLASSIFICATION.md` | Pending full file review | TBD | TBD |
-| `09-research-evidence-and-communication/EVIDENCE-LOG.md` | Pending full file review | TBD | TBD |
-| `09-research-evidence-and-communication/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `09-research-evidence-and-communication/RESEARCH-STOP-RULES.md` | Pending full file review | TBD | TBD |
-| `09-research-evidence-and-communication/SOURCE-HIERARCHY.md` | Pending full file review | TBD | TBD |
-| `09-research-evidence-and-communication/STATUS-REPORT-TEMPLATE.md` | Pending full file review | TBD | TBD |
-| `09-research-evidence-and-communication/STATUS.md` | Pending full file review | TBD | TBD |
+| `09-research-evidence-and-communication/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
+| `09-research-evidence-and-communication/CLAIM-CLASSIFICATION.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
+| `09-research-evidence-and-communication/EVIDENCE-LOG.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
+| `09-research-evidence-and-communication/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
+| `09-research-evidence-and-communication/RESEARCH-STOP-RULES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
+| `09-research-evidence-and-communication/SOURCE-HIERARCHY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
+| `09-research-evidence-and-communication/STATUS-REPORT-TEMPLATE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
+| `09-research-evidence-and-communication/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
 | `10-testing-and-acceptance-criteria/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `10-testing-and-acceptance-criteria/CONTRACT-AND-E2E-TESTS.md` | Pending full file review | TBD | TBD |
 | `10-testing-and-acceptance-criteria/README.md` | Initial purpose/inventory review completed | TBD | TBD |
