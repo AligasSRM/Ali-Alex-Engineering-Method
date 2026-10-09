@@ -13,6 +13,11 @@ Use one uniquely identified requirement per row. Requirements must be testable a
 - Account and identity scope: registration/sign-up, sign-in, sign-out, account identifier, display name versus unique username, profile visibility, verification, recovery, sessions, account closure/deletion, and any roles/team membership if relevant.
 - For each topic, record whether it is required, optional, deferred, or not applicable, with rationale and approval. This checklist is not approval to build every listed capability.
 
+## Support and AI-assistance discovery topics
+- Support channels: official support email, contact form, help center, ticket tracking, responsible owner/backup, expected response window, escalation path, and delivery verification.
+- AI-assisted support: explicitly required, optional, deferred, or not applicable; approved scope, disclosure that users are interacting with AI, source of truth for answers, data sent to providers, access/tool permissions, human handoff, evaluation, failure behavior, and measurable acceptance tests.
+- Do not treat this discovery list as approval to deploy AI or claim support availability. High-impact account, privacy, security, billing, legal, or safety cases need defined escalation and authorization boundaries.
+
 ## Quality dimensions to consider
 - Security and privacy
 - Accessibility and usability
@@ -32,6 +37,7 @@ Record requirement changes with date, rationale, impact, approver, and affected 
 - [ ] Each requirement has a source/rationale and verification method.
 - [ ] Priorities and exclusions are explicit.
 - [ ] Account/identity capabilities have an explicit disposition and traceable decisions.
+- [ ] Support channels and AI assistance have an explicit scope decision, accountable owner, and testable acceptance criteria where applicable.
 - [ ] Conflicts, dependencies, and unresolved questions are documented.
 - [ ] The project owner approves the baseline before implementation.
 
