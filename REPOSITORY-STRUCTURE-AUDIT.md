@@ -141,3 +141,11 @@ The existing Phase 1 structural blueprint listed scope, modules, dependencies, r
 
 **Boundary:** This is a methodology template and structural correction, not evidence that a real page has been designed, approved, implemented, or tested. Section 04 remains RED. No new numbered section is created; no Section 19 is justified by this finding alone.
 
+### F-13 — Public discoverability and official domain email were not explicit release gates
+**Severity:** High · **State:** Addressed structurally; real-domain validation pending
+
+The existing release checklist covered operational readiness but did not explicitly require evidence that a public website was prepared for search discovery or that its official domain email was functional and authenticated.
+
+**Resolution:** Added `17-final-review-and-release/WEB-DISCOVERABILITY-AND-DOMAIN-EMAIL-READINESS.md` and linked it from Section 17. Updated the release checklist and acceptance criteria to cover canonical domain/DNS/HTTPS, important page metadata, `robots.txt`, `sitemap.xml`, Google Search Console verification and observed indexing status, official email ownership/routing, real inbound/outbound delivery, SPF/DKIM/DMARC, contact-form notifications, and post-launch monitoring. Section 04 Phase 1 now requires planning these capabilities when applicable, or an approved not-applicable rationale.
+
+**Boundary:** This is a documentation and release-gate correction only. No actual domain, Search Console property, DNS configuration, or mailbox was configured or tested. Search indexing and ranking are not guaranteed by submission. Section 17 remains RED until a real launch exercise supplies evidence. No Section 19 is created.
