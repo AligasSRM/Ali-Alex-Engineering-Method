@@ -49,7 +49,7 @@ A reference to a later-numbered section is not automatically a sequencing error.
 | EDGE-030 | 03, 13 → 14 | COORDINATION / REFERENCE | Maintenance/update decisions use technology lifecycle standards and recorded internal/external dependency ownership, versions, and criticality. | TBD / dependency inventory and lifecycle evidence | Proposed |
 | EDGE-031 | 05, 09–14, 17–18 → 15 | CROSS-CUTTING CONTROL / COORDINATION | Continuity records handoffs, decisions, evidence, maintenance/security outcomes, release events, and applicable agreement versions. It creates traceability requirements, not a blanket sequence blocker. | TBD / handoff and change-history evidence | Proposed |
 | EDGE-032 | 05, 09–13, 15, 17–18 → 16 | COORDINATION / REFERENCE | Collaboration and review workflows must align with authority, evidence, status, blocker, continuity, release, and approved-agreement rules. | TBD / role-to-authority and review/dispute scenario | Proposed |
-| EDGE-035 | 12, 15, 16, 17 → governed status, collaboration, and release records | COORDINATION / REFERENCE | The approved agreement must be reflected in status, durable records, role boundaries, and release decisions; no draft policy silently overrides existing approved controls. | TBD / cross-section governance scenario | Proposed |
+| EDGE-033 | 12, 15, 16, 17 → governed status, collaboration, and release records | COORDINATION / REFERENCE | The approved agreement must be reflected in status, durable records, role boundaries, and release decisions; no draft policy silently overrides existing approved controls. | TBD / cross-section governance scenario | Proposed |
 ## Rules for cycles and sequence
 
 1. Do not treat all cross-references as blocking dependencies.
