@@ -12,7 +12,11 @@
 - A blocker threatens a commitment or prevents a required safety check.
 
 ## Escalation record
-Describe the evidence, affected assets/users, impact and uncertainty, containment already taken, decisions needed, responsible approver, and next review point. Redact secrets and unnecessary personal information.
+- Risk/escalation ID, linked dependency/blocker/incident IDs, and timestamp/time zone:
+Describe the evidence IDs, affected assets/users and environment, impact/likelihood/confidence, containment already taken, safe work that may continue, decision and approval IDs needed, accountable owner/approver, response expectation from the project's policy, and next review trigger. Redact secrets and unnecessary personal information.
+
+## Response rules
+Use the project's approved severity and response scheme; do not invent response-time promises. Record whether the risk blocks a specific activity/release and what evidence clears that block.
 
 ## Response rules
 Contain immediate harm within existing authority; do not expand scope or take unapproved high-impact actions. Preserve evidence and follow the incident and approval procedures. Escalation does not itself authorize a risky change.
