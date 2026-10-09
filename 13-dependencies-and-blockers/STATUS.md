@@ -12,6 +12,11 @@
 - [x] Deferred work policy drafted.
 - [x] Acceptance criteria and status record drafted.
 
+## Structural review record
+- Reviewed all 9 tracked Markdown files for dependency edge types, external-service assumptions, blocker closure, risk escalation, and deferral governance.
+- Added stable IDs and lifecycle states, source/check-date and compatibility evidence, failure/recovery behavior, owner and escalation fields, and time-bounded deferral re-entry rules.
+- Section 12's reopening destination ambiguity is now addressed structurally in Section 12; the full Section 15/18 ownership and dependency-map reconciliation still requires final cross-section validation. No real project inventory was populated; Section 13 remains RED.
+
 ## Outstanding
 - [ ] Populate registers from actual project state.
 - [ ] Verify external-service assumptions from current official sources.
@@ -24,4 +29,4 @@
 Templates exist, but no project-specific dependency inventory or blocker audit has been validated.
 
 ## Next action
-Continue with Section 14, then run cross-section consistency checks.
+Validate every typed edge against all section documents, resolve any remaining blocking cycles, populate actual project dependencies/blockers, and record a reviewed reconciliation before considering GREEN.
