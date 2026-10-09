@@ -14,14 +14,14 @@
 - [x] Acceptance criteria and status record drafted.
 
 ## Structural review record
-- Reviewed all 9 tracked Markdown files for dependency edge types, external-service assumptions, blocker closure, risk escalation, and deferral governance.
+- Reviewed all 10 tracked Markdown files for dependency edge types, external-service assumptions, blocker closure, risk escalation, and deferral governance.
 - Added stable IDs and lifecycle states, source/check-date and compatibility evidence, failure/recovery behavior, owner and escalation fields, and time-bounded deferral re-entry rules.
 - Section 12's reopening destination ambiguity is now addressed structurally in Section 12; the full Section 15/18 ownership and dependency-map reconciliation still requires final cross-section validation. No real project inventory was populated; Section 13 remains RED.
 
 ## Outstanding
 - [ ] Populate registers from actual project state.
 - [ ] Verify external-service assumptions from current official sources.
-- [ ] Validate all 35 map edges against every declared source/consumer dependency, acceptance criterion, and status record.
+- [ ] Validate all 33 map edges against every declared source/consumer dependency, acceptance criterion, and status record.
 - [ ] Resolve Section 15–18 cycle and changelog ownership.
 - [ ] Cross-check with approvals, security/privacy, status/locking, collaboration authority, maintenance, and release gates.
 - [ ] Obtain owner approval for the precedence model and execute the 12 applicable governance scenarios with evidence.
@@ -31,4 +31,4 @@
 Templates exist, but no project-specific dependency inventory or blocker audit has been validated.
 
 ## Next action
-Validate all 35 typed edges against every declared source/consumer document, execute the governance precedence scenarios in a safe representative environment, populate actual project dependencies/blockers, and record a reviewed reconciliation before considering GREEN.
+Validate all 33 typed edges against every declared source/consumer document, execute the governance precedence scenarios in a safe representative environment, populate actual project dependencies/blockers, and record a reviewed reconciliation before considering GREEN.
