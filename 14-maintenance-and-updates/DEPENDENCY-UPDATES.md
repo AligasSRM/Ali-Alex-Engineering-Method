@@ -8,6 +8,15 @@
 - **Feature/minor update:** review compatibility and value before adoption.
 - **Major/breaking update:** plan migration, test dependent interfaces, and define rollback.
 
+## Update record
+- Update ID / linked dependency and vulnerability IDs:
+- Current and target version / source URL / date checked:
+- Baseline commit, manifest/lockfile changes, and affected consumers:
+- Change class, severity, compatibility/license/provenance findings:
+- Test IDs, exact commands, environment, result, and evidence links:
+- Rollback/forward-recovery plan and responsible owner:
+- Approval, residual risk, and follow-up/review date:
+
 ## Procedure
 1. Identify the dependency, current version, target version, and source.
 2. Review changelog, advisories, compatibility, license, and transitive impact.
