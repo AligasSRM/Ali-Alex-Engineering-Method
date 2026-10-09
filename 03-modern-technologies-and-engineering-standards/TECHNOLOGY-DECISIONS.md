@@ -2,9 +2,12 @@
 
 **Status:** 🔴 RED — decision template only; no technology choices are approved by this document.
 
-| ID | Need / constraint | Option | Evidence and support lifecycle | Benefits | Trade-offs / risks | Decision / approver | Review date |
+| ID | Requirement ID(s) | Need / constraint | Option / alternative set | Authoritative source URL + version / checked date | Compatibility / lifecycle evidence | Benefits | Trade-offs / risks | State / decision / approver | Review trigger / date |
 |---|---|---|---|---|---|---|---|
-| TECH-001 | TBD | TBD | TBD | TBD | TBD | OPEN | TBD |
+| TECH-001 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | PROPOSED / TBD / TBD | TBD |
+
+## Lifecycle and decision states
+Use only **PROPOSED**, **APPROVED**, **REJECTED**, **DEFERRED**, or **SUPERSEDED**. Approval must identify the accountable decision owner and durable evidence; an option in this table is not approved merely because it is listed. Revisit decisions when support status changes, a material vulnerability appears, compatibility constraints change, costs materially change, or a linked requirement is revised.
 
 ## Decision rules
 - Start from verified requirements and constraints, not trend or familiarity alone.
