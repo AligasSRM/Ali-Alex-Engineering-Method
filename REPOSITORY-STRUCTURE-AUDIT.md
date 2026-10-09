@@ -364,6 +364,6 @@ Validation: 0 missing relative Markdown links and 0 table-column mismatches acro
 ## Phase A.2 structural review checkpoint
 All 153 tracked Markdown files under Sections 01–18 now have a recorded disposition in `PHASE-2-STRUCTURAL-IMPLEMENTATION-REGISTER.md`; no entries remain marked pending full file review. The recursive tree contains 153 section files and 5 root-level files, with `truncated: false`. The root status register and all 18 section STATUS files were re-fetched and reconciled: every section remains RED.
 
-The dependency map now contains 19 identified initial edges, including explicit cross-cutting stop-work and security/privacy controls plus the approved-scope prerequisite for substantive project implementation. The map's edge classifications remain proposed until checked against every declared dependency and downstream document. Its table scan reports no column mismatch.
+The dependency map now contains 24 identified initial edges, including explicit cross-cutting stop-work and security/privacy controls plus the approved-scope prerequisite for substantive project implementation. The map's edge classifications remain proposed until checked against every declared dependency and downstream document. Its table scan reports no column mismatch.
 
 **Remaining gate:** full semantic dependency reconciliation, blocking-cycle and governance-precedence review, and PR diff/CI/review inspection. Structural review and Markdown checks do not establish real-project acceptance or production readiness.
