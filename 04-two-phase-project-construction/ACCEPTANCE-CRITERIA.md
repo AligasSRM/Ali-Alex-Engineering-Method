@@ -2,7 +2,7 @@
 
 **Status:** 🔴 RED — acceptance checklist prepared; no project-specific review completed.
 
-- [ ] Phase 1 deliverables are defined and distinguished from working functionality.
+- [ ] Phase 1 deliverables are defined and distinguished from working functionality, with a recorded repository/branch/commit baseline.
 - [ ] Phase 1 output includes scope, structure, dependencies, risks, and acceptance criteria.
 - [ ] A documented gate prevents implementation from starting on an unreviewed blueprint.
 - [ ] Every in-scope user-facing page has a documented page experience and visual structure blueprint, or an approved reason it is not applicable.
@@ -16,7 +16,7 @@
 - [ ] Implemented pages are later compared against the approved blueprint and tested for behavior, responsiveness, and applicable accessibility requirements.
 - [ ] High-impact actions require explicit approval.
 - [ ] Stop conditions and blocker reporting are documented.
-- [ ] Phase transition decisions record reviewer, date, evidence, exceptions, and rationale.
+- [ ] Phase transition decisions record PASS/FAIL/BLOCKED/NOT APPLICABLE, reviewer, accountable approver, date, baseline/resulting commit, evidence, exceptions, and rationale.\n- [ ] Missing evidence blocks a gate; NOT APPLICABLE requires authorized rationale.\n- [ ] Structural modules and implementation increments use stable IDs and link to the canonical Section 02 traceability matrix.\n- [ ] Verification evidence identifies environment, exact commands, results, skipped checks, and artifacts; local, CI, staging, and production evidence are not conflated.\n- [ ] Rollback/recovery and unresolved risk owners are recorded for material increments.
 - [ ] Process is reviewed against Sections 01–03 and refined for the actual project.
 
 ## Review record
