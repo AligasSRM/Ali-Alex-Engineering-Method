@@ -15,10 +15,7 @@
 - **ORANGE → RED:** the blocker cannot be safely resolved within the approved scope or the prior evidence is invalidated.
 
 ## Controls
-A status transition record must include a stable event ID, section/scope/version, prior/new status, reason and trigger, supporting/contradicting evidence, reviewer/approver, timestamp, blocker/limitation, affected downstream sections, and next action. The root register is a derived snapshot, not an independent authority.
-
-## Controls
-Record prior/new status, reason, evidence, approver where required, date, and remaining risks. Never skip a gate merely to meet a deadline. Deferral alone does not resolve a blocker.
+A status transition record must include a stable event ID, section/scope/version, prior/new status, reason and trigger, supporting/contradicting evidence, reviewer/approver, timestamp, blocker/limitation, affected downstream sections, and next action. The root register is a derived snapshot, not an independent authority. Record prior/new status, reason, evidence, approver where required, date, and remaining risks. Never skip a gate merely to meet a deadline. Deferral alone does not resolve a blocker.
 
 ## Dependencies
 Sections 05–07, 09–10, 13, 15, and 17.
