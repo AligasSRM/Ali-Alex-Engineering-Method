@@ -27,6 +27,15 @@
 - [ ] Public contact details and privacy notices are approved; owners and recovery paths are documented.
 - [ ] No DNS/search verification tokens, mailbox credentials, or recovery codes are committed to the repository.
 
+## Customer support and AI assistance (when applicable)
+
+- [ ] Published support channels, accountable owner/backup, response expectations, and escalation route are approved.
+- [ ] Support inbox and contact/ticket flows are tested end-to-end, including replies, delivery failures, and user-facing confirmation.
+- [ ] If AI support is enabled, its scope, disclosure, approved knowledge sources, privacy/security review, permissions, and human escalation are approved and tested.
+- [ ] AI support cannot claim external actions succeeded without confirmation from the connected system; high-impact requests follow authorization and human-review rules.
+- [ ] AI failure, unsafe/inaccurate answers, privacy leakage, prompt injection, provider outage, and escalation scenarios are tested; an accountable human maintains support content.
+- [ ] No support/AI capability is advertised as operational until its real deployment and evidence are verified.
+
 ## Decision
 Record **GO**, **NO-GO**, or **CONDITIONAL GO** with scope, evidence, decision authority, conditions, owner, and expiry/review point. Conditional approval must not bypass mandatory safety, legal, security, or approval controls.
 
