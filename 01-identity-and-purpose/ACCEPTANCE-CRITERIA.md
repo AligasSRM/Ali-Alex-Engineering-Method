@@ -14,6 +14,9 @@ Section 01 may become GREEN only when:
 - [ ] Account/identity scope explicitly decides whether registration, sign-in, account names/usernames, profiles, recovery, and account lifecycle are required, optional, deferred, or not applicable.
 - [ ] Any selected account/identity capabilities are traced to unique requirements in Section 02 and reviewed against Sections 03, 05, 10, and 11.
 - [ ] Cross-section dependencies are identified.
+- [ ] A documented cross-file consistency review finds no unresolved contradiction between vision, mission, target users, value proposition, boundaries, principles, success criteria, assumptions/risks, decisions, and account/identity scope.
+- [ ] Every approved scope decision that creates requirements links to stable requirement IDs in `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md`; drafted or hypothetical requirements are not treated as approved.
+- [ ] Any deferred or not-applicable capability has rationale, decision authority, and a revisit trigger where appropriate.
 - [ ] Documentation is reviewed for contradictions and unsupported claims.
 
 File creation alone is not evidence that these criteria have passed.
