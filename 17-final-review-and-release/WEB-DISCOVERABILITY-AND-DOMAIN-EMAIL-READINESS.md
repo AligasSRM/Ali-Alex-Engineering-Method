@@ -52,14 +52,14 @@ Use this checklist for public websites and products that need public discoverabi
 - Public claims, business identity, and trust marks are accurate; no fabricated address, certification, or endorsement is used.
 
 ## E. Ownership, evidence, and launch gate
-| Capability | Owner | Verified target / property | Evidence | Last checked | Status |
+| Check ID | Capability | Owner | Verified target / property | Evidence / test ID | Last checked (timestamp/time zone) | Outcome / status |
 |---|---|---|---|---|---|
-| Domain/DNS/HTTPS | TBD | TBD | TBD | TBD | OPEN |
-| Google Search Console | TBD | TBD | TBD | TBD | OPEN |
-| Sitemap/robots/canonical | TBD | TBD | TBD | TBD | OPEN |
-| Domain email/inbound/outbound | TBD | TBD | TBD | TBD | OPEN |
-| SPF/DKIM/DMARC | TBD | TBD | TBD | TBD | OPEN |
-| Contact forms/notifications | TBD | TBD | TBD | TBD | OPEN |
+| WEB-001 | Domain/DNS/HTTPS | TBD | TBD | TBD | TBD | NOT CHECKED |
+| WEB-002 | Google Search Console | TBD | TBD | TBD | TBD | NOT CHECKED |
+| WEB-003 | Sitemap/robots/canonical | TBD | TBD | TBD | TBD | NOT CHECKED |
+| MAIL-001 | Domain email/inbound/outbound | TBD | TBD | TBD | TBD | NOT CHECKED |
+| MAIL-002 | SPF/DKIM/DMARC | TBD | TBD | TBD | TBD | NOT CHECKED |
+| WEB-004 | Contact forms/notifications | TBD | TBD | TBD | TBD | NOT CHECKED |
 
 - [ ] Every applicable capability has an owner, verification method, and evidence.
 - [ ] Required checks pass before launch or have an explicitly approved, low-risk exception.
@@ -82,6 +82,10 @@ Use this checklist for public websites and products that need public discoverabi
 This document owns the launch-readiness checklist and evidence for public discoverability/domain email. It does not replace page design, product requirements, security policy, or actual provider setup.
 
 ## Review record
+- Review ID / target release / environment:
+- DNS/mail provider documentation checked date:
+- Test IDs and evidence artifact links:
+
 - Product/domain: TBD
 - Canonical URL: TBD
 - Email provider and required addresses: TBD
