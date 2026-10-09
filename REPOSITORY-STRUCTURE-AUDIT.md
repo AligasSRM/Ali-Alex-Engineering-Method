@@ -103,12 +103,12 @@ All 18 sections have README, STATUS, and ACCEPTANCE-CRITERIA files, and the root
 
 The repository is public. No secrets or private project information should be added. A complete content scan for accidental sensitive information has not yet been recorded as passed.
 
-### F-11 — Operational observability ownership is not explicit enough
-**Severity:** Medium · **State:** Open — scope assessment required
+### F-11 — Operational observability ownership was not explicit enough
+**Severity:** Medium · **State:** Addressed structurally; validation pending
 
-Sections 06, 14, and 17 cover incident diagnosis, maintenance, and post-release verification, but the current section-level structure does not clearly assign ownership for operational observability such as logs/metrics/traces, alerting, service objectives, incident escalation/runbooks, and monitoring of deployed health.
+A detailed review of Section 06 incident intake/diagnostics, Section 11 threat modeling, Section 14 maintenance, and Section 17 release/post-release documents showed that release monitoring was mentioned, but ongoing ownership for health signals, actionable alerts, telemetry privacy, incident escalation, and post-recovery verification was not explicit enough.
 
-**Required resolution:** inspect the detailed documents in Sections 06, 11, 14, and 17 and decide whether these controls can be assigned cleanly to existing sections or warrant a distinct numbered section. Do not add Section 19 solely for numbering; add it only if a distinct lifecycle responsibility is not adequately owned by the current structure.
+**Resolution:** Added `14-maintenance-and-updates/OBSERVABILITY-AND-INCIDENT-OPERATIONS.md`, linked it from Section 14's README and acceptance criteria, and tracked project-specific validation in Section 14 STATUS. Section 06 retains root-cause diagnosis, Section 11 owns security/privacy controls, and Section 17 retains release readiness and post-release gates. No separate Section 19 is justified by this gap at present. Reconsider only if real-project validation proves that a distinct lifecycle responsibility remains unowned.
 
 ## Status and structural verification
 - 18 numbered section directories exist.
@@ -127,7 +127,7 @@ Sections 06, 14, and 17 cover incident diagnosis, maintenance, and post-release 
 - [ ] Scan public content for secrets/private information.
 - [ ] Reconcile the root status register with all 18 section status files at the end of the audit.
 - [ ] Decide and approve account/identity scope; do not assume features from the checklist alone.
-- [ ] Resolve the observability ownership gap and decide whether Section 19 is justified by a distinct responsibility.
+- [x] Assign observability and incident-operation guidance to Section 14 with explicit interfaces to Sections 06, 11, and 17; validate it in a real project before GREEN.
 
 ## Decision
 **The sections are broadly compatible at the level of their stated purposes, but the methodology is not yet fully compatible/validated at the dependency and governance level.** Resolve the high-severity findings above before declaring the cross-section audit complete or starting substantive Section 01 implementation.
