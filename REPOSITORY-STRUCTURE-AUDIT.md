@@ -324,3 +324,9 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 **Structural changes:** Added stable maintenance/component/update/migration/debt/observability IDs, official lifecycle source and checked-date evidence, baseline/target version records, explicit migration GO/NO-GO and recovery constraints, time-bounded accepted-risk fields, and signal/alert ownership, threshold rationale, runbook, and exercise evidence.
 
 **Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 9 reviewed files; Markdown table-column scan found 0 mismatched rows. No project-specific maintenance inventory, restore exercise, migration, or incident exercise was performed. Section 14 remains RED.
+
+
+### Pass 3 — Section 15 structural review
+Reviewed 7 Markdown files. Added stable artifact IDs, decision lifecycle/authority/scope, changelog states that distinguish saved, committed, tested, deployed, and released, plus handoff baseline and approval-scope fields. Section 15 owns project/repository history; Section 18 owns methodology/agreement versioning.
+
+Validation: 0 missing relative Markdown links and 0 table-column mismatches across the 7 reviewed files. Repository-wide documentation reconciliation and a practical handoff exercise remain pending. Section 15 remains RED.
