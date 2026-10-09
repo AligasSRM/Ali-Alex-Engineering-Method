@@ -154,13 +154,13 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `07-preventing-unconsidered-patching/REGRESSION-STRATEGY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 07 review; link/table scan and structural evidence only |
 | `07-preventing-unconsidered-patching/ROOT-CAUSE-REQUIREMENT.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 07 review; link/table scan and structural evidence only |
 | `07-preventing-unconsidered-patching/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 07 review; link/table scan and structural evidence only |
-| `08-fatigue-and-work-stoppage-protocol/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `08-fatigue-and-work-stoppage-protocol/CHECKPOINT-TEMPLATE.md` | Pending full file review | TBD | TBD |
-| `08-fatigue-and-work-stoppage-protocol/HANDOFF-NOTES.md` | Pending full file review | TBD | TBD |
-| `08-fatigue-and-work-stoppage-protocol/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `08-fatigue-and-work-stoppage-protocol/RESUME-PROTOCOL.md` | Pending full file review | TBD | TBD |
-| `08-fatigue-and-work-stoppage-protocol/STATUS.md` | Pending full file review | TBD | TBD |
-| `08-fatigue-and-work-stoppage-protocol/STOP-WORK-TRIGGERS.md` | Pending full file review | TBD | TBD |
+| `08-fatigue-and-work-stoppage-protocol/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 08 review; link/table scan and structural evidence only |
+| `08-fatigue-and-work-stoppage-protocol/CHECKPOINT-TEMPLATE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 08 review; link/table scan and structural evidence only |
+| `08-fatigue-and-work-stoppage-protocol/HANDOFF-NOTES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 08 review; link/table scan and structural evidence only |
+| `08-fatigue-and-work-stoppage-protocol/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 08 review; link/table scan and structural evidence only |
+| `08-fatigue-and-work-stoppage-protocol/RESUME-PROTOCOL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 08 review; link/table scan and structural evidence only |
+| `08-fatigue-and-work-stoppage-protocol/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 08 review; link/table scan and structural evidence only |
+| `08-fatigue-and-work-stoppage-protocol/STOP-WORK-TRIGGERS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 08 review; link/table scan and structural evidence only |
 | `09-research-evidence-and-communication/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `09-research-evidence-and-communication/CLAIM-CLASSIFICATION.md` | Pending full file review | TBD | TBD |
 | `09-research-evidence-and-communication/EVIDENCE-LOG.md` | Pending full file review | TBD | TBD |
