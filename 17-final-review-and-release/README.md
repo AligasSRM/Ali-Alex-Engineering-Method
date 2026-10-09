@@ -8,6 +8,7 @@ Ensure release readiness is demonstrated through functional, security, operation
 ## Documents present
 - RELEASE-READINESS-CHECKLIST.md — release scope and go/no-go criteria.
 - WEB-DISCOVERABILITY-AND-DOMAIN-EMAIL-READINESS.md — launch checklist for domain/HTTPS, Google Search Console and indexing readiness, sitemap/robots/canonical URLs, official domain email, email authentication, and contact delivery.
+- CUSTOMER-SUPPORT-AND-AI-ASSISTANCE-READINESS.md — support inbox/contact/ticket ownership, end-to-end message tests, human escalation, and conditional AI-support privacy/security/testing gates.
 - FINAL-REVIEW-PROTOCOL.md — evidence review, findings, and authorized decision.
 - ROLLBACK-AND-RECOVERY.md — recovery and rollback approach.
 - POST-RELEASE-VERIFICATION.md — post-deployment checks and evidence.
