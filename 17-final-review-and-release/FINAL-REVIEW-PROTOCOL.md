@@ -2,6 +2,15 @@
 
 **Status:** RED — protocol drafted; integrated review pending.
 
+## Review record
+- Review ID / release ID / candidate commit and artifact ID:
+- Target environment, scope, reviewer and decision authority:
+- Evidence set and last-checked timestamp/time zone:
+- Findings (ID, severity, evidence, owner, disposition):
+- Open blockers, deferred items, and residual-risk approval IDs:
+- Decision: GO / NO-GO / CONDITIONAL GO; conditions/expiry/review trigger:
+- Final approver, timestamp, and durable record link:
+
 ## Review sequence
 1. Freeze the proposed scope and identify the exact commit/version.
 2. Compare implementation against requirements and acceptance criteria.
@@ -15,6 +24,7 @@
 10. Issue a traceable GO/NO-GO decision within the reviewer's authority.
 
 ## Independence and integrity
+A reviewer must distinguish independently inspected evidence from evidence supplied by the implementer. If a required independent review cannot be obtained, the gate remains BLOCKED unless the documented project policy defines an authorized alternate path.
 Do not self-certify a check as independently reviewed when it was not. Do not infer success from a green badge alone if the underlying scope or evidence is unclear. Unresolved release-critical findings result in NO-GO unless an explicitly authorized policy permits a safe alternative.
 
 ## Dependencies
