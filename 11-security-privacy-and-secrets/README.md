@@ -18,5 +18,8 @@ Protect systems and data through risk-based controls, least privilege, secret ha
 
 ## Dependencies
 Applies across all project sections and deployments.
+## Traceability and security decision model
+Assign stable asset, data-flow, threat, control, exception, and test IDs. Link threats to controls, owners, verification evidence, residual risk, and release disposition. Record scope, environment, version, reviewer, and checked date for material security decisions. Separate implemented controls from planned controls and accepted residual risks.
+
 ## Guardrail
-Never place credentials, private user data, or secrets in repository files or public logs.
+Never place credentials, private user data, or secrets in repository files or public logs. An exception cannot silently disable a mandatory control or override applicable law.
