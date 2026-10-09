@@ -306,3 +306,12 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 **Structural changes:** Clarified evidence freshness and scope, added stable transition-event and reconciliation metadata, tightened the GREEN evidence checklist, and resolved ambiguous reopening transitions: LOCKED → YELLOW for authorized bounded repair when unaffected acceptance remains valid; LOCKED → RED when prior acceptance is invalid; ORANGE when blocked. The root status register remains the derived snapshot, while each section STATUS file remains its detailed record.
 
 **Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 8 reviewed files; Markdown table-column scan found 0 mismatched rows. Repository-wide reconciliation and practical transition tests remain pending. Section 12 remains RED.
+
+
+### Pass 3 — Section 13 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 9 tracked Markdown files in `13-dependencies-and-blockers/`.
+
+**Structural changes:** Added stable dependency/edge/blocker/risk/deferral IDs and lifecycle states, official source/check-date and compatibility evidence, failure/recovery behavior, owner/escalation metadata, and expiry/re-entry controls for deferrals. The dependency map now assigns IDs to its 16 initial typed edges and requires an owner plus clearing evidence; classifications remain proposed until reviewed against every source/consumer document.
+
+**Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 9 reviewed files; Markdown table-column scan found 0 mismatched rows. Full edge validation, blocking-cycle review, and real project inventory remain pending. Section 13 remains RED.
