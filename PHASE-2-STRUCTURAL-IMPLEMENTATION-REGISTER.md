@@ -238,10 +238,10 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `17-final-review-and-release/ROLLBACK-AND-RECOVERY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
 | `17-final-review-and-release/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
 | `17-final-review-and-release/WEB-DISCOVERABILITY-AND-DOMAIN-EMAIL-READINESS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 17 review; link/table scan and structural evidence only |
-| `18-living-agreement-and-method-evolution/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `18-living-agreement-and-method-evolution/LESSONS-LEARNED.md` | Pending full file review | TBD | TBD |
-| `18-living-agreement-and-method-evolution/METHOD-EVOLUTION-POLICY.md` | Pending full file review | TBD | TBD |
-| `18-living-agreement-and-method-evolution/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `18-living-agreement-and-method-evolution/STATUS.md` | Pending full file review | TBD | TBD |
-| `18-living-agreement-and-method-evolution/VERSIONING-AND-CHANGELOG.md` | Pending full file review | TBD | TBD |
-| `18-living-agreement-and-method-evolution/WORKING-AGREEMENT.md` | Pending full file review | TBD | TBD |
+| `18-living-agreement-and-method-evolution/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 18 review; link/table scan and structural evidence only |
+| `18-living-agreement-and-method-evolution/LESSONS-LEARNED.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 18 review; link/table scan and structural evidence only |
+| `18-living-agreement-and-method-evolution/METHOD-EVOLUTION-POLICY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 18 review; link/table scan and structural evidence only |
+| `18-living-agreement-and-method-evolution/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 18 review; link/table scan and structural evidence only |
+| `18-living-agreement-and-method-evolution/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 18 review; link/table scan and structural evidence only |
+| `18-living-agreement-and-method-evolution/VERSIONING-AND-CHANGELOG.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 18 review; link/table scan and structural evidence only |
+| `18-living-agreement-and-method-evolution/WORKING-AGREEMENT.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 18 review; link/table scan and structural evidence only |
