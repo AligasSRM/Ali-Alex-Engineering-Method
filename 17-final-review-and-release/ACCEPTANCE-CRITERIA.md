@@ -10,7 +10,9 @@
 - [ ] Release record distinguishes approval, deployment, and verified outcome, with immutable artifact identity and separate verification evidence.
 - [ ] Residual risks and deferred work are reconciled with Section 13.
 - [ ] Locked sections and required approvals align with Sections 05 and 12.
-- [ ] Each release/support/domain readiness item has a stable ID, outcome, owner, evidence/test ID, and checked timestamp.\n- [ ] Failed/missing critical post-release checks trigger a recorded no-success claim and recovery decision.\n- [ ] A representative release/recovery exercise is reviewed.
+- [ ] Each release/support/domain readiness item has a stable ID, outcome, owner, evidence/test ID, and checked timestamp.
+- [ ] Failed/missing critical post-release checks trigger a recorded no-success claim and recovery decision.
+- [ ] A representative release/recovery exercise is reviewed.
 
 - [ ] Applicable public websites have evidence for canonical URL, DNS/HTTPS, indexable-page status, metadata, robots.txt, sitemap.xml, and important internal links.
 - [ ] Google Search Console ownership and relevant sitemap/URL inspection outcomes are recorded; submission is not treated as a guarantee of indexing or ranking.
