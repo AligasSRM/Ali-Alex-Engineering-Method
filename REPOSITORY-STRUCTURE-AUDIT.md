@@ -225,3 +225,12 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 
 
 **Section 03 scan result:** Relative Markdown-link scan found **0 missing local targets** across the 9 reviewed files; Markdown table-column scan found **0 mismatched rows**. These are structural checks only. External URLs were not validated for currency in this pass, and no stack-specific build/test was run.
+
+
+### Pass 3 — Section 04 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 7 tracked Markdown files in `04-two-phase-project-construction/`, including the page-experience blueprint, Phase 1 structure, Phase 2 increments, transition gate, acceptance criteria, README, and status.
+
+**Structural changes:** Added stable structure/increment/page IDs; requirement/decision traceability; branch/commit baseline; explicit gate outcomes (PASS/FAIL/BLOCKED/NOT APPLICABLE); evidence, environment, command, reviewer and approver fields; rollback/recovery and skipped-test records; and the rule that missing evidence blocks a gate. NOT APPLICABLE requires rationale and authorized review. Section 04 remains RED; no real-project gate or implementation is approved by these edits.
+
+**Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 7 reviewed files; Markdown table-column scan found 0 mismatched rows. This does not prove the process works on a real project or validate visual/functionality behavior.
