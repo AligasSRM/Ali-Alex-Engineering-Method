@@ -169,15 +169,15 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `09-research-evidence-and-communication/SOURCE-HIERARCHY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
 | `09-research-evidence-and-communication/STATUS-REPORT-TEMPLATE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
 | `09-research-evidence-and-communication/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 09 review; link/table scan and structural evidence only |
-| `10-testing-and-acceptance-criteria/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `10-testing-and-acceptance-criteria/CONTRACT-AND-E2E-TESTS.md` | Pending full file review | TBD | TBD |
-| `10-testing-and-acceptance-criteria/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `10-testing-and-acceptance-criteria/REGRESSION-PLAN.md` | Pending full file review | TBD | TBD |
-| `10-testing-and-acceptance-criteria/SECURITY-AND-RESILIENCE-TESTS.md` | Pending full file review | TBD | TBD |
-| `10-testing-and-acceptance-criteria/STATUS.md` | Pending full file review | TBD | TBD |
-| `10-testing-and-acceptance-criteria/TEST-EVIDENCE.md` | Pending full file review | TBD | TBD |
-| `10-testing-and-acceptance-criteria/TEST-STRATEGY.md` | Pending full file review | TBD | TBD |
-| `10-testing-and-acceptance-criteria/UNIT-AND-INTEGRATION-TESTS.md` | Pending full file review | TBD | TBD |
+| `10-testing-and-acceptance-criteria/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
+| `10-testing-and-acceptance-criteria/CONTRACT-AND-E2E-TESTS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
+| `10-testing-and-acceptance-criteria/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
+| `10-testing-and-acceptance-criteria/REGRESSION-PLAN.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
+| `10-testing-and-acceptance-criteria/SECURITY-AND-RESILIENCE-TESTS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
+| `10-testing-and-acceptance-criteria/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
+| `10-testing-and-acceptance-criteria/TEST-EVIDENCE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
+| `10-testing-and-acceptance-criteria/TEST-STRATEGY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
+| `10-testing-and-acceptance-criteria/UNIT-AND-INTEGRATION-TESTS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
 | `11-security-privacy-and-secrets/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `11-security-privacy-and-secrets/ACCESS-CONTROL.md` | Pending full file review | TBD | TBD |
 | `11-security-privacy-and-secrets/DATA-CLASSIFICATION.md` | Pending full file review | TBD | TBD |
