@@ -13,7 +13,7 @@ Before substantive implementation:
 - Resolve dependency cycles and distinguish blocking prerequisites from coordination/reference links.
 - Reconcile approval, security/privacy, testing, status/locking, documentation, and release gates.
 - Confirm a single source-of-truth model for status and history records.
-- Decide from document-level evidence whether operational observability requires a new section or can be assigned to Sections 06, 11, 14, and 17.
+- Verify that operational observability ownership is correctly integrated through Section 14's `OBSERVABILITY-AND-INCIDENT-OPERATIONS.md`, with interfaces to Sections 06, 11, and 17; revisit a new section only if validation exposes a distinct unowned responsibility.
 - Record findings, decisions, and evidence in `REPOSITORY-STRUCTURE-AUDIT.md`.
 - Keep all sections RED until their applicable criteria are verified.
 
