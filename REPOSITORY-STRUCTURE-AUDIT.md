@@ -297,3 +297,12 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 **Structural changes:** Added stable asset/data-flow/threat/control/test IDs, threat and permission matrices, data inventory fields, secret metadata and rotation evidence (never secret values), privacy purpose/transfer/retention review fields, and fail-closed behavior/recovery/re-entry mappings. Security testing records require authorized scope, environment, expected safe behavior, and evidence. No project-specific threat model, legal/privacy assessment, secret rotation, or security test was executed.
 
 **Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 10 reviewed files; Markdown table-column scan found 0 mismatched rows. Section 11 remains RED pending project-specific implementation and verification.
+
+
+### Pass 3 — Section 12 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 8 tracked Markdown files in `12-section-status-and-locking/`.
+
+**Structural changes:** Clarified evidence freshness and scope, added stable transition-event and reconciliation metadata, tightened the GREEN evidence checklist, and resolved ambiguous reopening transitions: LOCKED → YELLOW for authorized bounded repair when unaffected acceptance remains valid; LOCKED → RED when prior acceptance is invalid; ORANGE when blocked. The root status register remains the derived snapshot, while each section STATUS file remains its detailed record.
+
+**Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 8 reviewed files; Markdown table-column scan found 0 mismatched rows. Repository-wide reconciliation and practical transition tests remain pending. Section 12 remains RED.
