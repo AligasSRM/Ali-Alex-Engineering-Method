@@ -7,6 +7,7 @@ Track dependencies and impediments without hiding unresolved risks or confusing 
 
 ## Planned documents
 - DEPENDENCY-REGISTER.md — dependency, owner, version, and criticality.
+- DEPENDENCY-MAP.md — typed cross-section edges, sequencing rules, and unresolved cycle decisions.
 - BLOCKER-REGISTER.md — impact, evidence, owner, and next action.
 - EXTERNAL-SERVICE-DEPENDENCIES.md — vendors, APIs, and availability assumptions.
 - RISK-ESCALATION.md — thresholds for escalation and approval.
