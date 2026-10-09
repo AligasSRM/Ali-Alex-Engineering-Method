@@ -3,6 +3,8 @@
 **Status:** RED — checklist drafted; release-specific validation pending.
 
 ## Scope and evidence
+- [ ] Release ID, candidate commit, artifact/build identity, environment, and observation window are fixed.
+- [ ] Each checklist item has an outcome (PASS / FAIL / BLOCKED / NOT CHECKED / NOT APPLICABLE with rationale), evidence ID/link, owner, and last-checked time.
 - [ ] Release scope, version/commit, and intended environment are explicit.
 - [ ] Applicable acceptance criteria are met with inspectable evidence.
 - [ ] Required tests ran; failed, skipped, and untested checks are visible.
@@ -37,7 +39,7 @@
 - [ ] No support/AI capability is advertised as operational until its real deployment and evidence are verified.
 
 ## Decision
-Record **GO**, **NO-GO**, or **CONDITIONAL GO** with scope, evidence, decision authority, conditions, owner, and expiry/review point. Conditional approval must not bypass mandatory safety, legal, security, or approval controls.
+Record **GO**, **NO-GO**, or **CONDITIONAL GO** with release ID, exact commit/artifact/environment, evidence, decision authority, conditions, condition owners, expiry/review point, and rollback trigger. CONDITIONAL GO must identify why the condition is safe and cannot bypass a mandatory control. Any material candidate change invalidates affected evidence until rerun. Conditional approval must not bypass mandatory safety, legal, security, or approval controls.
 
 ## Dependencies
 Sections 05, 09–16, and 18.
