@@ -68,7 +68,7 @@ Do not bulk-edit a file merely because it is short. Do not turn a policy templat
 |---|---|---|---|
 | P2-001 | Section-level inventories exist, but the audit still explicitly says it has not reviewed every line of every document or every internal link | Conduct file-by-file review and record the exact scope completed | OPEN — this register starts the work; full pass not complete |
 | P2-002 | Root status snapshot and Section 12 schema have separate responsibilities and require evidence-backed reconciliation | Reconcile the 18 section statuses against branch files and acceptance evidence | OPEN |
-| P2-003 | Requirements-to-tests-to-release traceability is a cross-section concern that should be explicit, not duplicated in every file | Add canonical traceability ownership in Section 02 and link Sections 04, 10, 12, and 17 to it | OPEN |
+| P2-003 | Requirements-to-tests-to-release traceability is a cross-section concern that should be explicit, not duplicated in every file | Added `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md`, linked it from Section 02 README, and added acceptance criteria. Links from downstream sections and real-project population still need review. | STRUCTURE ADDED; validation/application pending |
 | P2-004 | Dependency-map entries remain initially classified/proposed until checked against every section file | Review each declared dependency and distinguish blocking prerequisites from coordination references | OPEN |
 | P2-005 | Documentation changes do not prove the method works in a real project | Keep all section statuses RED until scenario or real-project evidence is recorded | ALWAYS APPLIES |
 
@@ -83,3 +83,164 @@ Do not bulk-edit a file merely because it is short. Do not turn a policy templat
 - [ ] Root status register matches all 18 section STATUS files; all remain RED unless evidence proves otherwise.
 - [ ] Diff and commit/PR state are inspected; unapproved changes are not merged to `main`.
 - [ ] Audit states exactly what was checked, what was not checked, and what remains blocked.
+
+
+## File-by-file inventory
+
+This inventory was generated from the complete recursive working-branch tree at commit `be341d878452d0ca1be5028f10b42126cdd23851` (`truncated: false`). It lists every tracked file under Sections 01–18. A status of “Initial purpose/inventory review completed” applies only to the README's declared purpose and file inventory; it is not a full line-by-line approval. “Targeted review performed” means selected content was inspected for a specific structural question; full review remains pending.
+
+| File | Review state | Structural disposition | Evidence / finding ID |
+|---|---|---|---|
+| `01-identity-and-purpose/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/ACCOUNT-IDENTITY-AND-ACCESS-SCOPE.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/ASSUMPTIONS-AND-RISKS.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/CORE-PRINCIPLES.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/DECISIONS.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/MISSION.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/PRODUCT-BOUNDARIES.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `01-identity-and-purpose/STATUS.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/SUCCESS-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/TARGET-USERS.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/VALUE-PROPOSITION.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/VISION.md` | Pending full file review | TBD | TBD |
+| `02-planning-before-implementation/ACCEPTANCE-CRITERIA.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `02-planning-before-implementation/ARCHITECTURE-OVERVIEW.md` | Pending full file review | TBD | TBD |
+| `02-planning-before-implementation/CURRENT-STATE-AUDIT.md` | Pending full file review | TBD | TBD |
+| `02-planning-before-implementation/DELIVERY-PLAN.md` | Pending full file review | TBD | TBD |
+| `02-planning-before-implementation/DEPENDENCIES.md` | Pending full file review | TBD | TBD |
+| `02-planning-before-implementation/PROJECT-DISCOVERY.md` | Pending full file review | TBD | TBD |
+| `02-planning-before-implementation/README.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `02-planning-before-implementation/REQUIREMENTS.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `02-planning-before-implementation/STATUS.md` | Pending full file review | TBD | TBD |
+| `03-modern-technologies-and-engineering-standards/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `03-modern-technologies-and-engineering-standards/ACCESSIBILITY-STANDARDS.md` | Pending full file review | TBD | TBD |
+| `03-modern-technologies-and-engineering-standards/DEPENDENCY-POLICY.md` | Pending full file review | TBD | TBD |
+| `03-modern-technologies-and-engineering-standards/ENGINEERING-STANDARDS.md` | Pending full file review | TBD | TBD |
+| `03-modern-technologies-and-engineering-standards/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `03-modern-technologies-and-engineering-standards/RUNTIME-SUPPORT.md` | Pending full file review | TBD | TBD |
+| `03-modern-technologies-and-engineering-standards/SECURITY-STANDARDS.md` | Pending full file review | TBD | TBD |
+| `03-modern-technologies-and-engineering-standards/STATUS.md` | Pending full file review | TBD | TBD |
+| `03-modern-technologies-and-engineering-standards/TECHNOLOGY-DECISIONS.md` | Pending full file review | TBD | TBD |
+| `04-two-phase-project-construction/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `04-two-phase-project-construction/PAGE-EXPERIENCE-AND-VISUAL-STRUCTURE.md` | Pending full file review | TBD | TBD |
+| `04-two-phase-project-construction/PHASE-1-STRUCTURE.md` | Pending full file review | TBD | TBD |
+| `04-two-phase-project-construction/PHASE-2-IMPLEMENTATION.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `04-two-phase-project-construction/PHASE-TRANSITION-GATE.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `04-two-phase-project-construction/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `04-two-phase-project-construction/STATUS.md` | Pending full file review | TBD | TBD |
+| `05-autonomous-execution-and-approvals/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `05-autonomous-execution-and-approvals/APPROVAL-MATRIX.md` | Pending full file review | TBD | TBD |
+| `05-autonomous-execution-and-approvals/AUTONOMY-BOUNDARIES.md` | Pending full file review | TBD | TBD |
+| `05-autonomous-execution-and-approvals/CHANGE-CONTROL.md` | Pending full file review | TBD | TBD |
+| `05-autonomous-execution-and-approvals/ESCALATION-PROTOCOL.md` | Pending full file review | TBD | TBD |
+| `05-autonomous-execution-and-approvals/HIGH-IMPACT-ACTIONS.md` | Pending full file review | TBD | TBD |
+| `05-autonomous-execution-and-approvals/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `05-autonomous-execution-and-approvals/STATUS.md` | Pending full file review | TBD | TBD |
+| `06-root-cause-problem-solving/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `06-root-cause-problem-solving/DIAGNOSTIC-PROTOCOL.md` | Pending full file review | TBD | TBD |
+| `06-root-cause-problem-solving/INCIDENT-INTAKE.md` | Pending full file review | TBD | TBD |
+| `06-root-cause-problem-solving/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `06-root-cause-problem-solving/RESEARCH-PROTOCOL.md` | Pending full file review | TBD | TBD |
+| `06-root-cause-problem-solving/ROOT-CAUSE-REPORT.md` | Pending full file review | TBD | TBD |
+| `06-root-cause-problem-solving/STATUS.md` | Pending full file review | TBD | TBD |
+| `06-root-cause-problem-solving/THREE-ATTEMPT-RULE.md` | Pending full file review | TBD | TBD |
+| `07-preventing-unconsidered-patching/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `07-preventing-unconsidered-patching/DESIGN-REPAIR-OPTIONS.md` | Pending full file review | TBD | TBD |
+| `07-preventing-unconsidered-patching/PATCH-REVIEW-CHECKLIST.md` | Pending full file review | TBD | TBD |
+| `07-preventing-unconsidered-patching/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `07-preventing-unconsidered-patching/REGRESSION-STRATEGY.md` | Pending full file review | TBD | TBD |
+| `07-preventing-unconsidered-patching/ROOT-CAUSE-REQUIREMENT.md` | Pending full file review | TBD | TBD |
+| `07-preventing-unconsidered-patching/STATUS.md` | Pending full file review | TBD | TBD |
+| `08-fatigue-and-work-stoppage-protocol/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `08-fatigue-and-work-stoppage-protocol/CHECKPOINT-TEMPLATE.md` | Pending full file review | TBD | TBD |
+| `08-fatigue-and-work-stoppage-protocol/HANDOFF-NOTES.md` | Pending full file review | TBD | TBD |
+| `08-fatigue-and-work-stoppage-protocol/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `08-fatigue-and-work-stoppage-protocol/RESUME-PROTOCOL.md` | Pending full file review | TBD | TBD |
+| `08-fatigue-and-work-stoppage-protocol/STATUS.md` | Pending full file review | TBD | TBD |
+| `08-fatigue-and-work-stoppage-protocol/STOP-WORK-TRIGGERS.md` | Pending full file review | TBD | TBD |
+| `09-research-evidence-and-communication/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `09-research-evidence-and-communication/CLAIM-CLASSIFICATION.md` | Pending full file review | TBD | TBD |
+| `09-research-evidence-and-communication/EVIDENCE-LOG.md` | Pending full file review | TBD | TBD |
+| `09-research-evidence-and-communication/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `09-research-evidence-and-communication/RESEARCH-STOP-RULES.md` | Pending full file review | TBD | TBD |
+| `09-research-evidence-and-communication/SOURCE-HIERARCHY.md` | Pending full file review | TBD | TBD |
+| `09-research-evidence-and-communication/STATUS-REPORT-TEMPLATE.md` | Pending full file review | TBD | TBD |
+| `09-research-evidence-and-communication/STATUS.md` | Pending full file review | TBD | TBD |
+| `10-testing-and-acceptance-criteria/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `10-testing-and-acceptance-criteria/CONTRACT-AND-E2E-TESTS.md` | Pending full file review | TBD | TBD |
+| `10-testing-and-acceptance-criteria/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `10-testing-and-acceptance-criteria/REGRESSION-PLAN.md` | Pending full file review | TBD | TBD |
+| `10-testing-and-acceptance-criteria/SECURITY-AND-RESILIENCE-TESTS.md` | Pending full file review | TBD | TBD |
+| `10-testing-and-acceptance-criteria/STATUS.md` | Pending full file review | TBD | TBD |
+| `10-testing-and-acceptance-criteria/TEST-EVIDENCE.md` | Pending full file review | TBD | TBD |
+| `10-testing-and-acceptance-criteria/TEST-STRATEGY.md` | Pending full file review | TBD | TBD |
+| `10-testing-and-acceptance-criteria/UNIT-AND-INTEGRATION-TESTS.md` | Pending full file review | TBD | TBD |
+| `11-security-privacy-and-secrets/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `11-security-privacy-and-secrets/ACCESS-CONTROL.md` | Pending full file review | TBD | TBD |
+| `11-security-privacy-and-secrets/DATA-CLASSIFICATION.md` | Pending full file review | TBD | TBD |
+| `11-security-privacy-and-secrets/FAIL-CLOSED-RULES.md` | Pending full file review | TBD | TBD |
+| `11-security-privacy-and-secrets/PRIVACY-CONTROLS.md` | Pending full file review | TBD | TBD |
+| `11-security-privacy-and-secrets/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `11-security-privacy-and-secrets/SECRET-MANAGEMENT.md` | Pending full file review | TBD | TBD |
+| `11-security-privacy-and-secrets/SECURITY-TEST-PLAN.md` | Pending full file review | TBD | TBD |
+| `11-security-privacy-and-secrets/STATUS.md` | Pending full file review | TBD | TBD |
+| `11-security-privacy-and-secrets/THREAT-MODEL.md` | Pending full file review | TBD | TBD |
+| `12-section-status-and-locking/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `12-section-status-and-locking/GREEN-EVIDENCE-CHECKLIST.md` | Pending full file review | TBD | TBD |
+| `12-section-status-and-locking/LOCK-AND-REOPEN-PROTOCOL.md` | Pending full file review | TBD | TBD |
+| `12-section-status-and-locking/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `12-section-status-and-locking/SECTION-STATUS-REGISTER.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `12-section-status-and-locking/STATUS-DEFINITIONS.md` | Pending full file review | TBD | TBD |
+| `12-section-status-and-locking/STATUS.md` | Pending full file review | TBD | TBD |
+| `12-section-status-and-locking/TRANSITION-RULES.md` | Pending full file review | TBD | TBD |
+| `13-dependencies-and-blockers/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `13-dependencies-and-blockers/BLOCKER-REGISTER.md` | Pending full file review | TBD | TBD |
+| `13-dependencies-and-blockers/DEFERRED-WORK.md` | Pending full file review | TBD | TBD |
+| `13-dependencies-and-blockers/DEPENDENCY-MAP.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `13-dependencies-and-blockers/DEPENDENCY-REGISTER.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `13-dependencies-and-blockers/EXTERNAL-SERVICE-DEPENDENCIES.md` | Pending full file review | TBD | TBD |
+| `13-dependencies-and-blockers/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `13-dependencies-and-blockers/RISK-ESCALATION.md` | Pending full file review | TBD | TBD |
+| `13-dependencies-and-blockers/STATUS.md` | Pending full file review | TBD | TBD |
+| `14-maintenance-and-updates/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `14-maintenance-and-updates/DEPENDENCY-UPDATES.md` | Pending full file review | TBD | TBD |
+| `14-maintenance-and-updates/MAINTENANCE-POLICY.md` | Pending full file review | TBD | TBD |
+| `14-maintenance-and-updates/MIGRATION-PLAN.md` | Pending full file review | TBD | TBD |
+| `14-maintenance-and-updates/OBSERVABILITY-AND-INCIDENT-OPERATIONS.md` | Pending full file review | TBD | TBD |
+| `14-maintenance-and-updates/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `14-maintenance-and-updates/RUNTIME-LIFECYCLE.md` | Pending full file review | TBD | TBD |
+| `14-maintenance-and-updates/STATUS.md` | Pending full file review | TBD | TBD |
+| `14-maintenance-and-updates/TECHNICAL-DEBT-REGISTER.md` | Pending full file review | TBD | TBD |
+| `15-documentation-and-continuity/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `15-documentation-and-continuity/CHANGELOG-AND-HISTORY.md` | Pending full file review | TBD | TBD |
+| `15-documentation-and-continuity/DECISION-LOG.md` | Pending full file review | TBD | TBD |
+| `15-documentation-and-continuity/DOCUMENTATION-STANDARDS.md` | Pending full file review | TBD | TBD |
+| `15-documentation-and-continuity/HANDOFF-TEMPLATE.md` | Pending full file review | TBD | TBD |
+| `15-documentation-and-continuity/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `15-documentation-and-continuity/STATUS.md` | Pending full file review | TBD | TBD |
+| `16-collaboration-and-mutual-accountability/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `16-collaboration-and-mutual-accountability/COMMUNICATION-RULES.md` | Pending full file review | TBD | TBD |
+| `16-collaboration-and-mutual-accountability/CONFLICT-AND-DISAGREEMENT.md` | Pending full file review | TBD | TBD |
+| `16-collaboration-and-mutual-accountability/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `16-collaboration-and-mutual-accountability/REVIEW-PROTOCOL.md` | Pending full file review | TBD | TBD |
+| `16-collaboration-and-mutual-accountability/ROLES-AND-RESPONSIBILITIES.md` | Pending full file review | TBD | TBD |
+| `16-collaboration-and-mutual-accountability/STATUS.md` | Pending full file review | TBD | TBD |
+| `17-final-review-and-release/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `17-final-review-and-release/CUSTOMER-SUPPORT-AND-AI-ASSISTANCE-READINESS.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `17-final-review-and-release/FINAL-REVIEW-PROTOCOL.md` | Pending full file review | TBD | TBD |
+| `17-final-review-and-release/POST-RELEASE-VERIFICATION.md` | Pending full file review | TBD | TBD |
+| `17-final-review-and-release/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `17-final-review-and-release/RELEASE-READINESS-CHECKLIST.md` | Pending full file review | TBD | TBD |
+| `17-final-review-and-release/RELEASE-RECORD-TEMPLATE.md` | Pending full file review | TBD | TBD |
+| `17-final-review-and-release/ROLLBACK-AND-RECOVERY.md` | Pending full file review | TBD | TBD |
+| `17-final-review-and-release/STATUS.md` | Pending full file review | TBD | TBD |
+| `17-final-review-and-release/WEB-DISCOVERABILITY-AND-DOMAIN-EMAIL-READINESS.md` | Targeted review performed; full file review pending | TBD | TBD |
+| `18-living-agreement-and-method-evolution/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
+| `18-living-agreement-and-method-evolution/LESSONS-LEARNED.md` | Pending full file review | TBD | TBD |
+| `18-living-agreement-and-method-evolution/METHOD-EVOLUTION-POLICY.md` | Pending full file review | TBD | TBD |
+| `18-living-agreement-and-method-evolution/README.md` | Initial purpose/inventory review completed | TBD | TBD |
+| `18-living-agreement-and-method-evolution/STATUS.md` | Pending full file review | TBD | TBD |
+| `18-living-agreement-and-method-evolution/VERSIONING-AND-CHANGELOG.md` | Pending full file review | TBD | TBD |
+| `18-living-agreement-and-method-evolution/WORKING-AGREEMENT.md` | Pending full file review | TBD | TBD |
