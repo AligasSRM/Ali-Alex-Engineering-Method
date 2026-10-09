@@ -7,6 +7,7 @@ Keep the system supportable and secure while minimizing unnecessary changes and 
 
 ## Planned documents
 - MAINTENANCE-POLICY.md — ownership and review cadence.
+- OBSERVABILITY-AND-INCIDENT-OPERATIONS.md — monitoring signals, alerting, incident handling, and post-recovery verification.
 - RUNTIME-LIFECYCLE.md — end-of-life monitoring and upgrade triggers.
 - DEPENDENCY-UPDATES.md — update and vulnerability response.
 - MIGRATION-PLAN.md — compatibility, backup, and rollback.
