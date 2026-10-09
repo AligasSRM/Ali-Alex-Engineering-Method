@@ -11,10 +11,16 @@
 - Remove unused dependencies when safe and supported by evidence; do not perform destructive cleanup without review.
 - Keep credentials out of manifests, lockfiles, source, and logs.
 
+## Minimum evidence for each material dependency
+Record the official project/package URL, exact resolved version, release notes or advisory checked date, license evidence, provenance/source, maintenance/support status, transitive impact, data/network permissions where relevant, and the reason the dependency is needed. If a field is not applicable, record why rather than leaving an ambiguous blank. Use the actual package manager and repository evidence; do not assume every ecosystem supports the same lockfile or audit command.
+
 ## Inventory and risk register
 | Package / service | Direct or transitive | Version | Purpose | License / support evidence | Security / maintenance risk | Owner / action |
 |---|---|---|---|---|---|---|
 | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+
+## Exception and remediation controls
+For a vulnerability, abandoned package, incompatible license, or unverifiable provenance, record severity/impact, affected versions, exploitability/context, owner, mitigation, target date, acceptance authority if temporary risk is retained, and re-check/expiry trigger. A clean automated audit does not prove that all supply-chain risks are absent.
 
 ## Update process
 1. Identify update and reason.
