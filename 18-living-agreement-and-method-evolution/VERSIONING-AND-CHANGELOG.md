@@ -3,9 +3,10 @@
 **Status:** RED — versioning policy drafted; baseline version not yet approved.
 
 ## Version record
+- Lifecycle: PROPOSED / REVIEWED / APPROVED / EFFECTIVE / SUPERSEDED / WITHDRAWN.
 For each method release, record:
-- Version identifier and effective date.
-- Scope of changes and affected sections.
+- Version identifier, proposal ID, approval ID, and effective date/time zone (leave effective date unset until approved).
+- Scope of changes, affected sections/files, linked requirement/decision IDs, and impact on dependency edges/approval precedence.
 - Motivation and evidence.
 - Compatibility or process changes for existing projects.
 - Required approvals and review record.
@@ -19,6 +20,9 @@ For each method release, record:
 - **Patch:** clarification or correction that does not change intended behavior.
 
 These labels are a proposed convention until the baseline is approved.
+
+## Rules
+A version number assigned to a proposal does not make it effective. Record the exact source commit and approval evidence for every effective baseline. Use Section 15 for project-specific repository changes and release events; do not duplicate them here. If adoption is deferred, retain the current effective baseline and document the migration/revisit condition.
 
 ## Rules
 Do not retroactively rewrite a prior approved version. Keep a canonical current version and an inspectable history. Record when a proposed change is not yet approved or effective.
