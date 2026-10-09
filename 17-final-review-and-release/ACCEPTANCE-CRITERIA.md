@@ -4,13 +4,13 @@
 
 - [ ] Readiness checklist covers scope, tests, dependencies, security/privacy, operations, recovery, and approvals.
 - [ ] Final review records evidence, findings, dispositions, and authorized decision.
-- [ ] GO/NO-GO/CONDITIONAL GO rules cannot bypass mandatory controls.
+- [ ] GO/NO-GO/CONDITIONAL GO records identify release ID, exact commit/artifact/environment, authority, conditions, owners, expiry, and rollback trigger; mandatory controls cannot be bypassed.
 - [ ] Rollback or forward recovery is realistic and tested where feasible.
 - [ ] Post-release verification is tied to the deployed artifact and observation window.
-- [ ] Release record distinguishes approval, deployment, and verified outcome.
+- [ ] Release record distinguishes approval, deployment, and verified outcome, with immutable artifact identity and separate verification evidence.
 - [ ] Residual risks and deferred work are reconciled with Section 13.
 - [ ] Locked sections and required approvals align with Sections 05 and 12.
-- [ ] A representative release/recovery exercise is reviewed.
+- [ ] Each release/support/domain readiness item has a stable ID, outcome, owner, evidence/test ID, and checked timestamp.\n- [ ] Failed/missing critical post-release checks trigger a recorded no-success claim and recovery decision.\n- [ ] A representative release/recovery exercise is reviewed.
 
 - [ ] Applicable public websites have evidence for canonical URL, DNS/HTTPS, indexable-page status, metadata, robots.txt, sitemap.xml, and important internal links.
 - [ ] Google Search Console ownership and relevant sitemap/URL inspection outcomes are recorded; submission is not treated as a guarantee of indexing or ranking.
