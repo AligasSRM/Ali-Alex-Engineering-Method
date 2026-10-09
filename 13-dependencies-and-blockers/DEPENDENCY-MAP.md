@@ -38,6 +38,12 @@ A reference to a later-numbered section is not automatically a sequencing error.
 | EDGE-018 | 08 → all active work/handoffs | CROSS-CUTTING CONTROL | Stop-work, checkpoint, and resume rules apply when their triggers occur; they do not require Section 08 to be GREEN before unrelated safe work can proceed. | TBD / pause-resume scenario evidence | Proposed |
 | EDGE-019 | 11 → security/privacy-sensitive work | CROSS-CUTTING CONTROL | Applicable security, privacy, access, secret-handling, and fail-closed controls must be applied before affected operations; scope depends on the data flow and threat. | TBD / threat-control-test evidence | Proposed |
 
+| EDGE-020 | 01–03, 05–09, 11 → 10 | COORDINATION / REFERENCE | Test strategy consumes approved requirements, engineering/security constraints, diagnostic/research evidence, and privacy/security controls; only criteria applicable to the tested scope are required. | TBD / requirement-risk-to-test map | Proposed |
+| EDGE-021 | 03, 06–07, 09–11, 13 → 14 | COORDINATION / REFERENCE | Maintenance uses lifecycle standards, incident/patch history, test evidence, security/privacy requirements, and dependency records; a specific migration/recovery gate may block the affected change. | TBD / component lifecycle and operations evidence | Proposed |
+| EDGE-022 | Applicable outputs from 01–16 and 18 → 17 | DOWNSTREAM CONSUMER; sometimes BLOCKING | Release review consumes relevant scope, approval, test, security, operations, recovery, support, and governance evidence. Only an applicable release-critical criterion blocks the release; a whole upstream section need not be GREEN by default. | TBD / release evidence matrix and go/no-go record | Proposed |
+| EDGE-023 | 06–10, 12, 15–17 → 18 | DOWNSTREAM CONSUMER | Lessons and method-evolution proposals consume incident, research, test, status, continuity, collaboration, and release outcomes; this is not a prerequisite for ordinary work under the current baseline. | TBD / lesson IDs and approved evolution proposal | Proposed |
+| EDGE-024 | 05, 09–13, 15, 17–18 → 16 | COORDINATION / REFERENCE | Roles, reviews, communications, and disagreements must align with approval, evidence, status, dependency, continuity, release, and agreement rules; role assignment does not grant authority. | TBD / role-to-authority and review scenario evidence | Proposed |
+
 ## Rules for cycles and sequence
 
 1. Do not treat all cross-references as blocking dependencies.
