@@ -288,3 +288,12 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 **Structural changes:** Added stable requirement/risk/test/run IDs, predeclared pass/fail oracles, exact commit and environment/tool metadata, artifact identity/retention, explicit skipped/not-run/flaky handling, change-to-regression mapping, and authorization/containment records for security/resilience tests. Evidence must remain tied to the exact tested commit and environment.
 
 **Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 9 reviewed files; Markdown table-column scan found 0 mismatched rows. No project-specific test plan or actual run was validated. Section 10 remains RED.
+
+
+### Pass 3 — Section 11 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 10 tracked Markdown files in `11-security-privacy-and-secrets/`.
+
+**Structural changes:** Added stable asset/data-flow/threat/control/test IDs, threat and permission matrices, data inventory fields, secret metadata and rotation evidence (never secret values), privacy purpose/transfer/retention review fields, and fail-closed behavior/recovery/re-entry mappings. Security testing records require authorized scope, environment, expected safe behavior, and evidence. No project-specific threat model, legal/privacy assessment, secret rotation, or security test was executed.
+
+**Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 10 reviewed files; Markdown table-column scan found 0 mismatched rows. Section 11 remains RED pending project-specific implementation and verification.
