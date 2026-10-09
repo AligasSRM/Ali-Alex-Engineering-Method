@@ -252,3 +252,12 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 **Structural changes:** Added stable incident/diagnostic/research/attempt IDs, environment and baseline context, evidence provenance, hypothesis predictions and falsification criteria, dated/version-applicable source records, explicit attempt type/count, causal confidence, and provisional-versus-confirmed closure rules. The workflow explicitly avoids treating an unexecuted test or a post-fix pass as proof of root cause.
 
 **Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 8 reviewed files; Markdown table-column scan found 0 mismatched rows. No real incident was investigated by these documentation edits. Section 06 remains RED pending a reviewed scenario or incident walkthrough.
+
+
+### Pass 3 — Section 07 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 7 tracked Markdown files in `07-preventing-unconsidered-patching/`.
+
+**Structural changes:** Added stable patch/change IDs, links to incident/root-cause and requirement records, baseline/resulting commits, explicit causal confidence, temporary-mitigation expiry/monitoring/rollback, impact-to-test mapping, and auditable review outcomes. The process distinguishes permanent fixes, temporary mitigations, refactors, and architecture changes; material architecture/scope changes remain approval-gated.
+
+**Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 7 reviewed files; Markdown table-column scan found 0 mismatched rows. No real patch was reviewed or tested in this pass. Section 07 remains RED.
