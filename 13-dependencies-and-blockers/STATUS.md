@@ -5,6 +5,7 @@
 ## Structure
 - [x] README and planned file list inspected.
 - [x] Dependency register drafted.
+- [x] Initial typed cross-section dependency map drafted; classifications remain proposed and unapproved.
 - [x] Blocker register drafted.
 - [x] External service inventory drafted.
 - [x] Risk escalation rules drafted.
@@ -14,6 +15,8 @@
 ## Outstanding
 - [ ] Populate registers from actual project state.
 - [ ] Verify external-service assumptions from current official sources.
+- [ ] Validate every map edge against all section documents.
+- [ ] Resolve Section 15–18 cycle and changelog ownership.
 - [ ] Cross-check with approvals, status/locking, maintenance, and release gates.
 - [ ] Validate a real blocker and deferral workflow.
 
