@@ -196,15 +196,15 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `12-section-status-and-locking/STATUS-DEFINITIONS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
 | `12-section-status-and-locking/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
 | `12-section-status-and-locking/TRANSITION-RULES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
-| `13-dependencies-and-blockers/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `13-dependencies-and-blockers/BLOCKER-REGISTER.md` | Pending full file review | TBD | TBD |
-| `13-dependencies-and-blockers/DEFERRED-WORK.md` | Pending full file review | TBD | TBD |
-| `13-dependencies-and-blockers/DEPENDENCY-MAP.md` | Targeted review performed; full file review pending | TBD | TBD |
-| `13-dependencies-and-blockers/DEPENDENCY-REGISTER.md` | Targeted review performed; full file review pending | TBD | TBD |
-| `13-dependencies-and-blockers/EXTERNAL-SERVICE-DEPENDENCIES.md` | Pending full file review | TBD | TBD |
-| `13-dependencies-and-blockers/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `13-dependencies-and-blockers/RISK-ESCALATION.md` | Pending full file review | TBD | TBD |
-| `13-dependencies-and-blockers/STATUS.md` | Pending full file review | TBD | TBD |
+| `13-dependencies-and-blockers/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
+| `13-dependencies-and-blockers/BLOCKER-REGISTER.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
+| `13-dependencies-and-blockers/DEFERRED-WORK.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
+| `13-dependencies-and-blockers/DEPENDENCY-MAP.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
+| `13-dependencies-and-blockers/DEPENDENCY-REGISTER.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
+| `13-dependencies-and-blockers/EXTERNAL-SERVICE-DEPENDENCIES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
+| `13-dependencies-and-blockers/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
+| `13-dependencies-and-blockers/RISK-ESCALATION.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
+| `13-dependencies-and-blockers/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
 | `14-maintenance-and-updates/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `14-maintenance-and-updates/DEPENDENCY-UPDATES.md` | Pending full file review | TBD | TBD |
 | `14-maintenance-and-updates/MAINTENANCE-POLICY.md` | Pending full file review | TBD | TBD |
