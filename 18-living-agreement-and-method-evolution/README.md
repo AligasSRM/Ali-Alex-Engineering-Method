@@ -16,6 +16,9 @@ Maintain a controlled, versioned working agreement and evolve the methodology fr
 ## Dependencies
 Draws on evidence and lessons across all sections, especially approvals, research, testing, status/locking, continuity, collaboration, and release governance.
 
+## Canonical ownership and approval
+Section 18 owns the methodology/agreement baseline, version decisions, and method-evolution records. Section 15 owns project/repository change history and handoffs; link the two records instead of duplicating project entries. A proposal is not effective policy until the required approver, effective version/date, validation evidence, and affected-section impact are recorded.
+
 ## Guardrails
 Unapproved proposals remain proposals. Never publish secrets, confidential project details, or unsupported success claims. Do not approve a baseline version until the cross-section audit and agreement reconciliation are complete.
 
