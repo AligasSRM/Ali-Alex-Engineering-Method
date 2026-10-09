@@ -80,11 +80,11 @@ Section 12 defines GREEN/LOCKED reopening to RED or YELLOW and separately define
 **Resolution recorded:** Section 12 now defines LOCKED → YELLOW for authorized bounded repair when unaffected acceptance remains valid, LOCKED → RED when prior acceptance is invalid, and ORANGE when blocked. **Still required:** exercise representative transitions and reconcile all 18 live status records with evidence.
 
 ### F-07 — Approval, role, and release gates need one integrated precedence rule
-**Severity:** High · **State:** Open
+**Severity:** High · **State:** Addressed structurally; scenario execution pending
 
 Section 05 requires explicit approval for high-impact actions; Section 16 correctly says responsibility does not automatically grant authority; Section 17 requires release approval and evidence. The concepts align, but no integrated precedence table yet demonstrates that a release checklist, a section status, or a role assignment can never override a mandatory Section 05/11 approval or security control.
 
-**Required resolution:** build cross-section scenarios and test the precedence of approval, security, status, and release gates.
+**Resolution recorded:** Added `13-dependencies-and-blockers/GOVERNANCE-PRECEDENCE-AND-SCENARIOS.md`, a shared proposed precedence model and 12 scenario test cases, and linked it from Sections 05, 11, 12, 13, and 17. **Still required:** owner approval and execution of each applicable scenario with actual evidence; this document is not proof that precedence has been tested.
 
 ### F-08 — Account and identity requirements were not explicit
 **Severity:** High · **State:** Addressed structurally; product decision open
