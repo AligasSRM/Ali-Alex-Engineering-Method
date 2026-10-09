@@ -234,3 +234,12 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 **Structural changes:** Added stable structure/increment/page IDs; requirement/decision traceability; branch/commit baseline; explicit gate outcomes (PASS/FAIL/BLOCKED/NOT APPLICABLE); evidence, environment, command, reviewer and approver fields; rollback/recovery and skipped-test records; and the rule that missing evidence blocks a gate. NOT APPLICABLE requires rationale and authorized review. Section 04 remains RED; no real-project gate or implementation is approved by these edits.
 
 **Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 7 reviewed files; Markdown table-column scan found 0 mismatched rows. This does not prove the process works on a real project or validate visual/functionality behavior.
+
+
+### Pass 3 — Section 05 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 8 tracked Markdown files in `05-autonomous-execution-and-approvals/`.
+
+**Structural changes:** Added durable approval IDs/states, approver authority, bounded target/environment/scope, expiry and revocation, re-approval when material conditions change, change records, escalation ownership/severity/response expectations, and high-impact execution evidence. Clarified that mandatory law/security/privacy controls cannot be overridden by general approval or release checklists. Response-time commitments remain project decisions, not invented defaults.
+
+**Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 8 reviewed files; Markdown table-column scan found 0 mismatched rows. This is not proof that the approval workflow has been exercised or that real approval authority has been configured. Section 05 remains RED.
