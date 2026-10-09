@@ -5,6 +5,7 @@
 ## Structure
 - [x] README and planned file list inspected.
 - [x] Maintenance policy drafted.
+- [x] Observability and incident operations guidance drafted; project-specific implementation and exercise pending.
 - [x] Runtime lifecycle guidance drafted.
 - [x] Dependency update procedure drafted.
 - [x] Migration plan template drafted.
@@ -15,6 +16,7 @@
 - [ ] Inventory real components, runtimes, and dependencies.
 - [ ] Verify support and lifecycle facts from official sources.
 - [ ] Review update and migration paths in a safe environment.
+- [ ] Validate observability, alerting, and incident response in a representative project workflow.
 - [ ] Cross-check with blocker, security, testing, and release controls.
 
 ## Reason for RED
