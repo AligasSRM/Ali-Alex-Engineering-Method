@@ -23,6 +23,7 @@
 ## Outstanding
 - [ ] Populate registers from actual project state.
 - [ ] Verify external-service assumptions from current official sources.
+- [x] First-pass blocking-graph screen: explicit section-level blocking sequence 01 → 02 → 03 → 04 has no cycle; conditional gate edges and full declaration reconciliation remain open.
 - [ ] Validate all 34 map edges against every declared source/consumer dependency, acceptance criterion, and status record.
 - [ ] Resolve Section 15–18 cycle and changelog ownership.
 - [ ] Cross-check with approvals, security/privacy, status/locking, collaboration authority, maintenance, and release gates.
