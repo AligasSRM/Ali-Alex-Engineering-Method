@@ -71,6 +71,7 @@ Do not bulk-edit a file merely because it is short. Do not turn a policy templat
 | P2-003 | Requirements-to-tests-to-release traceability is a cross-section concern that should be explicit, not duplicated in every file | Added `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md`, linked it from Section 02 README, and added acceptance criteria. Links from downstream sections and real-project population still need review. | STRUCTURE ADDED; validation/application pending |
 | P2-004 | Dependency-map entries remain initially classified/proposed until checked against every section file | Review each declared dependency and distinguish blocking prerequisites from coordination references | OPEN |
 | P2-005 | Documentation changes do not prove the method works in a real project | Keep all section statuses RED until scenario or real-project evidence is recorded | ALWAYS APPLIES |
+| P2-006 | README inventories could drift from the live tree as files are added | Compared all 18 section README file lists against the complete recursive tree; all declared file names exist and all non-common section files are listed | PASS for current inventory only; recheck after changes |
 
 ## Exit criteria for the structural implementation pass
 
