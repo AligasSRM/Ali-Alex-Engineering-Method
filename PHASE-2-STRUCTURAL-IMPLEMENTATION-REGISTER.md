@@ -188,14 +188,14 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `11-security-privacy-and-secrets/SECURITY-TEST-PLAN.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
 | `11-security-privacy-and-secrets/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
 | `11-security-privacy-and-secrets/THREAT-MODEL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
-| `12-section-status-and-locking/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `12-section-status-and-locking/GREEN-EVIDENCE-CHECKLIST.md` | Pending full file review | TBD | TBD |
-| `12-section-status-and-locking/LOCK-AND-REOPEN-PROTOCOL.md` | Pending full file review | TBD | TBD |
-| `12-section-status-and-locking/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `12-section-status-and-locking/SECTION-STATUS-REGISTER.md` | Targeted review performed; full file review pending | TBD | TBD |
-| `12-section-status-and-locking/STATUS-DEFINITIONS.md` | Pending full file review | TBD | TBD |
-| `12-section-status-and-locking/STATUS.md` | Pending full file review | TBD | TBD |
-| `12-section-status-and-locking/TRANSITION-RULES.md` | Pending full file review | TBD | TBD |
+| `12-section-status-and-locking/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
+| `12-section-status-and-locking/GREEN-EVIDENCE-CHECKLIST.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
+| `12-section-status-and-locking/LOCK-AND-REOPEN-PROTOCOL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
+| `12-section-status-and-locking/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
+| `12-section-status-and-locking/SECTION-STATUS-REGISTER.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
+| `12-section-status-and-locking/STATUS-DEFINITIONS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
+| `12-section-status-and-locking/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
+| `12-section-status-and-locking/TRANSITION-RULES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 12 review; link/table scan and structural evidence only |
 | `13-dependencies-and-blockers/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `13-dependencies-and-blockers/BLOCKER-REGISTER.md` | Pending full file review | TBD | TBD |
 | `13-dependencies-and-blockers/DEFERRED-WORK.md` | Pending full file review | TBD | TBD |
