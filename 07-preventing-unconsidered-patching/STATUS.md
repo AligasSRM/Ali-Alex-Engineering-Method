@@ -10,6 +10,11 @@
 - [x] Design repair options drafted.
 - [x] Acceptance criteria and status record drafted.
 
+## Structural review record
+- Reviewed all 7 tracked Markdown files for root-cause prerequisites, patch review, regression mapping, repair-level decisions, and acceptance.
+- Added stable change/patch IDs, causal-confidence and baseline fields, explicit temporary-mitigation expiry/monitoring, impact-to-test mapping, and auditable review outcomes.
+- No real patch was reviewed or tested by this structural pass; Section 07 remains RED.
+
 ## Outstanding
 - [ ] Validate with a real patch and evidence-backed review.
 - [ ] Cross-check with Sections 03, 05–06, 09–11, 13–14, and 17.
@@ -20,4 +25,4 @@
 Draft documentation exists, but the procedure has not yet passed real-project validation.
 
 ## Next action
-Continue building the section skeletons, then perform the planned cross-section audit.
+Exercise the workflow on a real change, including a targeted test that fails before the fix, adjacent regression coverage, and a temporary-mitigation scenario; retain evidence before considering GREEN.
