@@ -16,5 +16,8 @@ Standardize lifecycle labels and evidence required for status transitions.
 
 ## Dependencies
 Governance layer across the full methodology.
+## Single status source and transition history
+The root `SECTION-STATUS-REGISTER.md` is the compact cross-section snapshot; each section's `STATUS.md` is its detailed record; this directory defines policy and schema only. Every transition must record the scope/version, prior and new status, reason, evidence IDs/links, owner/reviewer/approver where required, timestamp, blockers, and next action. Reconcile the root snapshot to the detailed records after status-changing commits.
+
 ## Guardrail
-Status colors communicate verified state; they do not substitute for evidence.
+Status colors communicate verified state; they do not substitute for evidence. Unknown or stale evidence cannot justify an optimistic status.
