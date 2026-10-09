@@ -38,6 +38,10 @@ When controls conflict, **pause the affected action**, record the conflicting re
 | GOV-011 | Post-release critical verification fails or cannot be observed | Do not claim successful verification; invoke the recorded containment/recovery decision | Deployed artifact, observation evidence, incident/recovery record | Not run |
 | GOV-012 | The user withdraws approval before execution or material facts change | Stop and re-confirm; do not rely on stale approval | Revocation/change event, new scope, renewed approval if needed | Not run |
 
+## Provisional tabletop model check
+
+The provisional deterministic tabletop results are recorded in `GOVERNANCE-SCENARIO-TEST-RESULTS.md` (12/12 decision-model checks matched). These are not owner-approved workflow execution results. The scenario rows below remain `Not run` until tested against an approved oracle in a representative workflow.
+
 ## Execution record template
 
 - Run ID / scenario ID / date and time zone:
