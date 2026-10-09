@@ -147,13 +147,13 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `06-root-cause-problem-solving/ROOT-CAUSE-REPORT.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
 | `06-root-cause-problem-solving/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
 | `06-root-cause-problem-solving/THREE-ATTEMPT-RULE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
-| `07-preventing-unconsidered-patching/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `07-preventing-unconsidered-patching/DESIGN-REPAIR-OPTIONS.md` | Pending full file review | TBD | TBD |
-| `07-preventing-unconsidered-patching/PATCH-REVIEW-CHECKLIST.md` | Pending full file review | TBD | TBD |
-| `07-preventing-unconsidered-patching/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `07-preventing-unconsidered-patching/REGRESSION-STRATEGY.md` | Pending full file review | TBD | TBD |
-| `07-preventing-unconsidered-patching/ROOT-CAUSE-REQUIREMENT.md` | Pending full file review | TBD | TBD |
-| `07-preventing-unconsidered-patching/STATUS.md` | Pending full file review | TBD | TBD |
+| `07-preventing-unconsidered-patching/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 07 review; link/table scan and structural evidence only |
+| `07-preventing-unconsidered-patching/DESIGN-REPAIR-OPTIONS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 07 review; link/table scan and structural evidence only |
+| `07-preventing-unconsidered-patching/PATCH-REVIEW-CHECKLIST.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 07 review; link/table scan and structural evidence only |
+| `07-preventing-unconsidered-patching/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 07 review; link/table scan and structural evidence only |
+| `07-preventing-unconsidered-patching/REGRESSION-STRATEGY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 07 review; link/table scan and structural evidence only |
+| `07-preventing-unconsidered-patching/ROOT-CAUSE-REQUIREMENT.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 07 review; link/table scan and structural evidence only |
+| `07-preventing-unconsidered-patching/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 07 review; link/table scan and structural evidence only |
 | `08-fatigue-and-work-stoppage-protocol/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `08-fatigue-and-work-stoppage-protocol/CHECKPOINT-TEMPLATE.md` | Pending full file review | TBD | TBD |
 | `08-fatigue-and-work-stoppage-protocol/HANDOFF-NOTES.md` | Pending full file review | TBD | TBD |
