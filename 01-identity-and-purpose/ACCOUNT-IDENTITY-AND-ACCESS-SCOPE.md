@@ -70,6 +70,13 @@ Make account and identity capabilities an explicit discovery and planning topic 
 - Section 15 records approved decisions and continuity information.
 - Section 17 verifies the account lifecycle and security controls before release.
 
+## Document ownership and no-duplication rule
+
+- This file in Section 01 is the **discovery/scope checklist**. It asks which account capabilities the product needs; it is not an implementation specification and does not approve registration by itself.
+- Section 02 `REQUIREMENTS.md` is the single requirements register. For every capability approved for consideration, record a unique `REQ-###` ID, required/optional/deferred/not-applicable disposition, rationale, priority, verification method, and approval status. Keep the authoritative requirement there rather than creating a second competing register.
+- Section 11 owns security controls for authentication, authorization, sessions, recovery, privacy, and secrets. Section 10 owns acceptance tests; Section 05 owns required approvals; Section 13 tracks external identity-provider dependencies; Section 17 checks applicable release evidence.
+- Do not add a Section 19 for registration. Reconsider only if a documented real-project gap cannot be assigned to the existing owners.
+
 ## Acceptance criteria
 - [ ] Account/identity scope is explicitly marked required, optional, deferred, or not applicable, with rationale and approval.
 - [ ] Each selected capability has a unique requirement ID in Section 02.
