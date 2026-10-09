@@ -243,3 +243,12 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 **Structural changes:** Added durable approval IDs/states, approver authority, bounded target/environment/scope, expiry and revocation, re-approval when material conditions change, change records, escalation ownership/severity/response expectations, and high-impact execution evidence. Clarified that mandatory law/security/privacy controls cannot be overridden by general approval or release checklists. Response-time commitments remain project decisions, not invented defaults.
 
 **Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 8 reviewed files; Markdown table-column scan found 0 mismatched rows. This is not proof that the approval workflow has been exercised or that real approval authority has been configured. Section 05 remains RED.
+
+
+### Pass 3 — Section 06 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 8 tracked Markdown files in `06-root-cause-problem-solving/`.
+
+**Structural changes:** Added stable incident/diagnostic/research/attempt IDs, environment and baseline context, evidence provenance, hypothesis predictions and falsification criteria, dated/version-applicable source records, explicit attempt type/count, causal confidence, and provisional-versus-confirmed closure rules. The workflow explicitly avoids treating an unexecuted test or a post-fix pass as proof of root cause.
+
+**Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 8 reviewed files; Markdown table-column scan found 0 mismatched rows. No real incident was investigated by these documentation edits. Section 06 remains RED pending a reviewed scenario or incident walkthrough.
