@@ -17,5 +17,8 @@ Track dependencies and impediments without hiding unresolved risks or confusing 
 
 ## Dependencies
 Supports planning, architecture, integration, maintenance, and release.
+## Single dependency/blocker model
+Use stable dependency, edge, blocker, risk, external-service, and deferral IDs. The cross-section map owns typed section-to-section relationships; the dependency register owns project/runtime/provider dependencies; the blocker register owns unresolved impediments; the deferred-work log owns approved non-delivery decisions. Link records rather than maintaining duplicate status sources.
+
 ## Guardrail
-A blocker may be deferred only when the impact is understood and doing so is safe.
+A blocker may be deferred only when impact, authority, compensating controls, and re-entry conditions are documented and deferral is lawful and safe. Deferral does not clear a mandatory gate.
