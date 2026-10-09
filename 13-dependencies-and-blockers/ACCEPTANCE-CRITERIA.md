@@ -3,6 +3,8 @@
 **Status:** 🔴 RED — criteria drafted; project-specific inventory pending.
 
 - [ ] Internal and external dependencies have owners, versions/capabilities, and criticality.
+- [ ] The cross-section dependency map classifies each edge as blocking, coordination/reference, downstream consumer, or cross-cutting control.
+- [ ] Blocking edges have explicit clearing evidence and do not create an unresolved cycle.
 - [ ] Dependency failure impacts and safe fallbacks are explicit.
 - [ ] Active blockers have evidence, impact, owner, and next action.
 - [ ] Escalation thresholds align with approvals and incident handling.
