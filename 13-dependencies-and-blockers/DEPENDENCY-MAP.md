@@ -51,6 +51,12 @@ A reference to a later-numbered section is not automatically a sequencing error.
 | EDGE-032 | 05, 09–13, 15, 17–18 → 16 | COORDINATION / REFERENCE | Collaboration and review workflows must align with authority, evidence, status, blocker, continuity, release, and approved-agreement rules. | TBD / role-to-authority and review/dispute scenario | Proposed |
 | EDGE-033 | 12, 15, 16, 17 → governed status, collaboration, and release records | COORDINATION / REFERENCE | The approved agreement must be reflected in status, durable records, role boundaries, and release decisions; no draft policy silently overrides existing approved controls. | TBD / cross-section governance scenario | Proposed |
 | EDGE-034 | 04 → 05–07, 09–13, 15, 17 | COORDINATION / REFERENCE | The construction-phase workflow consults approval, diagnosis/patch prevention, research/testing/security/status/dependency controls, artifact traceability, and release gates as applicable; these references do not require the entire consumer sections to be GREEN before structural planning, but applicable gates must pass before the activity they govern. | TBD / phase-gate-to-control traceability and representative gate scenarios | Proposed |
+## Blocking-graph screen — provisional
+
+A first graph screen was run against the current typed rows. The unambiguous section-to-section blocking sequence is **01 → 02 → 03 → 04**; EDGE-007 is a gate/evidence dependency rather than a whole-section edge, EDGE-014 is a baseline-only prerequisite, and EDGE-017 blocks substantive project implementation rather than structural review. On that bounded interpretation, the explicitly directional blocking sequence has **no cycle**.
+
+This is not a complete cycle certification: EDGE-009, EDGE-010, and EDGE-022 include conditional "sometimes blocking" language, and the complete README/acceptance-criteria reconciliation is still pending. Their exact activity-level gates must be resolved before the graph can be treated as final.
+
 ## Rules for cycles and sequence
 
 1. Do not treat all cross-references as blocking dependencies.
