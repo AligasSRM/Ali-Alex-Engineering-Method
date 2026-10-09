@@ -279,3 +279,12 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 **Structural changes:** Added stable claim/evidence/research/report IDs, source provenance and publisher, capture/check timestamps and time zones, version/commit/environment scope, confidence and limitations, contradiction retention, bounded-search stop records, and explicit report outcomes. Time-sensitive claims now have a review/expiry trigger; reports must state what was and was not checked.
 
 **Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 8 reviewed files; Markdown table-column scan found 0 mismatched rows. No real research/reporting walkthrough was performed. Section 09 remains RED.
+
+
+### Pass 3 — Section 10 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 9 tracked Markdown files in `10-testing-and-acceptance-criteria/`.
+
+**Structural changes:** Added stable requirement/risk/test/run IDs, predeclared pass/fail oracles, exact commit and environment/tool metadata, artifact identity/retention, explicit skipped/not-run/flaky handling, change-to-regression mapping, and authorization/containment records for security/resilience tests. Evidence must remain tied to the exact tested commit and environment.
+
+**Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 9 reviewed files; Markdown table-column scan found 0 mismatched rows. No project-specific test plan or actual run was validated. Section 10 remains RED.
