@@ -205,15 +205,15 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `13-dependencies-and-blockers/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
 | `13-dependencies-and-blockers/RISK-ESCALATION.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
 | `13-dependencies-and-blockers/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 13 review; link/table scan and structural evidence only |
-| `14-maintenance-and-updates/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `14-maintenance-and-updates/DEPENDENCY-UPDATES.md` | Pending full file review | TBD | TBD |
-| `14-maintenance-and-updates/MAINTENANCE-POLICY.md` | Pending full file review | TBD | TBD |
-| `14-maintenance-and-updates/MIGRATION-PLAN.md` | Pending full file review | TBD | TBD |
-| `14-maintenance-and-updates/OBSERVABILITY-AND-INCIDENT-OPERATIONS.md` | Pending full file review | TBD | TBD |
-| `14-maintenance-and-updates/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `14-maintenance-and-updates/RUNTIME-LIFECYCLE.md` | Pending full file review | TBD | TBD |
-| `14-maintenance-and-updates/STATUS.md` | Pending full file review | TBD | TBD |
-| `14-maintenance-and-updates/TECHNICAL-DEBT-REGISTER.md` | Pending full file review | TBD | TBD |
+| `14-maintenance-and-updates/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
+| `14-maintenance-and-updates/DEPENDENCY-UPDATES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
+| `14-maintenance-and-updates/MAINTENANCE-POLICY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
+| `14-maintenance-and-updates/MIGRATION-PLAN.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
+| `14-maintenance-and-updates/OBSERVABILITY-AND-INCIDENT-OPERATIONS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
+| `14-maintenance-and-updates/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
+| `14-maintenance-and-updates/RUNTIME-LIFECYCLE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
+| `14-maintenance-and-updates/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
+| `14-maintenance-and-updates/TECHNICAL-DEBT-REGISTER.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
 | `15-documentation-and-continuity/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `15-documentation-and-continuity/CHANGELOG-AND-HISTORY.md` | Pending full file review | TBD | TBD |
 | `15-documentation-and-continuity/DECISION-LOG.md` | Pending full file review | TBD | TBD |
