@@ -2,9 +2,12 @@
 
 **Status:** 🔴 RED — register template only; dependencies have not been inventoried.
 
-| ID | Dependency / service / team | Internal or external | Purpose | Owner | Version / contract | Availability / risk | Fallback / mitigation | Evidence |
+| ID | Dependency / service / team | Internal or external | Purpose / linked requirement IDs | Owner | Version / contract | Criticality / availability risk | Fallback / fail behavior | Evidence / last checked |
 |---|---|---|---|---|---|---|---|---|
 | DEP-001 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+
+## Ownership and synchronization
+This file captures dependencies discovered during project planning. Section 13 owns the cross-method dependency/blocker map, escalation, and deferred-work status. Keep stable dependency IDs across both records; link rather than copy detailed status. Any critical unresolved dependency must appear in the Section 13 blocker register before a plan is approved.
 
 ## Dependency rules
 - Identify runtime, build, test, deployment, data, identity, and third-party service dependencies.
@@ -18,6 +21,7 @@
 - [ ] Version/contract and availability risks are recorded where relevant.
 - [ ] Critical dependency failures have a mitigation or explicit blocker.
 - [ ] Evidence links or the reason evidence is unavailable are recorded.
+- [ ] Dependency IDs and critical blockers are synchronized with Section 13; ownership is not duplicated inconsistently.
 
 ## Next action
 Populate from the current-state audit and proposed architecture.
