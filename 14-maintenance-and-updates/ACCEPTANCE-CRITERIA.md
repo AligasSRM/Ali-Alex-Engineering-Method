@@ -2,16 +2,16 @@
 
 **Status:** RED — criteria drafted; project-specific maintenance plan pending.
 
-- [ ] Maintenance ownership and review cadence are defined.
+- [ ] Maintenance tasks, component IDs, owner/backup owner, cadence rationale, last-run evidence, and next review trigger are recorded.
 - [ ] Production-critical services have documented health signals, actionable alerts, response ownership, privacy-safe telemetry, and incident/recovery procedures appropriate to risk.
 - [ ] A representative monitoring/incident exercise validates detection, escalation, containment, recovery, and evidence capture.
-- [ ] Runtime lifecycle information is verified against official sources.
+- [ ] Runtime lifecycle information records official source URL, checked date, exact version, EOL/support status, affected consumers, and upgrade trigger.
 - [ ] Dependency updates have risk-based review, testing, and rollback requirements.
-- [ ] Migration plans include preflight, recovery, go/no-go, and post-change verification.
-- [ ] Technical debt is recorded with impact, owner, and priority rationale.
+- [ ] Update and migration records identify baseline/target versions, exact test evidence, explicit GO/NO-GO criteria, rollback or forward recovery, and approval.
+- [ ] Technical debt has stable IDs, linked risks/requirements, accountable owner, priority rationale, and time-bounded risk acceptance where applicable.
 - [ ] Maintenance decisions link to evidence and status records.
 - [ ] Dependencies and support assumptions are cross-checked with Section 13.
-- [ ] A real maintenance or update scenario is reviewed end to end.
+- [ ] Monitoring and alert records have owner, threshold rationale, data classification, runbook, and observed exercise evidence.\n- [ ] A real maintenance or update scenario is reviewed end to end.
 
 ## GREEN gate
 A real project has an actionable maintenance plan, verified lifecycle facts, and a traceable update/migration process.
