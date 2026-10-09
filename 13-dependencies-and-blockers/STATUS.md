@@ -6,7 +6,9 @@
 - [x] README and planned file list inspected.
 - [x] Dependency register drafted.
 - [x] Initial typed cross-section dependency map expanded to 34 stable edge IDs; classifications remain proposed and unapproved.
-- [x] Governance precedence matrix drafted with 12 cross-section scenario cases; owner approval and scenario execution remain pending.
+- [x] Governance precedence matrix drafted with 12 cross-section scenario cases.
+- [x] Provisional deterministic tabletop decision-model check: 12/12 expected decisions matched; this is not independent policy validation or live workflow execution.
+- [ ] Owner approval and representative workflow execution remain pending.
 - [x] Blocker register drafted.
 - [x] External service inventory drafted.
 - [x] Risk escalation rules drafted.
