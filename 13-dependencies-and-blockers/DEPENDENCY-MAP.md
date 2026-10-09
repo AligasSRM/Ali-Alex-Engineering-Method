@@ -48,7 +48,7 @@ A reference to a later-numbered section is not automatically a sequencing error.
 - Confirm the exact minimum approved Section 18 baseline needed before Section 01 work.
 - Validate the Section 15 project-history vs Section 18 methodology-versioning boundary.
 - Define one Section 12 reopening path and one precedence rule across Sections 05, 11, 12, and 17.
-- Decide whether operational observability (logs, metrics, alerts, service objectives, incident escalation/runbooks) is adequately owned by Sections 06, 14, and 17 or needs a distinct section. Do not add a new numbered section until this gap is checked against the full document set.
+- Current structural decision: operational observability and incident operations are assigned to `14-maintenance-and-updates/OBSERVABILITY-AND-INCIDENT-OPERATIONS.md`, with release gates retained in Section 17, root-cause diagnosis in Section 06, and security/privacy controls in Section 11. No separate Section 19 is justified by this gap at present; revisit only if real-project validation exposes an ownership gap that cannot be assigned cleanly.
 - Reconcile this proposed map with every section README, dependency declaration, acceptance criterion, and status record.
 
 ## Acceptance
