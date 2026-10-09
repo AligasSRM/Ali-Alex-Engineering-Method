@@ -8,6 +8,9 @@
 - Applicable legal or contractual requirements: TBD.
 - Supported assistive technologies and platforms: TBD.
 
+## Target selection and claim boundary
+Record the exact standard edition and conformance level, authoritative URL, date checked, product/page scope, exclusions with rationale, applicable jurisdiction/contractual duties, supported browsers/platforms, assistive technology and versions, and approval owner. A target is a project decision, not a claim of conformance. Record known limitations and affected journeys explicitly.
+
 ## Verification plan
 | Area | Expected behavior / criterion | Test method | Evidence | Status |
 |---|---|---|---|---|
@@ -18,6 +21,9 @@
 | Forms and error messages | TBD | Keyboard/screen-reader review | TBD | Not checked |
 | Zoom, reflow, and responsive layouts | TBD | Browser/device tests | TBD | Not checked |
 | Motion and media alternatives | TBD | Manual review | TBD | Not checked |
+
+## Finding and exception record
+For each finding, capture criterion/standard reference, affected page and user journey, reproducible steps, assistive technology/browser versions where applicable, severity/user impact, evidence, owner, remediation target, retest result, and any approved residual limitation. A waiver must not be represented as conformance.
 
 ## Guardrails
 Automated tools are useful but do not prove accessibility on their own. Test representative user journeys manually and with relevant assistive technologies. Record known limitations and remediation owners.
