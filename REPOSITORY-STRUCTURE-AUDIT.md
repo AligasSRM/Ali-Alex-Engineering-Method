@@ -54,11 +54,11 @@ The methodology says to implement section by section from 01 onward, but some se
 **Required resolution:** validate every typed edge, resolve the blocking graph, and approve the implementation sequence before starting Section 01.
 
 ### F-03 — Potential dependency cycle around Sections 15–18
-**Severity:** High · **State:** Open
+**Severity:** High · **State:** Addressed structurally; cross-section validation pending
 
 Section 15 acceptance criteria reference Section 18; Section 16 acceptance criteria reference Section 18; Section 17 acceptance criteria also reference Section 18. Section 18, in turn, depends on continuity, collaboration, and release governance. These edges form a cycle if all “dependencies” mean blocking prerequisites.
 
-**Required resolution:** decide which Section 18 controls are baseline governance prerequisites and which are later method-evolution enhancements. Avoid treating mutually dependent sections as sequential blockers. Record the decision in the dependency map.
+**Resolution recorded:** The dependency map now distinguishes the approved working-agreement baseline from downstream lessons/method evolution, and classifies Sections 15–17 as downstream inputs to Section 18 rather than mutual blocking prerequisites. **Still required:** validate all typed edges against every source/consumer document and confirm the blocking graph is acyclic.
 
 ### F-04 — Two similarly named status registers
 **Severity:** Medium · **State:** Resolved at the documentation-policy level
@@ -66,18 +66,18 @@ Section 15 acceptance criteria reference Section 18; Section 16 acceptance crite
 The root `SECTION-STATUS-REGISTER.md` is the current compact 18-section status snapshot. Section 12's `SECTION-STATUS-REGISTER.md` is now explicitly the schema/policy template, not a competing live status table. The actual 18-record reconciliation remains a final audit task.
 
 ### F-05 — Changelog ownership overlap
-**Severity:** Medium · **State:** Open
+**Severity:** Medium · **State:** Addressed structurally; validation pending
 
 Section 15 `CHANGELOG-AND-HISTORY.md` covers repository/project change history, while Section 18 `VERSIONING-AND-CHANGELOG.md` covers methodology versions. Their boundaries should be explicit.
 
-**Required resolution:** Section 15 owns project/repository change history; Section 18 owns versioned changes to the methodology/agreement. Cross-link rather than duplicate entries.
+**Resolution recorded:** Section 15 explicitly owns project/repository history and Section 18 owns methodology/agreement versioning; both policies require cross-links rather than duplicate entries. **Still required:** confirm the boundary is respected in the full repository and release workflow.
 
 ### F-06 — Status transition wording overlaps
-**Severity:** Medium · **State:** Open
+**Severity:** Medium · **State:** Addressed structurally; scenario validation pending
 
 Section 12 defines GREEN/LOCKED reopening to RED or YELLOW and separately defines LOCKED → YELLOW after explicit reopening. These can be reconciled, but the allowed path is not sufficiently singular.
 
-**Required resolution:** define one reopening workflow: record trigger/evidence, impact review, required approval, reopen to YELLOW for planned repair or RED when prior acceptance is invalidated, then re-test before GREEN/LOCKED.
+**Resolution recorded:** Section 12 now defines LOCKED → YELLOW for authorized bounded repair when unaffected acceptance remains valid, LOCKED → RED when prior acceptance is invalid, and ORANGE when blocked. **Still required:** exercise representative transitions and reconcile all 18 live status records with evidence.
 
 ### F-07 — Approval, role, and release gates need one integrated precedence rule
 **Severity:** High · **State:** Open
