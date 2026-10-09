@@ -12,6 +12,16 @@
 | Code review | TBD | TBD | Required review evidence | Documented approval |
 | Observability and diagnostics | TBD | TBD | Logs / metrics / health checks as applicable | Documented approval |
 
+## Classification and evidence requirements
+Classify every entry as **mandatory**, **conditional**, or **recommended**. For conditional rules, record the triggering condition and how non-applicability is approved. For each selected standard, record its authoritative source URL, version/date, checked date, scope, accountable owner, enforcement point, evidence location, and review trigger. Do not label a recommendation as a hard gate without an approved decision.
+
+## Exception / waiver record
+- Rule ID and affected paths/components: TBD
+- Business/technical rationale and alternatives considered: TBD
+- Risk and compensating controls: TBD
+- Approver and approval evidence: TBD
+- Expiry or review date and closure condition: TBD
+
 ## Change principles
 - Keep changes focused, reviewable, and traceable to requirements.
 - Preserve existing behavior unless the change explicitly authorizes otherwise.
