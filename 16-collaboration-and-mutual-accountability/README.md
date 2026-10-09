@@ -3,18 +3,18 @@
 **Status:** 🔴 RED — structure only; substantive work pending.
 
 ## Purpose
-Define responsibilities, communication expectations, approval boundaries, and project separation.
+Define responsibilities, communication expectations, review, and evidence-based disagreement handling while preserving approval boundaries.
 
-## Planned documents
-- RESPONSIBILITY-MATRIX.md — who defines, executes, reviews, and approves.
+## Documents present
+- ROLES-AND-RESPONSIBILITIES.md — role purpose, authority, limits, and assignments.
+- REVIEW-PROTOCOL.md — review process and finding disposition.
 - COMMUNICATION-RULES.md — reporting and escalation expectations.
-- MUTUAL-STOP-RULE.md — when either party should pause work.
-- PROJECT-SEPARATION.md — repository, secrets, environment, and scope isolation.
-- DISAGREEMENT-AND-CHANGE.md — evidence-based resolution and decision recording.
+- CONFLICT-AND-DISAGREEMENT.md — evidence-based conflict resolution.
 - ACCEPTANCE-CRITERIA.md — evidence required to complete this section.
 - STATUS.md — current state and next action.
 
 ## Dependencies
-Coordinates Sections 05, 09, 12, and 15.
+Coordinates Sections 05, 09–13, 15, 17, and 18.
+
 ## Guardrail
 Material decisions remain subject to the agreed approval rules; do not mix projects or credentials.
