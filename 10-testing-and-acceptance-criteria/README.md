@@ -17,5 +17,8 @@ Define layered testing and objective evidence for completion and release.
 
 ## Dependencies
 Uses scope and requirements from Sections 01–02 and standards from Section 03.
+## Traceability and run identity
+Use stable requirement, risk, test-case, and test-run IDs. Link each material requirement/risk to expected behavior, test layer, environment, actual run evidence, known gaps, and acceptance decision. Record the exact commit SHA; if code or configuration changes afterward, mark prior evidence stale for the affected scope and rerun required checks.
+
 ## Guardrail
-Mocks, type checks, and staging checks must not be represented as proof of live production integration.
+Mocks, type checks, and staging checks must not be represented as proof of live production integration. A passing aggregate suite does not override a failing critical test or unexplained coverage gap.
