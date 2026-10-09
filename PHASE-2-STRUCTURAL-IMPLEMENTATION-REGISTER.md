@@ -221,13 +221,13 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `15-documentation-and-continuity/HANDOFF-TEMPLATE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 15 review; link/table scan and structural evidence only |
 | `15-documentation-and-continuity/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 15 review; link/table scan and structural evidence only |
 | `15-documentation-and-continuity/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 15 review; link/table scan and structural evidence only |
-| `16-collaboration-and-mutual-accountability/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `16-collaboration-and-mutual-accountability/COMMUNICATION-RULES.md` | Pending full file review | TBD | TBD |
-| `16-collaboration-and-mutual-accountability/CONFLICT-AND-DISAGREEMENT.md` | Pending full file review | TBD | TBD |
-| `16-collaboration-and-mutual-accountability/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `16-collaboration-and-mutual-accountability/REVIEW-PROTOCOL.md` | Pending full file review | TBD | TBD |
-| `16-collaboration-and-mutual-accountability/ROLES-AND-RESPONSIBILITIES.md` | Pending full file review | TBD | TBD |
-| `16-collaboration-and-mutual-accountability/STATUS.md` | Pending full file review | TBD | TBD |
+| `16-collaboration-and-mutual-accountability/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 16 review; link/table scan and structural evidence only |
+| `16-collaboration-and-mutual-accountability/COMMUNICATION-RULES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 16 review; link/table scan and structural evidence only |
+| `16-collaboration-and-mutual-accountability/CONFLICT-AND-DISAGREEMENT.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 16 review; link/table scan and structural evidence only |
+| `16-collaboration-and-mutual-accountability/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 16 review; link/table scan and structural evidence only |
+| `16-collaboration-and-mutual-accountability/REVIEW-PROTOCOL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 16 review; link/table scan and structural evidence only |
+| `16-collaboration-and-mutual-accountability/ROLES-AND-RESPONSIBILITIES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 16 review; link/table scan and structural evidence only |
+| `16-collaboration-and-mutual-accountability/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 16 review; link/table scan and structural evidence only |
 | `17-final-review-and-release/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `17-final-review-and-release/CUSTOMER-SUPPORT-AND-AI-ASSISTANCE-READINESS.md` | Targeted review performed; full file review pending | TBD | TBD |
 | `17-final-review-and-release/FINAL-REVIEW-PROTOCOL.md` | Pending full file review | TBD | TBD |
