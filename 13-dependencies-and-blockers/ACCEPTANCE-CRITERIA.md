@@ -5,6 +5,7 @@
 - [ ] Internal and external dependencies have stable IDs, owners, versions/capabilities, criticality, source/check date, failure behavior, and recovery owner.
 - [ ] The cross-section dependency map classifies each edge as blocking, coordination/reference, downstream consumer, or cross-cutting control.
 - [ ] Every cross-section edge has a stable ID, typed relationship, exact output/gate, owner, validation evidence, and status; blocking edges have clearing evidence and no unresolved blocking cycle.
+- [ ] The governance precedence matrix is owner-approved and each applicable scenario is executed, with expected/actual outcomes and evidence recorded.
 - [ ] Dependency failure impacts and safe fallbacks are explicit.
 - [ ] Active blockers have lifecycle state, evidence IDs, impact, owner, next action, escalation route, and verification-based closure.
 - [ ] Escalation thresholds align with approvals and incident handling.
@@ -12,6 +13,7 @@
 - [ ] Cost, privacy, availability, and environment assumptions are verified or marked unknown.
 - [ ] Secrets are referenced safely and never stored in dependency records.
 - [ ] Dependency, blocker, and deferral registers are reconciled with project status and release readiness; mandatory gates are never cleared by deferral.
+- [ ] Source/consumer README dependencies and acceptance criteria reconcile with the cross-section map; each apparent reverse edge is explicitly classified as non-blocking, a baseline-only prerequisite, or a downstream consumer.
 
 ## GREEN gate
 A real project has a reviewed dependency map and actionable blocker/deferral records with no hidden critical dependency.
