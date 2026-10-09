@@ -92,19 +92,19 @@ This inventory was generated from the complete recursive working-branch tree at 
 
 | File | Review state | Structural disposition | Evidence / finding ID |
 |---|---|---|---|
-| `01-identity-and-purpose/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/ACCOUNT-IDENTITY-AND-ACCESS-SCOPE.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/ASSUMPTIONS-AND-RISKS.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/CORE-PRINCIPLES.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/DECISIONS.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/MISSION.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/PRODUCT-BOUNDARIES.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `01-identity-and-purpose/STATUS.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/SUCCESS-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/TARGET-USERS.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/VALUE-PROPOSITION.md` | Pending full file review | TBD | TBD |
-| `01-identity-and-purpose/VISION.md` | Pending full file review | TBD | TBD |
+| `01-identity-and-purpose/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/ACCOUNT-IDENTITY-AND-ACCESS-SCOPE.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/ASSUMPTIONS-AND-RISKS.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/CORE-PRINCIPLES.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/DECISIONS.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/MISSION.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/PRODUCT-BOUNDARIES.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/README.md` | Purpose and inventory reviewed; targeted cross-document review completed; acceptance pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/STATUS.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/SUCCESS-CRITERIA.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/TARGET-USERS.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/VALUE-PROPOSITION.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
+| `01-identity-and-purpose/VISION.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit where applicable | Section 01 review; acceptance evidence pending |
 | `02-planning-before-implementation/ACCEPTANCE-CRITERIA.md` | Targeted review performed; full file review pending | TBD | TBD |
 | `02-planning-before-implementation/ARCHITECTURE-OVERVIEW.md` | Pending full file review | TBD | TBD |
 | `02-planning-before-implementation/CURRENT-STATE-AUDIT.md` | Pending full file review | TBD | TBD |
