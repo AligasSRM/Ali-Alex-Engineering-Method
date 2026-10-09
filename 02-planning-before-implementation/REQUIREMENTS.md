@@ -3,11 +3,11 @@
 **Status:** 🔴 RED — requirements template only; no project requirements are approved yet.
 
 ## Requirement register
-Use one uniquely identified requirement per row. Requirements must be testable and traceable to a user need or business outcome.
+Use one uniquely identified requirement per row. Requirements must be testable and traceable to a user need or business outcome. This file is the readable requirement catalogue; the canonical end-to-end linkage and evidence fields live in `REQUIREMENT-TRACEABILITY-MATRIX.md`. Do not maintain competing lifecycle/evidence states in separate tables.
 
-| ID | Type (functional / non-functional) | Requirement | Rationale / source | Priority | Verification method | Status |
+| ID | Type (functional / non-functional) | Requirement | Rationale / source | Priority | Owner | Verification method / test ID | Lifecycle state |
 |---|---|---|---|---|---|---|
-| REQ-001 | TBD | TBD — obtain from discovery | TBD | TBD | TBD | Draft |
+| REQ-001 | TBD | TBD — obtain from discovery | TBD | TBD | TBD | TBD | Draft |
 
 ## Discovery topics that must not be silently omitted
 - Account and identity scope: registration/sign-up, sign-in, sign-out, account identifier, display name versus unique username, profile visibility, verification, recovery, sessions, account closure/deletion, and any roles/team membership if relevant.
@@ -33,7 +33,8 @@ Only include dimensions relevant to the project, with measurable thresholds wher
 Record requirement changes with date, rationale, impact, approver, and affected acceptance tests. Do not silently change scope.
 
 ## Acceptance criteria
-- [ ] Each approved requirement has a unique ID and clear wording.
+- [ ] Each approved requirement has a stable ID, clear testable wording, owner, and authorized approval evidence.
+- [ ] Requirement lifecycle and traceability evidence are maintained in the canonical matrix, with no contradictory duplicate status.
 - [ ] Each requirement has a source/rationale and verification method.
 - [ ] Priorities and exclusions are explicit.
 - [ ] Account/identity capabilities have an explicit disposition and traceable decisions.
