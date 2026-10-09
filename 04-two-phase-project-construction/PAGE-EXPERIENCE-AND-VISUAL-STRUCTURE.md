@@ -22,6 +22,13 @@ Use this blueprint whenever the work creates or materially changes a user-facing
 
 ## Page blueprint
 
+**Blueprint ID:** PAGE-TBD  
+**Requirement IDs:** TBD  
+**Lifecycle state:** PROPOSED / APPROVED / SUPERSEDED  
+**Repository / branch / commit inspected:** TBD  
+**Owner / approver / review date:** TBD  
+**Evidence and revision history:** TBD
+
 ### 1. Page identity and purpose
 - Page/screen name and route:
 - Primary user and user goal:
@@ -51,9 +58,9 @@ For each visible element, record its location, purpose, draft/final copy, source
 Do not invent claims, testimonials, prices, legal statements, or product capabilities. Mark unknown content as OPEN rather than silently filling it in.
 
 ### 4. Component and behavior map
-| Element / region | Purpose | Behavior / interaction | Data or dependency | Responsive behavior | Verification |
+| Element / region ID | Element / region | Purpose | Behavior / interaction | Data or dependency / failure behavior | Responsive behavior | Verification / evidence |
 |---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | TBD |
+| UI-001 | TBD | TBD | TBD | TBD | TBD | TBD |
 
 Identify clickable/tappable areas, keyboard behavior, focus order, form validation, navigation destinations, and visible feedback. Every displayed control must have a defined behavior or be explicitly marked non-interactive.
 
@@ -77,6 +84,9 @@ Specify applicable states and expected visible behavior for:
 - Privacy-sensitive content, consent, and destructive actions.
 
 ### 7. Acceptance and approval
+
+Record each criterion with an outcome (PASS / FAIL / BLOCKED / NOT APPLICABLE), evidence link, reviewer, and date. Missing evidence is BLOCKED; NOT APPLICABLE requires rationale and approval.
+
 - [ ] The page purpose and target user are traceable to approved requirements.
 - [ ] Page regions and visual hierarchy are documented.
 - [ ] Required copy and unresolved content are recorded.
