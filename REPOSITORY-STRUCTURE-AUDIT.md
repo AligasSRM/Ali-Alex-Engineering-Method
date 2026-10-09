@@ -383,3 +383,9 @@ The Section 13 status file used inconsistent edge totals (35 in one line and 33 
 **Severity:** Medium · **State:** Provisional tabletop model check recorded; representative validation open
 
 A deterministic table-driven decision model was executed for the 12 drafted governance scenarios: 12 expected decisions matched, 0 mismatches. Results are recorded in `13-dependencies-and-blockers/GOVERNANCE-SCENARIO-TEST-RESULTS.md`. The record explicitly limits this evidence to a simulated decision-model consistency check; it is not independent policy validation, owner approval, or live workflow evidence. The scenario matrix remains pending owner approval and representative workflow execution; Section 13 remains RED.
+
+
+### F-10 — First-pass blocking-graph screen
+**Severity:** High · **State:** Initial screen has no explicit section-level blocking cycle; complete reconciliation pending
+
+The current map contains 34 consecutive IDs (EDGE-001–EDGE-034). A bounded graph screen found the explicit section-level blocking sequence 01 → 02 → 03 → 04 and no cycle in that sequence. EDGE-007 is a gate/evidence dependency rather than a whole-section edge; EDGE-014 is limited to the approved Section 18 baseline; EDGE-017 blocks substantive implementation, not structural review. Conditional blocking language remains in EDGE-009, EDGE-010, and EDGE-022, and the full mapping against every declared README/acceptance-criteria relationship has not yet been completed. Therefore this is not a final cycle-free certification and does not clear the compatibility gate.
