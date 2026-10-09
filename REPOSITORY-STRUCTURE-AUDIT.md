@@ -192,3 +192,22 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 - Compared all 18 section README inventories against the actual section paths. Every listed filename exists, and every non-common section file is listed. This validates filename inventory consistency only; it does not validate all internal relative links or every file's content.
 - Added a file-by-file review row for each of the 153 section files in the Phase 2 register. All non-README files remain pending full review unless explicitly marked as targeted review; README purpose/inventory review does not count as full section acceptance.
 - Added the Section 02 requirement traceability matrix as a reusable structural artifact. It remains RED until populated and validated for a real project.
+
+### Phase 2 — Section 01 and Section 02 targeted structural review
+
+**Section 01 — Identity and Core Purpose**
+- Reviewed all 13 tracked Markdown files in the section.
+- Added structured draft canvases for vision and mission, an operationalization matrix for candidate principles, explicit in-scope/deferred scope tables, measurable success-metric fields, and assumption/risk ownership and review fields.
+- Strengthened decision records with stable IDs, lifecycle state, approval evidence, requirement links, affected files/dependencies/tests, and revisit triggers.
+- Linked approved scope/identity decisions to the canonical Section 02 traceability matrix and added cross-document consistency acceptance checks.
+- Updated Section 01 status to record the structural review while keeping it RED.
+- Relative Markdown links checked in all 13 Section 01 files: no missing local targets detected in this scan.
+
+**Section 02 — Planning Before Implementation**
+- Reviewed all 10 tracked Markdown files for structural actionability and ownership.
+- Strengthened discovery review and decision states; added repository/branch/commit baseline fields and evidence-environment distinctions to the current-state audit.
+- Aligned the requirement catalogue with the canonical traceability matrix, clarified the local-vs-global dependency ownership boundary with Section 13, added architecture decision/flow fields, and connected delivery increments to requirement IDs, tests, evidence, and rollback/recovery.
+- Updated Section 02 status to record targeted structural review; project-specific application remains pending.
+- Relative Markdown links checked across all 10 Section 02 files: no missing local targets detected in this scan. Markdown table column counts checked: no mismatches detected in these files.
+
+**Limitations:** These were targeted structural reviews, not project-specific substantive acceptance. Sections 01 and 02 remain RED until owner decisions, complete cross-method validation, and applicable evidence are recorded.
