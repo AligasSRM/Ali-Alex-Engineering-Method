@@ -270,3 +270,12 @@ These changes are on `docs/page-experience-blueprint` and are proposed for revie
 **Structural changes:** Added stable checkpoint/handoff/stop IDs, repository/branch/commit and working-tree state, environment/tool versions, exact command evidence, timestamp/time zone, approval scope/expiry, stale-checkpoint triggers, mismatch handling, handoff authorization boundaries, and explicit re-entry conditions.
 
 **Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 7 reviewed files; Markdown table-column scan found 0 mismatched rows. No real pause/resume or handoff exercise was performed. Section 08 remains RED.
+
+
+### Pass 3 — Section 09 targeted structural review (2026-10-09)
+
+**Scope:** Reviewed all 8 tracked Markdown files in `09-research-evidence-and-communication/`.
+
+**Structural changes:** Added stable claim/evidence/research/report IDs, source provenance and publisher, capture/check timestamps and time zones, version/commit/environment scope, confidence and limitations, contradiction retention, bounded-search stop records, and explicit report outcomes. Time-sensitive claims now have a review/expiry trigger; reports must state what was and was not checked.
+
+**Structural scan result:** Relative Markdown-link scan found 0 missing local targets across the 8 reviewed files; Markdown table-column scan found 0 mismatched rows. No real research/reporting walkthrough was performed. Section 09 remains RED.
