@@ -19,5 +19,8 @@ Uses project scope and risk context from Sections 01–02.
 ## Authority and audit model
 An approval is valid only when it identifies the exact action or bounded action set, target/environment, material consequences, approver, time/conditions, and durable evidence. Record an approval ID and link it from the change/task record. Re-check authorization if scope, target, recipient, cost, environment, or risk materially changes. A job title, role assignment, prior approval, or technical capability is not itself authorization.
 
+## Cross-section precedence
+Use `13-dependencies-and-blockers/GOVERNANCE-PRECEDENCE-AND-SCENARIOS.md` as the shared proposed test oracle when approval conflicts with security, status, blocker, role, or release requirements. It does not grant approval; this section's approved action-specific authorization remains required.
+
 ## Guardrail
 Never infer consent for material scope changes, costs, external communications, secret exposure, or destructive actions. Mandatory law, security/privacy controls, and fail-closed gates take precedence over a general approval.
