@@ -4,10 +4,12 @@
 **Status:** 🔴 RED — structure created; substantive work not complete.
 
 ## Current state
-- Folder and document structure: created.
-- Vision, mission, users, value proposition, and scope: pending substantive review.
+- Folder and document inventory: checked against the current recursive tree.
+- Structural review of all 13 Section 01 Markdown files: performed; targeted templates and traceability links improved.
+- Vision, mission, users, value proposition, product scope, and measurable outcomes: still require project-specific discovery and approval.
 - Acceptance criteria: recorded; not yet passed.
-- Verification evidence: pending.
+- Relative Markdown links in Section 01: checked; no missing local targets detected in this scan.
+- Verification evidence for substantive acceptance: pending.
 
 ## Blockers and risks
 - Product identity and primary user segment are not yet approved.
@@ -15,4 +17,4 @@
 - Repository is public; confidential information and secrets must not be committed.
 
 ## Next action
-Review Section 01 from the beginning, validate the concept and user problem, complete each document, then test every acceptance criterion before assigning GREEN.
+Run the substantive discovery review with the actual project owner: define the user problem and primary users, draft and approve vision/mission, decide product boundaries and account/identity scope, then trace approved requirements through the Section 02 matrix. Validate success metrics and material assumptions before running every acceptance criterion. Do not assign GREEN until evidence and approvals are recorded.
