@@ -15,6 +15,16 @@ Escalate when:
 - two materially different diagnostic attempts fail and the next attempt requires a broader strategy;
 - the same issue begins repeating without new evidence.
 
+## Escalation record
+- Escalation ID and severity/urgency: TBD using the project's approved severity scheme.
+- Trigger, affected action/system, environment, and accountable owner: TBD.
+- Facts/evidence, hypotheses, unknowns, and last known-good state: TBD.
+- Immediate containment/stop decision and risk of inaction: TBD.
+- Decision required, approver, response expectation, and next review trigger: TBD.
+- Resolution, verification evidence, and linked blocker/incident/change IDs: TBD.
+
+Do not invent response-time promises. Set severity definitions and response expectations for the real project, including an owner and an escalation route if the expected response window is missed.
+
 ## Procedure
 1. Stop only the affected unsafe or uncertain action; preserve unrelated safe progress.
 2. Capture observable evidence, exact failure, affected component, and last known-good state.
