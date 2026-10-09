@@ -1,24 +1,27 @@
 # ALI & ALEX — Engineering Method
 
-A continuously evolving engineering methodology for planning, building, testing, and improving real-world projects.
+A continuously evolving, evidence-driven engineering methodology for planning, building, testing, releasing, and improving real-world projects.
 
 ## Purpose
-Document a repeatable, evidence-driven method for turning ideas into reliable, maintainable, and testable products.
+Create a repeatable method for turning ideas into reliable, maintainable, secure, and testable products without confusing structure with verified completion.
 
 ## Working model
-1. **Structure first:** define all sections, responsibilities, dependencies, and acceptance criteria.
-2. **Implement section by section:** return to Section 01, complete its substance, validate it, and mark it GREEN only when evidence supports that status.
-3. **Lock verified work:** mark a section LOCKED only after its acceptance criteria pass; reopen it only for a documented reason.
+1. **Structure first:** define all sections, planned documents, responsibilities, dependencies, and acceptance criteria.
+2. **Cross-section audit:** compare sections for missing dependencies, contradictions, duplication, outdated references, and inconsistent acceptance/status rules.
+3. **Implement section by section:** return to Section 01, complete its substance, validate it, and mark it GREEN only when evidence supports that status.
+4. **Lock verified work:** mark a section LOCKED only after its acceptance criteria pass and final review is recorded; reopen only for a documented, evidence-backed reason.
 
 ## Section status
 - 🔴 RED — not started or not yet verified
-- 🟡 YELLOW — structure or active work in progress
-- 🟠 ORANGE — integration or validation in progress
-- 🟢 GREEN — acceptance criteria verified with evidence
-- 🔒 LOCKED — verified and closed, subject to the reopening rules
+- 🟡 YELLOW — active work in progress
+- 🟠 ORANGE — paused, blocked, or awaiting a decision/dependency
+- 🟢 GREEN — applicable acceptance criteria verified with evidence
+- 🔒 LOCKED — GREEN has passed final review and required regression checks; justified reopening remains possible
+
+A status label never substitutes for inspectable evidence.
 
 ## Current state
-Section 01 structure is being established. No section is GREEN or LOCKED at this stage.
+The initial document structures for all 18 sections have been created. The repository-wide structure and consistency audit is now the next gate. All sections remain RED: structure creation is not substantive validation, implementation, or proof that the method works in a real project.
 
 ## Sections
 1. Identity and Core Purpose
