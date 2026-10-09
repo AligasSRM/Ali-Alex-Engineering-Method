@@ -19,5 +19,8 @@ Ensure release readiness is demonstrated through functional, security, operation
 ## Dependencies
 Requires applicable evidence from Sections 01–16 and governance/evolution controls from Section 18.
 
+## Release evidence model
+Use stable release, finding, recovery, support-channel, and readiness-check IDs. Bind each decision to the exact source commit and artifact, target environment, test/evidence IDs, accountable approver, unresolved risks, and post-release observation window. Approval, deployment, and verified outcome are separate events.
+
 ## Guardrail
-A successful build or deployment alone does not prove production readiness.
+A successful build or deployment alone does not prove production readiness. A conditional GO must have explicit conditions, owners, expiry/review point, and must never bypass mandatory controls.
