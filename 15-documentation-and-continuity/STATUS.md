@@ -3,7 +3,7 @@
 **Current state:** RED
 
 ## Structure
-- [x] README and planned file list inspected.
+- [x] README reconciled with actual files.
 - [x] Documentation standards drafted.
 - [x] Decision log format drafted.
 - [x] Handoff template drafted.
@@ -20,4 +20,4 @@
 The documents are initial templates; repository-wide audit and practical continuity test remain outstanding.
 
 ## Next action
-Continue with Section 16, then validate cross-section consistency.
+Complete the cross-section consistency audit before returning to Section 01 for substantive implementation.
