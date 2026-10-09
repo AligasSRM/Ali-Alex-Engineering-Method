@@ -3,7 +3,7 @@
 **Current state:** RED
 
 ## Structure
-- [x] README and planned file list inspected.
+- [x] README reconciled with actual files.
 - [x] Release readiness checklist drafted.
 - [x] Final review protocol drafted.
 - [x] Rollback/recovery framework drafted.
@@ -22,4 +22,4 @@
 No real release or end-to-end release simulation has been validated.
 
 ## Next action
-Create Section 18, then perform the full cross-section audit before substantive implementation.
+Complete the cross-section consistency audit before returning to Section 01 for substantive implementation.
