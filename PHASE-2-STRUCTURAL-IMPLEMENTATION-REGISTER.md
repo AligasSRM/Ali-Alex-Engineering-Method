@@ -139,14 +139,14 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `05-autonomous-execution-and-approvals/HIGH-IMPACT-ACTIONS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
 | `05-autonomous-execution-and-approvals/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
 | `05-autonomous-execution-and-approvals/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 05 review; link/table scan and structural evidence only |
-| `06-root-cause-problem-solving/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `06-root-cause-problem-solving/DIAGNOSTIC-PROTOCOL.md` | Pending full file review | TBD | TBD |
-| `06-root-cause-problem-solving/INCIDENT-INTAKE.md` | Pending full file review | TBD | TBD |
-| `06-root-cause-problem-solving/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `06-root-cause-problem-solving/RESEARCH-PROTOCOL.md` | Pending full file review | TBD | TBD |
-| `06-root-cause-problem-solving/ROOT-CAUSE-REPORT.md` | Pending full file review | TBD | TBD |
-| `06-root-cause-problem-solving/STATUS.md` | Pending full file review | TBD | TBD |
-| `06-root-cause-problem-solving/THREE-ATTEMPT-RULE.md` | Pending full file review | TBD | TBD |
+| `06-root-cause-problem-solving/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
+| `06-root-cause-problem-solving/DIAGNOSTIC-PROTOCOL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
+| `06-root-cause-problem-solving/INCIDENT-INTAKE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
+| `06-root-cause-problem-solving/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
+| `06-root-cause-problem-solving/RESEARCH-PROTOCOL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
+| `06-root-cause-problem-solving/ROOT-CAUSE-REPORT.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
+| `06-root-cause-problem-solving/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
+| `06-root-cause-problem-solving/THREE-ATTEMPT-RULE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 06 review; link/table scan and structural evidence only |
 | `07-preventing-unconsidered-patching/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `07-preventing-unconsidered-patching/DESIGN-REPAIR-OPTIONS.md` | Pending full file review | TBD | TBD |
 | `07-preventing-unconsidered-patching/PATCH-REVIEW-CHECKLIST.md` | Pending full file review | TBD | TBD |
