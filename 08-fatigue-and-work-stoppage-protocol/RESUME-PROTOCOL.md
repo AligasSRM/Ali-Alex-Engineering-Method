@@ -15,6 +15,9 @@ Resume paused work from verified current state rather than relying on memory or 
 7. Make the change, inspect the diff, and run relevant tests.
 8. Update checkpoint, status, and evidence with the actual result.
 
+## Baseline mismatch handling
+If the live branch, commit, working tree, configuration, environment, approval state, or evidence differs from the checkpoint, stop planned modifications. Record the discrepancy, determine whether the checkpoint is stale, and re-establish a new known-good baseline before proceeding. Do not reset, overwrite, clean, or discard unrecognized work as a shortcut.
+
 ## Guardrails
 Do not assume prior plans were executed. Do not repeat already-passed work unless evidence suggests it is stale or a regression occurred. Re-confirm approval when material conditions have changed.
 
