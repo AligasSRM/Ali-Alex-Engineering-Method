@@ -34,15 +34,15 @@ A visible support address or AI chat widget is not proof that a message reaches 
 - [ ] Assign a human owner to maintain support content and review high-impact or repeatedly failing cases.
 
 ## C. Evidence and release gate
-| Check | Owner | Evidence / test record | Last checked | Status |
+| Check ID | Check / capability | Owner | Test/run ID and evidence | Last checked (timestamp/time zone) | Outcome / status |
 |---|---|---|---|---|
-| Support address/inbox receives messages | TBD | TBD | TBD | OPEN |
-| Replies and failure/bounce handling | TBD | TBD | TBD | OPEN |
-| Contact form or ticket flow, if used | TBD | TBD | TBD | OPEN |
-| Human escalation route | TBD | TBD | TBD | OPEN |
-| AI scope/privacy/security approval, if used | TBD | TBD | TBD | OPEN |
-| AI behavior and failure tests, if used | TBD | TBD | TBD | OPEN |
-| Support ownership and response expectations | TBD | TBD | TBD | OPEN |
+| SUP-001 | Support address/inbox receives messages | TBD | TBD | TBD | NOT CHECKED |
+| SUP-002 | Replies and failure/bounce handling | TBD | TBD | TBD | NOT CHECKED |
+| SUP-003 | Contact form or ticket flow, if used | TBD | TBD | TBD | NOT CHECKED |
+| SUP-004 | Human escalation route | TBD | TBD | TBD | NOT CHECKED |
+| AI-001 | AI scope/privacy/security approval, if used | TBD | TBD | TBD | NOT CHECKED |
+| AI-002 | AI behavior and failure tests, if used | TBD | TBD | TBD | NOT CHECKED |
+| SUP-005 | Support ownership and response expectations | TBD | TBD | TBD | NOT CHECKED |
 
 - [ ] Every enabled channel has an accountable owner and a real end-to-end test.
 - [ ] AI support remains disabled until scope, privacy/security review, test evidence, and escalation are approved.
@@ -62,6 +62,10 @@ A visible support address or AI chat widget is not proof that a message reaches 
 This checklist does not authorize an AI assistant, a ticketing service, or any specific provider. It does not claim that support channels currently work.
 
 ## Review record
+- Review ID / target deployment / environment:
+- Enabled channel IDs / test run IDs:
+- Data flow/provider evidence and checked date:
+
 - Product/domain: TBD
 - Enabled support channels: TBD
 - AI support approved: TBD
