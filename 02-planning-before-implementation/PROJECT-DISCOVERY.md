@@ -13,7 +13,10 @@ Define the problem and intended outcome before proposing implementation.
 - Constraints (time, budget, platform, access, policy): **TBD.**
 - Existing solutions and alternatives: **TBD.**
 - Evidence/source links: **TBD.**
-- Open questions and assumptions: **TBD.**
+- Open questions and assumptions (each with owner/validation action where material): **TBD.**
+- Out-of-scope users/use cases and explicit non-goals: **TBD.**
+- Decision state (`DRAFT`, `IN REVIEW`, `APPROVED`, `DEFERRED`): **DRAFT.**
+- Project owner, reviewer/approver, and review date: **TBD.**
 
 ## Required review
 Confirm the problem is specific, the intended users are named, constraints are explicit, and claims are separated from assumptions.
@@ -23,7 +26,10 @@ Confirm the problem is specific, the intended users are named, constraints are e
 - [ ] Users, constraints, and current context are documented.
 - [ ] Assumptions and unanswered questions are visible.
 - [ ] Evidence is linked where available.
-- [ ] Review outcome and reviewer are recorded.
+- [ ] Review outcome, reviewer/approver, and date are recorded.
+- [ ] The discovery record distinguishes observed facts, stakeholder claims, assumptions, hypotheses, and decisions.
+- [ ] Out-of-scope cases and unresolved decisions have an explicit disposition or next action.
+- [ ] Approved outcomes and constraints are reflected in the Section 02 requirement traceability matrix.
 
 ## Dependencies
 Section 01 identity, target users, value proposition, and product boundaries.
