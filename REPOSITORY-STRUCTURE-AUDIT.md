@@ -131,3 +131,13 @@ A detailed review of Section 06 incident intake/diagnostics, Section 11 threat m
 
 ## Decision
 **The sections are broadly compatible at the level of their stated purposes, but the methodology is not yet fully compatible/validated at the dependency and governance level.** Resolve the high-severity findings above before declaring the cross-section audit complete or starting substantive Section 01 implementation.
+
+### F-12 — Page experience and visual structure were not an explicit Phase 1 deliverable
+**Severity:** High · **State:** Addressed structurally; workflow validation pending
+
+The existing Phase 1 structural blueprint listed scope, modules, dependencies, risks, and acceptance evidence, but did not explicitly require a page-by-page visual and interaction blueprint. This left room to begin implementation without a reviewed layout hierarchy, content inventory, route/component map, UI states, responsive behavior, or verified repository/asset paths.
+
+**Resolution:** Added `04-two-phase-project-construction/PAGE-EXPERIENCE-AND-VISUAL-STRUCTURE.md` as the canonical template and updated Section 04 Phase 1, README, and acceptance criteria to require it for in-scope user-facing pages (or an approved not-applicable rationale). The template requires verified repository/branch/paths, page regions, copy, interactions, states, responsive/accessibility considerations, reference artifacts where needed, and explicit approval before detailed UI implementation.
+
+**Boundary:** This is a methodology template and structural correction, not evidence that a real page has been designed, approved, implemented, or tested. Section 04 remains RED. No new numbered section is created; no Section 19 is justified by this finding alone.
+
