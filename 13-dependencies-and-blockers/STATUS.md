@@ -5,7 +5,7 @@
 ## Structure
 - [x] README and planned file list inspected.
 - [x] Dependency register drafted.
-- [x] Initial typed cross-section dependency map expanded to 35 stable edge IDs; classifications remain proposed and unapproved.
+- [x] Initial typed cross-section dependency map expanded to 34 stable edge IDs; classifications remain proposed and unapproved.
 - [x] Governance precedence matrix drafted with 12 cross-section scenario cases; owner approval and scenario execution remain pending.
 - [x] Blocker register drafted.
 - [x] External service inventory drafted.
@@ -21,7 +21,7 @@
 ## Outstanding
 - [ ] Populate registers from actual project state.
 - [ ] Verify external-service assumptions from current official sources.
-- [ ] Validate all 33 map edges against every declared source/consumer dependency, acceptance criterion, and status record.
+- [ ] Validate all 34 map edges against every declared source/consumer dependency, acceptance criterion, and status record.
 - [ ] Resolve Section 15–18 cycle and changelog ownership.
 - [ ] Cross-check with approvals, security/privacy, status/locking, collaboration authority, maintenance, and release gates.
 - [ ] Obtain owner approval for the precedence model and execute the 12 applicable governance scenarios with evidence.
@@ -31,4 +31,4 @@
 Templates exist, but no project-specific dependency inventory or blocker audit has been validated.
 
 ## Next action
-Validate all 33 typed edges against every declared source/consumer document, execute the governance precedence scenarios in a safe representative environment, populate actual project dependencies/blockers, and record a reviewed reconciliation before considering GREEN.
+Validate all 34 typed edges against every declared source/consumer document, execute the governance precedence scenarios in a safe representative environment, populate actual project dependencies/blockers, and record a reviewed reconciliation before considering GREEN.
