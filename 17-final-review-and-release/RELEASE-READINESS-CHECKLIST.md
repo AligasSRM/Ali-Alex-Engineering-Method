@@ -16,6 +16,17 @@
 - [ ] Release notes and operator/user instructions are prepared.
 - [ ] No blocker contradicts the release decision.
 
+## Public website and domain email (when applicable)
+
+- [ ] Canonical production URL, DNS/HTTPS, and staging-versus-production indexing boundaries are verified.
+- [ ] Important public pages, metadata, canonical URLs, robots.txt, sitemap.xml, and internal links are checked.
+- [ ] Google Search Console ownership and sitemap/URL inspection outcomes are recorded; indexing/ranking are not guaranteed.
+- [ ] Official domain email ownership and routing are documented; real inbound and outbound messages are tested.
+- [ ] SPF, DKIM, and DMARC are configured and verified for the chosen provider.
+- [ ] Contact-form notifications, replies, and bounce handling are tested where applicable.
+- [ ] Public contact details and privacy notices are approved; owners and recovery paths are documented.
+- [ ] No DNS/search verification tokens, mailbox credentials, or recovery codes are committed to the repository.
+
 ## Decision
 Record **GO**, **NO-GO**, or **CONDITIONAL GO** with scope, evidence, decision authority, conditions, owner, and expiry/review point. Conditional approval must not bypass mandatory safety, legal, security, or approval controls.
 
