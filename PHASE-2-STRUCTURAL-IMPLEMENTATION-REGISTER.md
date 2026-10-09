@@ -214,13 +214,13 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `14-maintenance-and-updates/RUNTIME-LIFECYCLE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
 | `14-maintenance-and-updates/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
 | `14-maintenance-and-updates/TECHNICAL-DEBT-REGISTER.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 14 review; link/table scan and structural evidence only |
-| `15-documentation-and-continuity/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `15-documentation-and-continuity/CHANGELOG-AND-HISTORY.md` | Pending full file review | TBD | TBD |
-| `15-documentation-and-continuity/DECISION-LOG.md` | Pending full file review | TBD | TBD |
-| `15-documentation-and-continuity/DOCUMENTATION-STANDARDS.md` | Pending full file review | TBD | TBD |
-| `15-documentation-and-continuity/HANDOFF-TEMPLATE.md` | Pending full file review | TBD | TBD |
-| `15-documentation-and-continuity/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `15-documentation-and-continuity/STATUS.md` | Pending full file review | TBD | TBD |
+| `15-documentation-and-continuity/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 15 review; link/table scan and structural evidence only |
+| `15-documentation-and-continuity/CHANGELOG-AND-HISTORY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 15 review; link/table scan and structural evidence only |
+| `15-documentation-and-continuity/DECISION-LOG.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 15 review; link/table scan and structural evidence only |
+| `15-documentation-and-continuity/DOCUMENTATION-STANDARDS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 15 review; link/table scan and structural evidence only |
+| `15-documentation-and-continuity/HANDOFF-TEMPLATE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 15 review; link/table scan and structural evidence only |
+| `15-documentation-and-continuity/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 15 review; link/table scan and structural evidence only |
+| `15-documentation-and-continuity/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 15 review; link/table scan and structural evidence only |
 | `16-collaboration-and-mutual-accountability/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `16-collaboration-and-mutual-accountability/COMMUNICATION-RULES.md` | Pending full file review | TBD | TBD |
 | `16-collaboration-and-mutual-accountability/CONFLICT-AND-DISAGREEMENT.md` | Pending full file review | TBD | TBD |
