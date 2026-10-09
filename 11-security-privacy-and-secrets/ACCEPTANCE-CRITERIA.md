@@ -10,7 +10,10 @@
 - [ ] Fail-closed rules map each mandatory control and failure mode to explicit deny/limit behavior, audit signal, recovery owner, re-entry condition, and test ID.
 - [ ] Security test plan covers material threats and records evidence safely.
 - [ ] Section 05 approval requirements are respected for access changes and sensitive disclosures.
-- [ ] Secret inventory contains metadata only; rotation/revocation evidence contains no secret values.\n- [ ] Security tests identify stable test/run IDs, authorized target/environment, expected safe behavior, evidence, and remediation owner.\n- [ ] Privacy/legal uncertainties are assigned to a qualified reviewer and treated as blockers when material.\n- [ ] A real project security review records findings, owners, residual risks, and follow-up.
+- [ ] Secret inventory contains metadata only; rotation/revocation evidence contains no secret values.
+- [ ] Security tests identify stable test/run IDs, authorized target/environment, expected safe behavior, evidence, and remediation owner.
+- [ ] Privacy/legal uncertainties are assigned to a qualified reviewer and treated as blockers when material.
+- [ ] A real project security review records findings, owners, residual risks, and follow-up.
 - [ ] No credentials or unnecessary personal data appear in repository documentation or public logs.
 
 ## GREEN gate
