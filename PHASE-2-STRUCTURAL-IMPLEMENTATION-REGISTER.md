@@ -115,15 +115,15 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + canonical traceability schema | Section 02 review; acceptance evidence pending |
 | `02-planning-before-implementation/REQUIREMENTS.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
 | `02-planning-before-implementation/STATUS.md` | Targeted structural review completed; project-specific application and full cross-section validation pending | KEEP + targeted structural edit where applicable | Section 02 review; acceptance evidence pending |
-| `03-modern-technologies-and-engineering-standards/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `03-modern-technologies-and-engineering-standards/ACCESSIBILITY-STANDARDS.md` | Pending full file review | TBD | TBD |
-| `03-modern-technologies-and-engineering-standards/DEPENDENCY-POLICY.md` | Pending full file review | TBD | TBD |
-| `03-modern-technologies-and-engineering-standards/ENGINEERING-STANDARDS.md` | Pending full file review | TBD | TBD |
-| `03-modern-technologies-and-engineering-standards/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `03-modern-technologies-and-engineering-standards/RUNTIME-SUPPORT.md` | Pending full file review | TBD | TBD |
-| `03-modern-technologies-and-engineering-standards/SECURITY-STANDARDS.md` | Pending full file review | TBD | TBD |
-| `03-modern-technologies-and-engineering-standards/STATUS.md` | Pending full file review | TBD | TBD |
-| `03-modern-technologies-and-engineering-standards/TECHNOLOGY-DECISIONS.md` | Pending full file review | TBD | TBD |
+| `03-modern-technologies-and-engineering-standards/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
+| `03-modern-technologies-and-engineering-standards/ACCESSIBILITY-STANDARDS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
+| `03-modern-technologies-and-engineering-standards/DEPENDENCY-POLICY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
+| `03-modern-technologies-and-engineering-standards/ENGINEERING-STANDARDS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
+| `03-modern-technologies-and-engineering-standards/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit | Section 03 review; links/table checks pending or structural evidence only |
+| `03-modern-technologies-and-engineering-standards/RUNTIME-SUPPORT.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
+| `03-modern-technologies-and-engineering-standards/SECURITY-STANDARDS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
+| `03-modern-technologies-and-engineering-standards/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
+| `03-modern-technologies-and-engineering-standards/TECHNOLOGY-DECISIONS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
 | `04-two-phase-project-construction/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `04-two-phase-project-construction/PAGE-EXPERIENCE-AND-VISUAL-STRUCTURE.md` | Pending full file review | TBD | TBD |
 | `04-two-phase-project-construction/PHASE-1-STRUCTURE.md` | Pending full file review | TBD | TBD |
