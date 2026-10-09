@@ -34,6 +34,10 @@ A reference to a later-numbered section is not automatically a sequencing error.
 | EDGE-015 | 15, 16, 17 → 18 method evolution | DOWNSTREAM CONSUMER | Handoffs, reviews, and release outcomes supply lessons and evidence for later method evolution; full completion of Sections 15–17 must not be a circular prerequisite for drafting Section 18. | TBD / TBD | Proposed |
 | EDGE-016 | 18 → 15, 16, 17 | COORDINATION / REFERENCE (full section) | Section 18 provides agreement/versioning rules. Its future lessons-learned and evolution workflow is not a blocking prerequisite for every documentation, collaboration, or release activity. | TBD / TBD | Proposed |
 
+| EDGE-017 | 01 → substantive project implementation | BLOCKING PREREQUISITE | Approved purpose, target users, value, and scope are required before project-specific implementation is baselined; this does not block structural methodology review. | TBD / approved scope and requirement baseline | Proposed |
+| EDGE-018 | 08 → all active work/handoffs | CROSS-CUTTING CONTROL | Stop-work, checkpoint, and resume rules apply when their triggers occur; they do not require Section 08 to be GREEN before unrelated safe work can proceed. | TBD / pause-resume scenario evidence | Proposed |
+| EDGE-019 | 11 → security/privacy-sensitive work | CROSS-CUTTING CONTROL | Applicable security, privacy, access, secret-handling, and fail-closed controls must be applied before affected operations; scope depends on the data flow and threat. | TBD / threat-control-test evidence | Proposed |
+
 ## Rules for cycles and sequence
 
 1. Do not treat all cross-references as blocking dependencies.
