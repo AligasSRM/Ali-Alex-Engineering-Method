@@ -15,7 +15,7 @@ All 153 unique section pairs were screened at the level of declared purpose and 
 
 | Section | Main interfaces requiring cross-check | Pass-1 result |
 |---|---|---|
-| 01 Identity and purpose | 02 requirements; 03 standards; 05 scope approvals; 10 acceptance; 17 release | No purpose-level conflict found; baseline requirements still need approval |
+| 01 Identity and purpose | 02 requirements; 03 standards; 05 scope approvals; 10 acceptance; 11 access control; 17 release | Account/identity scope file added; inclusion in product scope remains undecided |
 | 02 Planning | 01 scope; 03 technology; 04 structural phase; 13 dependencies | Compatible in intent; needs traceability from requirements to acceptance |
 | 03 Standards | 01–02; 10 testing; 11 security; 14 lifecycle | Compatible in intent; technology and compliance claims need evidence and review dates |
 | 04 Two-phase construction | 01–03 entry gate; 05 approvals; 10 verification; 12 statuses; 17 release | Compatible in intent; README file-list mismatch corrected |
@@ -25,7 +25,7 @@ All 153 unique section pairs were screened at the level of declared purpose and 
 | 08 Stop-work/continuity | All sections; 15 handoff | Compatible in intent; stop/resume protocol needs one practical exercise |
 | 09 Research/evidence | 06 diagnosis; 10 tests; 11 security; 17 release; 18 evolution | Compatible in intent; evidence claims and source-of-truth rules need a common record format |
 | 10 Testing/acceptance | 01–03 requirements/standards; 06–07 diagnosis/fixes; 11 security; 12 GREEN gate; 17 release | Compatible in intent; define which test evidence each gate requires |
-| 11 Security/privacy | 03 standards; 05 approvals; 10 tests; 13 external services; 17 release | Compatible in intent; cross-section fail-closed and exception rules need explicit precedence |
+| 11 Security/privacy | 03 standards; 05 approvals; 10 tests; 13 external services; 17 release | Compatible in intent; authentication/authorization and account lifecycle are explicitly connected to Section 01's scope decision |
 | 12 Status/locking | All sections; especially 05, 09–10, 15, 17 | Definitions broadly align; duplicate register role and reopening transitions need clarification |
 | 13 Dependencies/blockers | 02 planning; 05 approvals; 14 maintenance; 17 release | Compatible in intent; deferred-work rules must not bypass mandatory release/security gates |
 | 14 Maintenance | 03 runtime/technology; 07 fixes; 13 dependencies; 17 recovery | Compatible in intent; migration, rollback, and release approval should share a common gate |
@@ -39,7 +39,7 @@ All 153 unique section pairs were screened at the level of declared purpose and 
 ### F-01 — Section README file lists were stale
 **Severity:** Medium · **State:** Corrected in this pass
 
-Sections 04, 15, 16, and 17 listed planned filenames that did not exist in their live directories. Their README files have been updated to list the files actually present. Section 18's README was also aligned in the prior step. This corrects navigation metadata only; it does not certify the section contents.
+Sections 04, 15, 16, and 17 listed planned filenames that did not exist in their live directories. Their README files have been updated to list the files actually present. Section 18's README was also aligned in the prior step. Section 01's README now also lists the newly added account/identity scope file. This corrects navigation metadata only; it does not certify the section contents.
 
 ### F-02 — Dependency edges are not distinguished from sequencing gates
 **Severity:** High · **State:** Open
@@ -59,11 +59,9 @@ Section 15 acceptance criteria reference Section 18; Section 16 acceptance crite
 **Required resolution:** decide which Section 18 controls are baseline governance prerequisites and which are later method-evolution enhancements. Avoid treating mutually dependent sections as sequential blockers. Record the decision in the dependency map.
 
 ### F-04 — Two similarly named status registers
-**Severity:** Medium · **State:** Open
+**Severity:** Medium · **State:** Resolved at the documentation-policy level
 
-The root `SECTION-STATUS-REGISTER.md` is a current 18-section summary. Section 12 also contains `12-section-status-and-locking/SECTION-STATUS-REGISTER.md`, described as a register/template and source-of-truth summary. The Section 12 file currently says the actual repository state is authoritative, but the relationship between the two files is not explicit enough.
-
-**Required resolution:** declare the root file the current project-wide snapshot and the Section 12 file the schema/policy/template, or choose another single-source-of-truth model. Never maintain two competing live status tables.
+The root `SECTION-STATUS-REGISTER.md` is the current compact 18-section status snapshot. Section 12's `SECTION-STATUS-REGISTER.md` is now explicitly the schema/policy template, not a competing live status table. The actual 18-record reconciliation remains a final audit task.
 
 ### F-05 — Changelog ownership overlap
 **Severity:** Medium · **State:** Open
@@ -75,7 +73,7 @@ Section 15 `CHANGELOG-AND-HISTORY.md` covers repository/project change history, 
 ### F-06 — Status transition wording overlaps
 **Severity:** Medium · **State:** Open
 
-Section 12 defines GREEN/LOCKED reopening to RED or YELLOW and separately defines LOCKED → YELLOW after explicit reopening. These can be reconciled, but the allowed path is not sufficiently singular. Root README labels broadly align with Section 12 definitions.
+Section 12 defines GREEN/LOCKED reopening to RED or YELLOW and separately defines LOCKED → YELLOW after explicit reopening. These can be reconciled, but the allowed path is not sufficiently singular.
 
 **Required resolution:** define one reopening workflow: record trigger/evidence, impact review, required approval, reopen to YELLOW for planned repair or RED when prior acceptance is invalidated, then re-test before GREEN/LOCKED.
 
@@ -86,14 +84,19 @@ Section 05 requires explicit approval for high-impact actions; Section 16 correc
 
 **Required resolution:** build cross-section scenarios and test the precedence of approval, security, status, and release gates.
 
-### F-08 — Audit evidence and status records are still mostly templates
+### F-08 — Account and identity requirements were not explicit
+**Severity:** High · **State:** Addressed structurally; product decision open
+
+Before this pass, the methodology did not explicitly call out registration, sign-in, sign-out, account identifier, display name versus username, profile visibility, recovery, sessions, or account deletion as a discovery topic. Added `01-identity-and-purpose/ACCOUNT-IDENTITY-AND-ACCESS-SCOPE.md`, linked it from Section 01, and added explicit disposition/traceability criteria to Section 01 acceptance and Section 02 requirements.
+
+This does **not** mean every account feature is approved for the product. The project owner must decide what is required, optional, deferred, or not applicable. Section 11 remains responsible for security/privacy controls; Section 01/02 own product scope and requirements.
+
+### F-09 — Audit evidence and status records are still mostly templates
 **Severity:** High · **State:** Open
 
-All 18 sections have README, STATUS, and ACCEPTANCE-CRITERIA files, and the root register lists all 18 as RED. This structural consistency is positive. However, actual acceptance evidence, full link validation, and representative workflow tests have not been completed.
+All 18 sections have README, STATUS, and ACCEPTANCE-CRITERIA files, and the root register lists all 18 as RED. Actual acceptance evidence, full link validation, and representative workflow tests have not been completed.
 
-**Required resolution:** keep all sections RED until their own criteria and applicable integration criteria are tested.
-
-### F-09 — Public repository exposure
+### F-10 — Public repository exposure
 **Severity:** High · **State:** Ongoing control
 
 The repository is public. No secrets or private project information should be added. A complete content scan for accidental sensitive information has not yet been recorded as passed.
@@ -102,19 +105,18 @@ The repository is public. No secrets or private project information should be ad
 - 18 numbered section directories exist.
 - Each section has `README.md`, `STATUS.md`, and `ACCEPTANCE-CRITERIA.md`.
 - Root status register lists all 18 sections RED.
-- The root README and Sections 04, 15, 16, and 17 README files were updated to reflect the observed structure.
+- README inventories for Sections 04, 15, 16, and 17 were reconciled; Section 01 now lists its account/identity scope file.
 - All sections remain RED. No GREEN/LOCKED claim is made.
 - No real-project validation or executable CI test is claimed.
 
 ## Required gates before Section 01 implementation
 - [ ] Publish a typed dependency map distinguishing blockers from references.
 - [ ] Resolve Section 15–18 dependency cycles and changelog ownership.
-- [ ] Clarify root status snapshot vs Section 12 register template.
-- [ ] Unify reopening rules and test them against Section 05 approvals.
-- [ ] Create an integrated approval/security/status/release gate matrix.
+- [ ] Finish status transition and approval/security/status/release precedence rules.
 - [ ] Compare every section README file list against the live tree and check internal links.
 - [ ] Scan public content for secrets/private information.
 - [ ] Reconcile the root status register with all 18 section status files at the end of the audit.
+- [ ] Decide and approve account/identity scope; do not assume features from the checklist alone.
 
 ## Decision
 **The sections are broadly compatible at the level of their stated purposes, but the methodology is not yet fully compatible/validated at the dependency and governance level.** Resolve the high-severity findings above before declaring the cross-section audit complete or starting substantive Section 01 implementation.
