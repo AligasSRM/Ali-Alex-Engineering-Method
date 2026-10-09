@@ -3,12 +3,12 @@
 **Status:** 🔴 RED — criteria drafted; pause/resume testing pending.
 
 - [ ] Stop-work triggers cover repeated failures, unsafe uncertainty, fatigue, missing approval, and unreliable evidence.
-- [ ] Checkpoint captures verified state, last known-good point, tests actually run, blockers, and next safe action.
+- [ ] Checkpoint captures stable IDs, branch/commit and working-tree state, environment/tool versions, timestamp/time zone, exact last verified command/result, evidence, blockers, and one owned next action.
 - [ ] Resume procedure requires live-state inspection and comparison with checkpoint.
-- [ ] Handoff notes distinguish completed work from plans, assumptions, and unverified claims.
+- [ ] Handoff notes distinguish completed work from plans, assumptions, and unverified claims, and do not transfer or expand approval authority.
 - [ ] No stop/resume path bypasses Section 05 approval gates or Section 06 diagnostic limits.
 - [ ] Relevant dependencies and status are updated at pause and resume.
-- [ ] A real pause/resume or handoff walkthrough succeeds without guessing.
+- [ ] Baseline mismatch and stale-checkpoint scenarios block unsafe changes until the live state is re-established.\n- [ ] Re-entry criteria and required approval state are explicit.\n- [ ] A real pause/resume or handoff walkthrough succeeds without guessing.
 - [ ] Sensitive information is not copied into checkpoints unnecessarily.
 
 ## GREEN gate
