@@ -13,6 +13,7 @@ Define the complete project map before implementing detailed functionality, so d
 - **Page experience and visual structure blueprint for every in-scope user-facing page/screen**, including layout hierarchy, content inventory, navigation, interactive controls, page states, responsive behavior, relevant design references, and approval.
 - Verified repository/branch/entry points, planned file changes, routes, and asset sources; unknowns remain explicitly TBD.
 - Cross-cutting requirements: security, privacy, accessibility, reliability, observability, and operations as applicable.
+- Public launch readiness plan when applicable: canonical domain/HTTPS/DNS, Google search discoverability (metadata, robots.txt, sitemap.xml, Search Console), official domain email, mail authentication (SPF/DKIM/DMARC), contact-form routing, owners, and verification evidence.
 - Acceptance criteria and verification approach for every module and user-facing journey.
 - Risk, assumption, and decision registers.
 - A traceable list of structural gaps and blockers.
@@ -27,6 +28,17 @@ Before implementation of a user-facing page:
 6. Review accessibility, privacy, failure states, and acceptance evidence before the page enters implementation.
 
 The canonical template is `PAGE-EXPERIENCE-AND-VISUAL-STRUCTURE.md`. This gate is part of Phase 1, not a new numbered methodology section.
+
+## Public launch readiness gate
+Before releasing an applicable public website:
+1. Verify the actual domain, DNS, HTTPS, canonical host, and production/staging distinction.
+2. Verify important public pages, metadata, robots.txt, sitemap.xml, and internal discoverability.
+3. Verify Google Search Console ownership and record sitemap/URL inspection outcomes without claiming guaranteed indexing or ranking.
+4. Decide required official email addresses and document provider ownership, recovery, and routing.
+5. Verify required email DNS authentication and test real inbound/outbound messages and contact-form notifications.
+6. Record owners, evidence, unresolved issues, and post-launch checks in `17-final-review-and-release/WEB-DISCOVERABILITY-AND-DOMAIN-EMAIL-READINESS.md`.
+
+These gates belong to existing Sections 04 and 17, not a new numbered section.
 
 ## Structure inventory
 | Area / module | Responsibility | Planned artifacts | Dependencies | Acceptance evidence | Status |
@@ -49,4 +61,5 @@ The canonical template is `PAGE-EXPERIENCE-AND-VISUAL-STRUCTURE.md`. This gate i
 - [ ] Page layout, content, controls, routes, states, responsive behavior, and relevant accessibility needs are documented.
 - [ ] Existing repository paths and assets are verified; unknowns are not guessed.
 - [ ] Required design/reference artifacts are linked, or text-only limitations and open decisions are recorded.
+- [ ] Public discoverability and domain email are planned with verification evidence or explicitly marked not applicable with rationale.
 - [ ] Project owner reviews the blueprint before Phase 2 begins.
