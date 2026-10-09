@@ -171,7 +171,7 @@ The method did not explicitly require a project to decide how users contact supp
 - Targeted files inspected for traceability, phase gates, dependency ownership, support, domain email/search readiness, and status-source-of-truth responsibilities. This is not yet a full line-by-line review of every tracked file.
 
 ### Structural changes made on the working branch
-- Added `PHASE-2-STRUCTURAL-IMPLEMENTATION-REGISTER.md`, including section-by-section focus, exit criteria, findings, and a file-by-file inventory of the 154 tracked files under Sections 01–18.
+- Added `PHASE-2-STRUCTURAL-IMPLEMENTATION-REGISTER.md`, including section-by-section focus, exit criteria, findings, and a file-by-file inventory of the 155 tracked files under Sections 01–18.
 - Added `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md` as the canonical structure for tracing approved requirements to design, implementation increments, dependencies, test evidence, status, and release disposition.
 - Updated Section 02 README and acceptance criteria to include the matrix.
 - Updated root README and ROADMAP to identify this structural pass without bypassing the unresolved compatibility gate.
@@ -356,13 +356,13 @@ Validation: 0 missing relative Markdown links and 0 table-column mismatches acro
 
 **Repository status reconciliation:** Re-fetched all 18 section `STATUS.md` records and the root `SECTION-STATUS-REGISTER.md` on the current working branch. All 18 section records remain RED, consistent with the root register. Updated the root register evidence text to note that structural review has been recorded while project-specific acceptance and cross-section validation remain pending.
 
-**Limits:** The file-by-file inventory does not mean every line of all 154 section files has been approved, nor does link/table validation prove semantic compatibility. The typed dependency map still requires validation against every source and consumer; blocker cycles and governance precedence require a final cross-section review. No real project implementation, security/privacy assessment, production deployment, live support/email/domain setup, or release exercise is claimed.
+**Limits:** The file-by-file inventory does not mean every line of all 155 section files has been approved, nor does link/table validation prove semantic compatibility. The typed dependency map still requires validation against every source and consumer; blocker cycles and governance precedence require a final cross-section review. No real project implementation, security/privacy assessment, production deployment, live support/email/domain setup, or release exercise is claimed.
 
 **Pull request boundary:** Changes remain on `docs/page-experience-blueprint`. PR #2 is still a Draft and has not been merged. Do not merge until the remaining cross-section audit, diff review, and any mergeability blocker are resolved.
 
 
 ## Phase A.2 structural review checkpoint
-All 154 tracked Markdown files under Sections 01–18 now have a recorded disposition in `PHASE-2-STRUCTURAL-IMPLEMENTATION-REGISTER.md`; no entries remain marked pending full file review. The recursive tree contains 154 section files and 5 root-level files, with `truncated: false`. The root status register and all 18 section STATUS files were re-fetched and reconciled: every section remains RED.
+All 154 tracked Markdown files under Sections 01–18 now have a recorded disposition in `PHASE-2-STRUCTURAL-IMPLEMENTATION-REGISTER.md`; no entries remain marked pending full file review. The recursive tree contains 155 section files and 5 root-level files, with `truncated: false`. The root status register and all 18 section STATUS files were re-fetched and reconciled: every section remains RED.
 
 The dependency map now contains 33 identified initial edges, including explicit cross-cutting stop-work and security/privacy controls plus the approved-scope prerequisite for substantive project implementation. The map's edge classifications remain proposed until checked against every declared dependency and downstream document. Its table scan reports no column mismatch.
 
