@@ -14,6 +14,7 @@ Define the complete project map before implementing detailed functionality, so d
 - Verified repository/branch/entry points, planned file changes, routes, and asset sources; unknowns remain explicitly TBD.
 - Cross-cutting requirements: security, privacy, accessibility, reliability, observability, and operations as applicable.
 - Public launch readiness plan when applicable: canonical domain/HTTPS/DNS, Google search discoverability (metadata, robots.txt, sitemap.xml, Search Console), official domain email, mail authentication (SPF/DKIM/DMARC), contact-form routing, owners, and verification evidence.
+- Support experience plan when applicable: support address/channel, contact form or ticket flow, ownership/response expectations, escalation, and an explicit decision on whether AI-assisted support is in scope; if AI is considered, map its data/tool permissions and human handoff before implementation.
 - Acceptance criteria and verification approach for every module and user-facing journey.
 - Risk, assumption, and decision registers.
 - A traceable list of structural gaps and blockers.
@@ -62,4 +63,5 @@ These gates belong to existing Sections 04 and 17, not a new numbered section.
 - [ ] Existing repository paths and assets are verified; unknowns are not guessed.
 - [ ] Required design/reference artifacts are linked, or text-only limitations and open decisions are recorded.
 - [ ] Public discoverability and domain email are planned with verification evidence or explicitly marked not applicable with rationale.
+- [ ] Support channels and human escalation are planned, and AI support is explicitly approved, deferred, or marked not applicable with rationale.
 - [ ] Project owner reviews the blueprint before Phase 2 begins.
