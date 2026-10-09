@@ -178,16 +178,16 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `10-testing-and-acceptance-criteria/TEST-EVIDENCE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
 | `10-testing-and-acceptance-criteria/TEST-STRATEGY.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
 | `10-testing-and-acceptance-criteria/UNIT-AND-INTEGRATION-TESTS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 10 review; link/table scan and structural evidence only |
-| `11-security-privacy-and-secrets/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `11-security-privacy-and-secrets/ACCESS-CONTROL.md` | Pending full file review | TBD | TBD |
-| `11-security-privacy-and-secrets/DATA-CLASSIFICATION.md` | Pending full file review | TBD | TBD |
-| `11-security-privacy-and-secrets/FAIL-CLOSED-RULES.md` | Pending full file review | TBD | TBD |
-| `11-security-privacy-and-secrets/PRIVACY-CONTROLS.md` | Pending full file review | TBD | TBD |
-| `11-security-privacy-and-secrets/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `11-security-privacy-and-secrets/SECRET-MANAGEMENT.md` | Pending full file review | TBD | TBD |
-| `11-security-privacy-and-secrets/SECURITY-TEST-PLAN.md` | Pending full file review | TBD | TBD |
-| `11-security-privacy-and-secrets/STATUS.md` | Pending full file review | TBD | TBD |
-| `11-security-privacy-and-secrets/THREAT-MODEL.md` | Pending full file review | TBD | TBD |
+| `11-security-privacy-and-secrets/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
+| `11-security-privacy-and-secrets/ACCESS-CONTROL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
+| `11-security-privacy-and-secrets/DATA-CLASSIFICATION.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
+| `11-security-privacy-and-secrets/FAIL-CLOSED-RULES.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
+| `11-security-privacy-and-secrets/PRIVACY-CONTROLS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
+| `11-security-privacy-and-secrets/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
+| `11-security-privacy-and-secrets/SECRET-MANAGEMENT.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
+| `11-security-privacy-and-secrets/SECURITY-TEST-PLAN.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
+| `11-security-privacy-and-secrets/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
+| `11-security-privacy-and-secrets/THREAT-MODEL.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 11 review; link/table scan and structural evidence only |
 | `12-section-status-and-locking/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `12-section-status-and-locking/GREEN-EVIDENCE-CHECKLIST.md` | Pending full file review | TBD | TBD |
 | `12-section-status-and-locking/LOCK-AND-REOPEN-PROTOCOL.md` | Pending full file review | TBD | TBD |
