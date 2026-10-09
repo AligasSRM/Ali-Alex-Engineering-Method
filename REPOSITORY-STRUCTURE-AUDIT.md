@@ -1,13 +1,13 @@
-# Cross-Section Compatibility Audit — Pass 1
+# Cross-Section Compatibility Audit — Pass 2
 
 **Overall status:** 🔴 RED — scope-level compatibility screened; material governance and dependency decisions remain unresolved. This is not a GREEN/LOCKED certification.
 
 ## Scope and method
 - Repository: `AligasSRM/Ali-Alex-Engineering-Method`
 - Branch: `main`
-- All 18 section README files were inspected, together with the root README, roadmap, root status register, Section 12 status definitions/transition rules, the approval matrix, the Section 04 phase gates, and selected acceptance/status records for Sections 04 and 15–17.
-- The Git tree was complete (`truncated: false`) and contains all 18 numbered sections.
-- This pass checks purpose, declared dependencies, file-list consistency, and major governance interfaces. It does **not** claim that every line of every document has been reviewed or that the method has passed a real-project exercise.
+- All 18 section README, STATUS, and ACCEPTANCE-CRITERIA files were inspected, together with the root README, roadmap, root status register, Section 12 status definitions/transition rules, the approval matrix, the Section 04 phase gates, and the audit-relevant dependency declarations.
+- The live Git tree was complete (`truncated: false`) and contains all 18 numbered sections. A fresh filename comparison found no missing or unlisted section document in any section README inventory, excluding each README's intentional self-reference; Section 13 now also lists `DEPENDENCY-MAP.md`.
+- This pass checks purpose, declared dependencies, status/acceptance interfaces, README inventory, and major governance relationships. It does **not** claim that every line of every document or every internal link has been reviewed, nor that the method has passed a real-project exercise.
 
 ## Pairwise screen: Sections 01–18
 
@@ -42,14 +42,16 @@ All 153 unique section pairs were screened at the level of declared purpose and 
 Sections 04, 15, 16, and 17 listed planned filenames that did not exist in their live directories. Their README files have been updated to list the files actually present. Section 18's README was also aligned in the prior step. Section 01's README now also lists the newly added account/identity scope file. This corrects navigation metadata only; it does not certify the section contents.
 
 ### F-02 — Dependency edges are not distinguished from sequencing gates
-**Severity:** High · **State:** Open
+**Severity:** High · **State:** Open — initial map drafted, not yet validated/approved
 
 The methodology says to implement section by section from 01 onward, but some sections declare dependencies on later sections: 06 references 09–10; 07 references 09–10 and 14. This is not necessarily a design defect if these are supporting references rather than prerequisites. The repository currently lacks a single explicit distinction between:
 - **Blocking prerequisite:** must be verified before work/gate can proceed.
 - **Coordination/reference:** informs the section but need not be complete first.
 - **Downstream consumer:** uses output from this section later.
 
-**Required resolution:** create one typed dependency map and validate the implementation sequence against it before starting Section 01.
+**Progress:** Added `13-dependencies-and-blockers/DEPENDENCY-MAP.md` and linked it from Section 13's README, acceptance criteria, and status record. The map proposes edge types and initial classifications; it is not approved and must be checked against every source/consumer document.
+
+**Required resolution:** validate every typed edge, resolve the blocking graph, and approve the implementation sequence before starting Section 01.
 
 ### F-03 — Potential dependency cycle around Sections 15–18
 **Severity:** High · **State:** Open
@@ -101,22 +103,31 @@ All 18 sections have README, STATUS, and ACCEPTANCE-CRITERIA files, and the root
 
 The repository is public. No secrets or private project information should be added. A complete content scan for accidental sensitive information has not yet been recorded as passed.
 
+### F-11 — Operational observability ownership is not explicit enough
+**Severity:** Medium · **State:** Open — scope assessment required
+
+Sections 06, 14, and 17 cover incident diagnosis, maintenance, and post-release verification, but the current section-level structure does not clearly assign ownership for operational observability such as logs/metrics/traces, alerting, service objectives, incident escalation/runbooks, and monitoring of deployed health.
+
+**Required resolution:** inspect the detailed documents in Sections 06, 11, 14, and 17 and decide whether these controls can be assigned cleanly to existing sections or warrant a distinct numbered section. Do not add Section 19 solely for numbering; add it only if a distinct lifecycle responsibility is not adequately owned by the current structure.
+
 ## Status and structural verification
 - 18 numbered section directories exist.
 - Each section has `README.md`, `STATUS.md`, and `ACCEPTANCE-CRITERIA.md`.
 - Root status register lists all 18 sections RED.
-- README inventories for Sections 04, 15, 16, and 17 were reconciled; Section 01 now lists its account/identity scope file.
+- All 18 section README inventories were compared with the live tree; no missing or unlisted document names were found, excluding the README's intentional self-reference. Section 13's new dependency map is listed.
 - All sections remain RED. No GREEN/LOCKED claim is made.
 - No real-project validation or executable CI test is claimed.
 
 ## Required gates before Section 01 implementation
-- [ ] Publish a typed dependency map distinguishing blockers from references.
+- [x] Draft a typed dependency map distinguishing blockers from references; validation and approval remain pending.
 - [ ] Resolve Section 15–18 dependency cycles and changelog ownership.
 - [ ] Finish status transition and approval/security/status/release precedence rules.
-- [ ] Compare every section README file list against the live tree and check internal links.
+- [x] Compare every section README file list against the live tree; no filename mismatch found in this pass.
+- [ ] Validate internal Markdown links and cross-document references.
 - [ ] Scan public content for secrets/private information.
 - [ ] Reconcile the root status register with all 18 section status files at the end of the audit.
 - [ ] Decide and approve account/identity scope; do not assume features from the checklist alone.
+- [ ] Resolve the observability ownership gap and decide whether Section 19 is justified by a distinct responsibility.
 
 ## Decision
 **The sections are broadly compatible at the level of their stated purposes, but the methodology is not yet fully compatible/validated at the dependency and governance level.** Resolve the high-severity findings above before declaring the cross-section audit complete or starting substantive Section 01 implementation.
