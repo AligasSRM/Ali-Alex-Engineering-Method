@@ -158,3 +158,31 @@ The method did not explicitly require a project to decide how users contact supp
 **Resolution:** Added `17-final-review-and-release/CUSTOMER-SUPPORT-AND-AI-ASSISTANCE-READINESS.md` and linked it from Section 17. Updated Section 02 requirements discovery, Section 04 Phase 1 planning, and Section 17 release/acceptance checks. Coverage includes official support email, contact/ticket flow, accountable owner and response expectations, end-to-end delivery/reply/failure tests, clear AI disclosure, approved knowledge sources, privacy and provider data flows, least-privilege tool access, authorization, high-impact escalation, human handoff, evaluation, and failure/security testing.
 
 **Boundary:** This change defines planning and launch gates only. It does not configure a support inbox, ticketing platform, AI assistant, or provider, and does not authorize AI support by default. The actual project owner must approve scope and real deployment evidence before enabling these features. No new numbered section is created.
+
+## Pass 3 — Phase 2 structural implementation kickoff
+
+**Status:** 🟡 YELLOW — structural pass started; full file-by-file review and cross-section validation remain open.
+
+### Verified scope at kickoff
+- Working branch: `docs/page-experience-blueprint`.
+- The recursive working-branch tree was complete (`truncated: false`) and included all 18 numbered sections.
+- All 18 section README files were inspected for purpose, declared inventory, dependencies, guardrails, and completion rules.
+- The current root status snapshot lists all 18 sections as RED. This is the documented baseline, not a substitute for reconciling every section STATUS file and acceptance evidence.
+- Targeted files inspected for traceability, phase gates, dependency ownership, support, domain email/search readiness, and status-source-of-truth responsibilities. This is not yet a full line-by-line review of every tracked file.
+
+### Structural changes made on the working branch
+- Added `PHASE-2-STRUCTURAL-IMPLEMENTATION-REGISTER.md`, including section-by-section focus, exit criteria, findings, and a file-by-file inventory of the 153 tracked files under Sections 01–18.
+- Added `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md` as the canonical structure for tracing approved requirements to design, implementation increments, dependencies, test evidence, status, and release disposition.
+- Updated Section 02 README and acceptance criteria to include the matrix.
+- Updated root README and ROADMAP to identify this structural pass without bypassing the unresolved compatibility gate.
+- The file inventory explicitly distinguishes initial README review from targeted review and full file review still pending. No file is marked fully reviewed merely because it exists.
+
+### Findings and limitations
+- **P2-001:** Open — the audit has not yet inspected every line of every tracked file or every relative link.
+- **P2-002:** Open — the root status snapshot and all 18 section STATUS files still require direct reconciliation against current acceptance evidence.
+- **P2-003:** Structure added — canonical requirement traceability matrix exists; downstream links and real-project application remain pending.
+- **P2-004:** Open — dependency map and declared dependencies still need complete file-by-file reconciliation and cycle/precedence review.
+- **P2-005:** Active guardrail — all sections remain RED; no real-project validation is claimed.
+
+### Pull request boundary
+These changes are on `docs/page-experience-blueprint` and are proposed for review. No merge to `main` was performed. Keep PR #2 a Draft until the file-level pass, link/inventory checks, dependency/governance reconciliation, and diff review have sufficient evidence.
