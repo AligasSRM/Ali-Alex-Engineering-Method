@@ -377,3 +377,9 @@ Added `13-dependencies-and-blockers/GOVERNANCE-PRECEDENCE-AND-SCENARIOS.md` with
 **Severity:** Medium · **State:** Corrected structurally; semantic validation pending
 
 The Section 13 status file used inconsistent edge totals (35 in one line and 33 in another), while the map contained IDs EDGE-001 through EDGE-033. Reconciliation also found that Section 04's README explicitly named Sections 05–07, 09–13, 15, and 17 as supporting controls without a single matching grouped map edge. Added EDGE-034 as a coordination/reference relationship and aligned the Section 13 status count to 34. This is a documentation consistency repair, not owner approval or proof that all edge classifications are correct. The full dependency/acceptance-criteria reconciliation and blocking-cycle check remain open.
+
+
+### F-09 — Governance scenarios lacked recorded test boundary and outcomes
+**Severity:** Medium · **State:** Provisional tabletop model check recorded; representative validation open
+
+A deterministic table-driven decision model was executed for the 12 drafted governance scenarios: 12 expected decisions matched, 0 mismatches. Results are recorded in `13-dependencies-and-blockers/GOVERNANCE-SCENARIO-TEST-RESULTS.md`. The record explicitly limits this evidence to a simulated decision-model consistency check; it is not independent policy validation, owner approval, or live workflow evidence. The scenario matrix remains pending owner approval and representative workflow execution; Section 13 remains RED.
