@@ -16,6 +16,13 @@ Verify that a change fixes the target issue without breaking related or previous
 8. Compare final diff with approved scope and check rollback readiness.
 9. If the test environment is incomplete, state the limitation; do not call the result fully verified.
 
+## Impact-to-test matrix
+| Change / requirement ID | Affected component / interface / data | Risk / failure mode | Test ID and type | Baseline expectation | Result / evidence link | Status / owner |
+|---|---|---|---|---|---|---|
+| CHG-001 | TBD | TBD | TBD | TBD | TBD | TBD |
+
+Distinguish tests that failed before the fix, tests run after the fix, tests not run, and tests that were skipped with approved rationale. Record exact commands, tool versions, environment, exit status, and artifacts. A green aggregate suite does not excuse an unexplained failure in a critical targeted test.
+
 ## Risk-based coverage
 Prioritize authentication/authorization, payments and financial records, data migrations, public APIs, security boundaries, and production-critical paths when affected.
 
