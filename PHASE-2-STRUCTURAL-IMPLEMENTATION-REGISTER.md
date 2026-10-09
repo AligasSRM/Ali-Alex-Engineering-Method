@@ -124,13 +124,13 @@ This inventory was generated from the complete recursive working-branch tree at 
 | `03-modern-technologies-and-engineering-standards/SECURITY-STANDARDS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
 | `03-modern-technologies-and-engineering-standards/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
 | `03-modern-technologies-and-engineering-standards/TECHNOLOGY-DECISIONS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 03 review; links/table checks pending or structural evidence only |
-| `04-two-phase-project-construction/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
-| `04-two-phase-project-construction/PAGE-EXPERIENCE-AND-VISUAL-STRUCTURE.md` | Pending full file review | TBD | TBD |
-| `04-two-phase-project-construction/PHASE-1-STRUCTURE.md` | Pending full file review | TBD | TBD |
-| `04-two-phase-project-construction/PHASE-2-IMPLEMENTATION.md` | Targeted review performed; full file review pending | TBD | TBD |
-| `04-two-phase-project-construction/PHASE-TRANSITION-GATE.md` | Targeted review performed; full file review pending | TBD | TBD |
-| `04-two-phase-project-construction/README.md` | Initial purpose/inventory review completed | TBD | TBD |
-| `04-two-phase-project-construction/STATUS.md` | Pending full file review | TBD | TBD |
+| `04-two-phase-project-construction/ACCEPTANCE-CRITERIA.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 04 review; link/table scan pending or structural evidence only |
+| `04-two-phase-project-construction/PAGE-EXPERIENCE-AND-VISUAL-STRUCTURE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 04 review; link/table scan pending or structural evidence only |
+| `04-two-phase-project-construction/PHASE-1-STRUCTURE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 04 review; link/table scan pending or structural evidence only |
+| `04-two-phase-project-construction/PHASE-2-IMPLEMENTATION.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 04 review; link/table scan pending or structural evidence only |
+| `04-two-phase-project-construction/PHASE-TRANSITION-GATE.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 04 review; link/table scan pending or structural evidence only |
+| `04-two-phase-project-construction/README.md` | Targeted structural review completed; full substantive validation pending | KEEP + targeted structural edit | Section 04 review; link/table scan pending or structural evidence only |
+| `04-two-phase-project-construction/STATUS.md` | Targeted structural review completed; project-specific validation pending | KEEP + targeted structural edit; evidence pending | Section 04 review; link/table scan pending or structural evidence only |
 | `05-autonomous-execution-and-approvals/ACCEPTANCE-CRITERIA.md` | Pending full file review | TBD | TBD |
 | `05-autonomous-execution-and-approvals/APPROVAL-MATRIX.md` | Pending full file review | TBD | TBD |
 | `05-autonomous-execution-and-approvals/AUTONOMY-BOUNDARIES.md` | Pending full file review | TBD | TBD |
