@@ -60,7 +60,7 @@ Make account and identity capabilities an explicit discovery and planning topic 
 
 ## Cross-section links
 - Section 01 defines whether account and identity capabilities belong in the product scope.
-- Section 02 records approved functional/non-functional requirements and verification methods.
+- Section 02 records approved functional/non-functional requirements and verification methods in `02-planning-before-implementation/REQUIREMENT-TRACEABILITY-MATRIX.md`; each selected capability must link to a stable requirement ID.
 - Section 03 defines applicable engineering, accessibility, and security standards.
 - Section 05 governs approval for scope, permission, account ownership, and security-sensitive changes.
 - Section 10 defines functional, integration, accessibility, and security acceptance tests.
@@ -72,7 +72,7 @@ Make account and identity capabilities an explicit discovery and planning topic 
 
 ## Acceptance criteria
 - [ ] Account/identity scope is explicitly marked required, optional, deferred, or not applicable, with rationale and approval.
-- [ ] Each selected capability has a unique requirement ID in Section 02.
+- [ ] Each selected capability has a unique requirement ID in Section 02's canonical `REQUIREMENT-TRACEABILITY-MATRIX.md`, with a test/verification method and release disposition.
 - [ ] Public/private profile fields and data handling are specified.
 - [ ] Authentication, authorization, recovery, and account lifecycle are not conflated.
 - [ ] Required security, privacy, accessibility, and abuse tests are identified.
