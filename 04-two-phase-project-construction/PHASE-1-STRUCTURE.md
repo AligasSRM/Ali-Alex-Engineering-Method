@@ -42,9 +42,15 @@ Before releasing an applicable public website:
 These gates belong to existing Sections 04 and 17, not a new numbered section.
 
 ## Structure inventory
-| Area / module | Responsibility | Planned artifacts | Dependencies | Acceptance evidence | Status |
+| Structure ID | Area / module | Responsibility / boundary | Requirement / decision IDs | Planned artifacts / verified paths | Dependencies / owner | Acceptance evidence / reviewer | Disposition / status |
 |---|---|---|---|---|---|
-| TBD | TBD | TBD | TBD | TBD | Not started |
+| STR-001 | TBD | TBD | TBD | TBD | TBD | TBD | PROPOSED / Not started |
+
+## Baseline and disposition rules
+- Record repository URL, branch, commit SHA, inspection date, environment, and tools used for each structural review.
+- Label each item **CONFIRMED**, **PROPOSED**, **UNRESOLVED**, **DEFERRED**, or **NOT APPLICABLE**; link evidence or rationale. Do not present a proposal as existing architecture.
+- Every critical dependency has an owner, prerequisite condition, verification method, and failure/blocked behavior. Cross-reference Section 13 rather than maintaining a competing dependency map.
+- Identify external services, data classification/trust boundaries, and rollback/recovery constraints where applicable.
 
 ## Guardrails
 - Phase 1 creates a reviewed blueprint, not a claim that the product works.
