@@ -16,5 +16,8 @@ Define responsibilities, communication expectations, review, and evidence-based 
 ## Dependencies
 Coordinates Sections 05, 09–13, 15, 17, and 18.
 
+## Accountability and durable records
+Use stable role, review, finding, communication, and dispute IDs. Map responsibilities to actual named owners, approval authority, evidence location, and fallback route. A role description does not itself grant system access or approval authority; Section 05 remains the source for action approval requirements.
+
 ## Guardrail
-Material decisions remain subject to the agreed approval rules; do not mix projects or credentials.
+Material decisions remain subject to the agreed approval rules; do not mix projects or credentials. Record reviewer-independence limitations explicitly rather than implying a review was independent.
