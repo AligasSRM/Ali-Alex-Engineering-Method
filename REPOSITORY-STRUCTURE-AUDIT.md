@@ -149,3 +149,12 @@ The existing release checklist covered operational readiness but did not explici
 **Resolution:** Added `17-final-review-and-release/WEB-DISCOVERABILITY-AND-DOMAIN-EMAIL-READINESS.md` and linked it from Section 17. Updated the release checklist and acceptance criteria to cover canonical domain/DNS/HTTPS, important page metadata, `robots.txt`, `sitemap.xml`, Google Search Console verification and observed indexing status, official email ownership/routing, real inbound/outbound delivery, SPF/DKIM/DMARC, contact-form notifications, and post-launch monitoring. Section 04 Phase 1 now requires planning these capabilities when applicable, or an approved not-applicable rationale.
 
 **Boundary:** This is a documentation and release-gate correction only. No actual domain, Search Console property, DNS configuration, or mailbox was configured or tested. Search indexing and ranking are not guaranteed by submission. Section 17 remains RED until a real launch exercise supplies evidence. No Section 19 is created.
+
+### F-14 — Customer support channels and AI-assisted support were not explicit launch requirements
+**Severity:** High · **State:** Addressed structurally; product-specific validation pending
+
+The method did not explicitly require a project to decide how users contact support, who owns incoming requests, how message delivery is tested, or whether AI-assisted support is in scope with clear safety and human escalation rules.
+
+**Resolution:** Added `17-final-review-and-release/CUSTOMER-SUPPORT-AND-AI-ASSISTANCE-READINESS.md` and linked it from Section 17. Updated Section 02 requirements discovery, Section 04 Phase 1 planning, and Section 17 release/acceptance checks. Coverage includes official support email, contact/ticket flow, accountable owner and response expectations, end-to-end delivery/reply/failure tests, clear AI disclosure, approved knowledge sources, privacy and provider data flows, least-privilege tool access, authorization, high-impact escalation, human handoff, evaluation, and failure/security testing.
+
+**Boundary:** This change defines planning and launch gates only. It does not configure a support inbox, ticketing platform, AI assistant, or provider, and does not authorize AI support by default. The actual project owner must approve scope and real deployment evidence before enabling these features. No new numbered section is created.
