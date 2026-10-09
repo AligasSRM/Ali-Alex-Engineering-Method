@@ -29,3 +29,9 @@ Only after the compatibility gate is resolved, return to Section 01 and complete
 - Record decisions, blockers, evidence, and next steps.
 - Do not claim tests, integrations, or repository changes that have not been verified.
 - Do not add secrets or confidential information to this public repository.
+
+
+## Phase A.2 checkpoint — structural review recorded
+The file-by-file structural review has now recorded dispositions for all 153 tracked Markdown files across Sections 01–18. Targeted structural edits were applied where safe, and link/table checks were run for the reviewed section files. This closes the inventory/disposition portion of Phase A.2, not substantive section acceptance.
+
+**Still open before Phase B:** validate all typed dependency edges against every declared relationship; resolve any blocking cycles and approval/security/status/release precedence conflicts; complete semantic cross-section review; inspect the full PR diff and resolve mergeability/CI/review requirements. All 18 sections remain RED. No merge to `main` is authorized by this checkpoint.
