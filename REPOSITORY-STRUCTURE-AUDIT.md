@@ -93,6 +93,8 @@ Before this pass, the methodology did not explicitly call out registration, sign
 
 This does **not** mean every account feature is approved for the product. The project owner must decide what is required, optional, deferred, or not applicable. Section 11 remains responsible for security/privacy controls; Section 01/02 own product scope and requirements.
 
+**Placement decision (2026-10-09):** Keep the checklist in Section 01 as discovery/scope, and use Section 02 `REQUIREMENTS.md` as the single authoritative register for approved, uniquely identified requirements. Section 10 owns acceptance tests, Section 05 approvals, Section 13 external identity-provider dependencies, and Section 17 release evidence. Do not create a duplicate registration register or Section 19 for this topic. Registration itself remains a product-scope decision, not an automatically approved feature.
+
 ### F-09 — Audit evidence and status records are still mostly templates
 **Severity:** High · **State:** Open
 
