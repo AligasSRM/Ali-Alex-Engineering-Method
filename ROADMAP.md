@@ -17,6 +17,9 @@ Before substantive implementation:
 - Record findings, decisions, and evidence in `REPOSITORY-STRUCTURE-AUDIT.md`.
 - Keep all sections RED until their applicable criteria are verified.
 
+## Phase A.2 — Structural implementation pass (Sections 01–18)
+Use `PHASE-2-STRUCTURAL-IMPLEMENTATION-REGISTER.md` to review every tracked file, not only section READMEs. Add safe, reusable templates and traceability fields where they belong, reconcile file inventories and internal links, check dependencies/ownership, and record findings with evidence. This pass may proceed as documentation/structure work, but it does not waive unresolved Phase A.1 compatibility decisions, approve product scope, or mark any section GREEN.
+
 ## Phase B — Substantive implementation
 Only after the compatibility gate is resolved, return to Section 01 and complete it against its acceptance criteria. Verify evidence, mark GREEN only when all required criteria pass, then LOCK only under the agreed locking rules. Continue section by section.
 
@@ -26,3 +29,9 @@ Only after the compatibility gate is resolved, return to Section 01 and complete
 - Record decisions, blockers, evidence, and next steps.
 - Do not claim tests, integrations, or repository changes that have not been verified.
 - Do not add secrets or confidential information to this public repository.
+
+
+## Phase A.2 checkpoint — structural review recorded
+The file-by-file structural review has now recorded dispositions for all 155 tracked Markdown files across Sections 01–18. Targeted structural edits were applied where safe, and link/table checks were run for the reviewed section files. This closes the inventory/disposition portion of Phase A.2, not substantive section acceptance.
+
+**Still open before Phase B:** validate all typed dependency edges against every declared relationship; resolve any blocking cycles and approval/security/status/release precedence conflicts; complete semantic cross-section review; inspect the full PR diff and satisfy CI/review requirements; the current GitHub API snapshot reports the PR as mergeable/clean, but no commit status checks were returned and the PR remains Draft. All 18 sections remain RED. No merge to `main` is authorized by this checkpoint.

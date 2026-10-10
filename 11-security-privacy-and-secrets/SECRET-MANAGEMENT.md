@@ -16,11 +16,17 @@ Prevent secret exposure and manage credentials throughout their lifecycle.
 - Validate secret presence and required permissions without printing secret values.
 - Document owners, renewal expectations, recovery, and revocation paths without recording the secret itself.
 
+## Secret inventory metadata (never the secret value)
+Record secret/reference ID, purpose, owner, provider/store location, environment and scope, permission boundary, creation/last-rotation/next-review dates, expiry where applicable, renewal/revocation procedure, and dependency references. Never copy the secret value into this register.
+
 ## Exposure response
 Stop further disclosure, preserve relevant evidence safely, revoke or rotate affected credentials, inspect access/audit records, assess impact, notify the appropriate owner, and verify the replacement works. Follow Section 05 for approvals where required, without delaying a clearly authorized containment action.
 
 ## Dependencies
 Sections 03, 05, 09–10, and the access/privacy controls in this section.
+
+## Rotation evidence
+A rotation record identifies the credential/reference, triggering reason, authorized operator, timestamp, revocation/rotation steps, dependent services updated, post-rotation verification, and any failed consumer or residual exposure. Redact all secret material.
 
 ## Acceptance evidence
 A real deployment demonstrates secure configuration, least-privilege access, redaction, and a tested rotation/revocation procedure.

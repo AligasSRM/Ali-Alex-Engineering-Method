@@ -12,6 +12,9 @@
 - Share only information recipients are authorized to access; redact secrets and unnecessary personal data.
 - Escalate time-sensitive security, privacy, and release risks promptly.
 
+## Communication record
+For material updates, record a stable message/report ID, timestamp/time zone, project/scope, intended recipients and authorization, evidence links, requested decision and decision owner, urgency/next review trigger, and any redaction applied. Do not copy confidential content into a broader channel merely for convenience.
+
 ## Status update format
 **Current state → Evidence → Blocker/risk → Decision needed → Next action.**
 

@@ -16,6 +16,11 @@ Choose repeatable checks that protect existing behavior after a change.
 8. Record tests omitted, why they were omitted, and residual risk.
 9. Verify the final change set stays within approved scope.
 
+## Change-to-regression matrix
+| Change / commit ID | Requirement / defect / risk IDs | Affected paths / interfaces | Required test IDs | Baseline vs current result | Omitted tests and rationale | Residual risk / owner |
+|---|---|---|---|---|---|---|
+| CHG-001 | TBD | TBD | TBD | TBD | TBD | TBD |
+
 ## Risk priority
 Prioritize authentication/access control, sensitive data, financial records, migrations, external integrations, and production-critical flows when affected.
 

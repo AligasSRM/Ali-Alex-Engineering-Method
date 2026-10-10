@@ -13,6 +13,9 @@ Choose sources according to authority, relevance, freshness, and verifiability.
 5. Community reports and discussion, used as leads unless independently corroborated.
 6. Search snippets and unverified summaries, used only for discovery—not as sole support for material claims.
 
+## Source record
+For each material source, record the source class, exact URL/path, publisher/maintainer, title, publication/update date if available, access/check date and time zone, version/environment applicability, claim supported, and known limitations. If no publication date is visible, mark it unavailable rather than inventing one.
+
 ## Selection rules
 - Match source version and environment to the claim.
 - Check publication/update date when facts can change.

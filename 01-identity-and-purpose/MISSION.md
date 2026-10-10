@@ -11,8 +11,21 @@ State why the product exists, whom it serves, and what it does to deliver its in
 - High-level approach to delivering value.
 - Clear distinction between present capability and future ambition.
 
-## Draft
-To be defined and reviewed during the substantive phase.
+## Draft canvas
+- **Primary user:** TBD
+- **User problem / job to be done:** TBD
+- **What the product does:** TBD
+- **High-level approach:** TBD
+- **Primary value delivered:** TBD
+- **Explicit exclusions / limits:** TBD
+- **Present verified capabilities:** TBD
+- **Future ambition not yet delivered:** TBD
+- **Owner / reviewer / approval date:** TBD / TBD / TBD
+
+## Consistency checks
+- Does the mission explain who is served, why, and how at a high level?
+- Does it avoid presenting planned capabilities as already available?
+- Is it consistent with the vision, target users, value proposition, and boundaries?
 
 ## Evidence and approval
-No final mission has been approved yet.
+No final mission has been approved yet. Keep this canvas as a draft until the owner records review and approval evidence.

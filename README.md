@@ -21,7 +21,7 @@ Create a repeatable method for turning ideas into reliable, maintainable, secure
 A status label never substitutes for inspectable evidence.
 
 ## Current state
-The initial document structures for all 18 sections have been created. The repository-wide structure and consistency audit is now the next gate. All sections remain RED: structure creation is not substantive validation, implementation, or proof that the method works in a real project.
+The initial structures for all 18 sections exist. Phase 2 structural implementation is tracked in `PHASE-2-STRUCTURAL-IMPLEMENTATION-REGISTER.md`: review each file, install safe structural improvements, and reconcile traceability, links, dependencies, and status evidence. The compatibility gate and real-project validation remain open. All sections remain RED: templates and documentation changes are not substantive validation or proof that the method works in a real project.
 
 ## Sections
 1. Identity and Core Purpose

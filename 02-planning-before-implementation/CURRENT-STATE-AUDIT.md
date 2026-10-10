@@ -3,9 +3,9 @@
 **Status:** 🔴 RED — audit template only; no project audit is claimed.
 
 ## Audit scope
-Record the real state before modifying a project.
+Record the real state before modifying a project. Identify the target repository/project and audit boundary; record the branch and commit SHA, working-tree state, audit timestamp/time zone, operator, and commands/tools used. If a field cannot be verified, mark it `NOT CHECKED`, `UNAVAILABLE`, or `NOT APPLICABLE` with rationale—never infer a value.
 
-| Area | Observed state / evidence | Risk or gap | Follow-up |
+| Area | Observed state / evidence | Risk or gap | Follow-up / owner |
 |---|---|---|---|
 | Repository and default branch | TBD | TBD | TBD |
 | Working tree and recent commits | TBD | TBD | TBD |
@@ -29,6 +29,10 @@ Record the real state before modifying a project.
 - [ ] Every applicable row has evidence or is explicitly marked not checked/not applicable.
 - [ ] Existing failures and locked sections are identified before edits.
 - [ ] Baseline test/build results are captured where possible.
+- [ ] Repository, branch, commit, and working-tree state are recorded before edits.
+- [ ] Evidence distinguishes local, CI, staging, and live-production observations.
+- [ ] Audit artifacts contain no secrets or unnecessary personal data.
+- [ ] Any audit gap that could invalidate implementation is recorded as a blocker in Section 13.
 - [ ] Reviewer confirms the audit is sufficient for planning.
 
 ## Next action

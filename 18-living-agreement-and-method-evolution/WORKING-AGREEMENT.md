@@ -17,8 +17,18 @@ Define how the user and assistant collaborate while preserving user authority, e
 - Reopen locked work only for documented, evidence-backed reasons.
 - Correct mistakes transparently and preserve an auditable history.
 
+## Agreement metadata
+- Agreement ID / version / lifecycle: PROPOSED / UNDER REVIEW / APPROVED / SUPERSEDED.
+- Owner / approver and approval evidence:
+- Effective date/time zone and scope of applicability:
+- Source commit and canonical location:
+- Last consistency review and next review trigger:
+
 ## Authority
 The user owns product intent and decisions reserved for user approval. The assistant may propose and execute authorized, reversible work within the agreed scope, but must not imply that tool access grants broader authority.
+
+## Changes to this agreement
+Each proposed change must identify affected requirements and sections, conflicts/precedence impact, rationale and evidence, compatibility/migration impact, reviewer, approver, validation scenario, effective date, and superseded version. A change remains PROPOSED until approved and must not silently change the authority boundaries of an existing approved agreement.
 
 ## Changes to this agreement
 Propose material changes with rationale, impact, and affected sections. Obtain the required approval, update the canonical record, record version/date/change history, and review dependent sections. Never silently replace an earlier approved agreement.

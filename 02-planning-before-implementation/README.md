@@ -9,6 +9,7 @@ Establish a repeatable discovery and planning process before implementation begi
 - PROJECT-DISCOVERY.md — problem, users, context, constraints, and desired outcomes.
 - CURRENT-STATE-AUDIT.md — repository, runtime, dependencies, branches, configuration, tests, and deployment audit.
 - REQUIREMENTS.md — functional and non-functional requirements.
+- REQUIREMENT-TRACEABILITY-MATRIX.md — canonical trace from approved requirements to design, implementation increments, tests/evidence, status, and release disposition.
 - ARCHITECTURE-OVERVIEW.md — system boundaries, components, and major decisions.
 - DEPENDENCIES.md — internal/external dependencies and owners.
 - ACCEPTANCE-CRITERIA.md — testable completion conditions.

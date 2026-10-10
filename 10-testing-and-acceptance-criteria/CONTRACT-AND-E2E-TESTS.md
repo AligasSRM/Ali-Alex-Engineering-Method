@@ -8,6 +8,11 @@ Validate agreed request/response schemas, required fields, types, error formats,
 ## End-to-end tests
 Exercise representative workflows across the relevant components from entry point to expected outcome. Include permission boundaries, error recovery, duplicate actions, cancellation, and important alternate paths where applicable.
 
+## Contract and journey record
+| Test ID | Requirement / interface / journey | Preconditions / identity / permissions | Expected success and rejection behavior | Timeout / retry / idempotency expectations | Environment / dependencies | Result / evidence |
+|---|---|---|---|---|---|---|
+| E2E-001 | TBD | TBD | TBD | TBD | TBD | TBD |
+
 ## Environment boundaries
 Identify whether each run is local, mocked, sandbox, staging, or production. Never describe sandbox or mocked results as live production proof. Production tests require explicit authorization and a narrowly defined safe plan.
 

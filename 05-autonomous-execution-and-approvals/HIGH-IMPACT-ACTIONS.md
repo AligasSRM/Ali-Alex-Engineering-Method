@@ -22,6 +22,11 @@ Identify actions that must not be treated as routine execution because they can 
 5. Obtain explicit approval before execution.
 6. Execute only the approved action, then verify the result and report evidence.
 
+## Durable execution record
+For every approved high-impact action, preserve the approval ID/evidence, exact approved target and scope, operator, environment, start/end time, before/after state, backup/rollback evidence, commands or external action receipt where appropriate, verification outcome, residual risk, and follow-up owner. Redact secrets and unnecessary personal data from the record.
+
+If the requested target, scope, recipient, cost, environment, or risk changes after approval, stop and re-confirm. A successful technical result does not retrospectively authorize an unapproved action.
+
 ## Emergency handling
 A potential incident does not grant blanket permission for unrelated high-impact changes. Take only safe, already-authorized containment steps; otherwise preserve evidence, limit further exposure where clearly permitted, and escalate immediately.
 

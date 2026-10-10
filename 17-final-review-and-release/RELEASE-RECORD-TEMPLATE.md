@@ -3,6 +3,10 @@
 **Status:** RED — template drafted; no release record completed.
 
 ## Record
+- **Release record ID / release ID / status:**
+- **Source repository / branch / exact commit SHA:**
+- **Artifact digest/checksum or immutable build reference:**
+- **Readiness evidence timestamp and reviewer:**
 - **Release ID/name:**
 - **Approved scope and version/commit:**
 - **Artifact/build identifier:**
@@ -15,9 +19,12 @@
 - **Post-release verification and observation window:**
 - **Rollback/recovery status:**
 - **User/operator communication:**
-- **Decision:** GO / NO-GO / CONDITIONAL GO
-- **Conditions, owners, and review deadline:**
+- **Decision:** GO / NO-GO / CONDITIONAL GO, with authority and scope
+- **Conditions, owners, expiry/review timestamp, and failure/rollback trigger:**
 - **Final outcome and follow-up actions:**
+
+## Rules
+A release record must not merge planned and observed facts. If deployment succeeds but post-release checks fail or are unavailable, record the deployment event and the separate verification failure/gap. Keep prior records and corrections auditable.
 
 ## Rules
 Do not include secret values or unnecessary personal data. Distinguish approval, deployment, and successful post-release verification as separate events.

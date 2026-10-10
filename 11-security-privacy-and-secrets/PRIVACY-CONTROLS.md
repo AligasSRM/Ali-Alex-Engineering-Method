@@ -16,6 +16,13 @@ Minimize privacy risk across collection, use, access, retention, sharing, and de
 - Apply privacy-by-design to analytics, support, AI processing, and third-party integrations.
 - Assess applicable legal and contractual requirements for the actual jurisdictions and user groups; do not assume one jurisdiction's rules cover all cases.
 
+## Data-flow and purpose register
+| Flow ID | Data category / purpose | Source / destination / processor | Legal/contractual basis review owner | Minimization / access | Retention / deletion | Cross-border transfer / user notice | Evidence / review date |
+|---|---|---|---|---|---|---|---|
+| FLOW-001 | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+
+Do not assume a legal basis, jurisdiction, or transfer mechanism; record the responsible review and authoritative source. Keep unresolved legal/privacy questions as blockers where they materially affect collection or disclosure.
+
 ## Change review
 Reassess privacy impact when data types, purposes, recipients, providers, retention, or user populations change. Obtain required approval before material disclosure or policy changes.
 

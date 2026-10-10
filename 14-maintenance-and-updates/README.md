@@ -17,5 +17,8 @@ Keep the system supportable and secure while minimizing unnecessary changes and 
 
 ## Dependencies
 Uses standards and dependency records from Sections 03 and 13.
+## Lifecycle and evidence model
+Use stable component, maintenance, alert/incident, update, migration, and debt IDs. Record official source URLs and checked dates for support claims, owner and review triggers, exact baseline/resulting versions, test evidence, and recovery outcomes. Distinguish an approved plan from an executed and verified operation.
+
 ## Guardrail
-Do not update stable components without a reason, compatibility review, and rollback plan appropriate to the risk.
+Do not update stable components without a reason, compatibility review, and rollback plan appropriate to the risk. Do not claim monitoring, backup restoration, or recovery readiness until an exercise demonstrates it.

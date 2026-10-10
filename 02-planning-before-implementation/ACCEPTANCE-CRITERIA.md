@@ -8,6 +8,8 @@ Planning may be considered complete only when all applicable checks below are ev
 - [ ] Problem, users, outcomes, and constraints are documented and owner-confirmed.
 - [ ] Current-state audit records repository, environment, dependencies, tests, and deployment state as applicable.
 - [ ] Functional and non-functional requirements are uniquely identified and testable.
+- [ ] Approved requirements trace to design/architecture, implementation increments, dependencies, verification IDs/evidence, status, and release disposition through the canonical requirement traceability matrix.
+- [ ] Requirement changes record downstream impact, regression coverage, and required approval; deferred or not-applicable items include rationale and authority.
 - [ ] Architecture, boundaries, major decisions, and failure modes are documented.
 - [ ] Dependencies, owners, risks, and mitigations are recorded.
 - [ ] Delivery phases and sequencing are defined without hiding blockers.

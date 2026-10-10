@@ -15,12 +15,17 @@ Control changes to approved requirements, scope, architecture, dependencies, and
 7. **Verify:** run relevant checks and regression tests; review adjacent sections for consistency.
 8. **Record and communicate:** update decision log, change summary, evidence, blockers, and next action.
 
+## Approval record and invalidation
+A material change record must include a stable change ID, requester/source, affected requirement and decision IDs, exact files/systems/environments, impact and alternatives, dependency/security/privacy review, tests and rollback, decision owner, approval ID/evidence, implementation commit, verification result, and communication/handoff. Approval becomes invalid for execution if material scope, target, recipient, cost, environment, or risk changes; pause and obtain a new decision. Rejected, revoked, and deferred changes remain traceable and must not be executed indirectly.
+
 ## Change classes
 - **Class A — editorial:** wording or formatting that does not alter meaning or obligations; preserve intent and review for consistency.
 - **Class B — in-scope implementation:** a reversible change already authorized by accepted requirements; test and record it.
 - **Class C — material:** changes scope, architecture, cost, external communications, security/privacy posture, production behavior, or irreversible state; pause for explicit approval.
 
 ## Rules
+- Class C work must not start until the specific approval is recorded; documenting a proposed change is not authorization to execute it.
+- Where rules conflict, apply law and mandatory security/privacy controls first, then explicit approval gates, then status/release gates; a lower-level checklist cannot override a higher-priority prohibition.
 - Do not mark a section GREEN merely because its documents changed.
 - Re-open a previously locked area only when evidence shows a defect, changed dependency, security risk, or regression that warrants it; record the reason.
 - If a change affects a shared principle, update the authoritative source and trace dependent documents rather than making inconsistent local copies.

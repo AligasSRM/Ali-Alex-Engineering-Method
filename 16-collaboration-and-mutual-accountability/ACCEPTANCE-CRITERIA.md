@@ -2,14 +2,14 @@
 
 **Status:** RED — criteria drafted; collaboration workflow review pending.
 
-- [ ] Critical responsibilities and authority boundaries are explicit.
-- [ ] Review protocol requires independent evidence and traceable finding disposition.
+- [ ] Critical responsibilities have stable role/assignment IDs, named owner/fallback, authority limits, access boundaries, and review/expiry where applicable.
+- [ ] Review records identify scope/commit, reviewer authority/independence, stable findings, severity, owner, and explicit disposition.
 - [ ] Communication reports facts, uncertainty, risks, decisions, and next actions clearly.
 - [ ] Sensitive information is shared only with authorized recipients and appropriately redacted.
-- [ ] Disagreements are resolved using evidence and defined decision authority.
+- [ ] Disagreements have stable records, linked evidence/requirements, a defined decision authority, recorded dissent/rationale, and revisit trigger.
 - [ ] Required independent review and approvals are not bypassed.
 - [ ] Material decisions are recorded in a durable source of truth.
-- [ ] A real review and handoff workflow has been evaluated.
+- [ ] Material communication records identify authorized recipients, timestamp/time zone, evidence, decision owner, and redactions.\n- [ ] A real review and handoff workflow has been evaluated.
 
 ## GREEN gate
 Roles, reviews, communication, and disagreement handling are clear and tested in a representative workflow.

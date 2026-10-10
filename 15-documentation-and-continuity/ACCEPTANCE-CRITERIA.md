@@ -3,13 +3,13 @@
 **Status:** RED — criteria drafted; continuity exercise pending.
 
 - [ ] Documentation standards distinguish facts, assumptions, decisions, and unknowns.
-- [ ] Material decisions include rationale, authority, scope, and revisit triggers.
+- [ ] Material decisions have stable IDs, lifecycle state, rationale, authority/evidence, scope, affected requirement IDs, and revisit/expiry triggers.
 - [ ] Handoff records include verified state, evidence, blockers, and a safe next action.
-- [ ] Changelog/history distinguishes committed, tested, and released changes.
+- [ ] Changelog/history uses stable change IDs and links requirement/decision, commit/PR, test evidence, and explicit saved/committed/tested/deployed/released state.
 - [ ] Sensitive data and secrets are excluded or appropriately redacted.
-- [ ] Canonical information has a clear source of truth.
+- [ ] Canonical information has a clear source of truth, with project history in Section 15 and methodology versioning in Section 18.
 - [ ] Documentation links and status claims match live repository evidence.
-- [ ] A pause/resume exercise succeeds without guessing or repeating completed work.
+- [ ] Handoffs preserve exact repository/commit/worktree and current approval scope; a receiving operator verifies live state before action.\n- [ ] A pause/resume exercise succeeds without guessing or repeating completed work.
 
 ## GREEN gate
 Documentation is accurate and traceable, and a real continuity exercise passes with evidence.

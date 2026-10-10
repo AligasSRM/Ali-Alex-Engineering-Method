@@ -10,14 +10,17 @@ Keep material claims traceable to the evidence that supports or contradicts them
 |---|---|
 | Evidence ID | Stable identifier |
 | Claim | Exact claim being assessed |
-| Source | File, URL, command output, test artifact, or observed state |
-| Date/version | When captured and relevant version |
+| Source and provenance | File/path or URL, publisher/owner, command/tool, artifact ID, environment, and how it was obtained |
+| Captured / checked time | Timestamp and time zone; relevant version/commit/environment |
 | Evidence excerpt/result | Minimum relevant detail, with sensitive data redacted |
 | Classification | Fact, inference, hypothesis, recommendation, or decision |
-| Confidence | High, medium, low, with rationale |
+| Confidence / scope | High, medium, low, with rationale and the exact claim scope |
 | Limitations | Missing context, freshness, scope, or possible bias |
 | Status | Supports, contradicts, or does not resolve claim |
-| Follow-up | Next check or responsible decision |
+| Owner / review trigger | Accountable owner, next check, freshness/expiry trigger, or decision required |
+
+## Rules
+Assign a stable Evidence ID and link every material conclusion to the smallest relevant evidence set. Keep original source identity and capture time so a reviewer can distinguish source publication date from the date it was checked. If an artifact is unavailable, state that explicitly instead of reconstructing its contents from memory.
 
 ## Rules
 - Preserve enough context to reproduce the observation.

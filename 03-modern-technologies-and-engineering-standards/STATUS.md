@@ -13,6 +13,11 @@
 - [x] Section acceptance criteria.
 - [x] Status record.
 
+## Structural review record
+- Reviewed all 9 tracked Markdown files in Section 03 for ownership, decision lifecycle, evidence requirements, compatibility, exceptions, and acceptance gates.
+- Added reusable fields for mandatory/conditional/recommended classification, authoritative source/version/check date, compatibility evidence, explicit decision states, and time-bounded exception governance.
+- This is a targeted structural review; it is not a line-by-line certification of external standards or a project-specific technical selection.
+
 ## Outstanding work
 - [ ] Apply the policy to a named project and its actual stack.
 - [ ] Verify current support/security/accessibility references.
@@ -27,4 +32,4 @@ Sections 01–02 must establish the product scope, constraints, requirements, an
 Remain RED. Templates and policy intent are not proof of implementation or compliance.
 
 ## Next action
-Complete the Section 03 document inventory, then continue with Section 04's detailed templates.
+Apply the policy to an approved real project and stack; verify current official lifecycle/security/accessibility sources, record compatibility and decision evidence, then continue with the Section 04 file-by-file review. Keep RED until acceptance evidence exists.

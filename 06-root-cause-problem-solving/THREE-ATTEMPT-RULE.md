@@ -15,8 +15,12 @@ Prevent unproductive repetition while ensuring investigation becomes more eviden
 ## Exceptions
 Immediate safety/security risks, destructive potential, or unclear authorization require stopping and escalating sooner. Read-only evidence gathering may continue when safe and useful, but it must not disguise a fourth implementation attempt.
 
-## Required record
-For each attempt: hypothesis, meaningful difference from prior attempts, evidence, action, result, and decision.
+## Required attempt record
+| Attempt ID | Incident / diagnostic ID | Attempt type (observation / test / fix) | Hypothesis and evidence | Material difference from previous attempt | Approval/safety check | Predicted result | Actual result / evidence | Decision / next action |
+|---|---|---|---|---|---|---|---|---|
+| ATT-001 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+
+Count distinct implementation/fix attempts explicitly; read-only evidence gathering does not reset the count or disguise a repeated implementation attempt. Record why an attempt is materially different before execution.
 
 ## Dependencies
 Section 05 escalation; Section 07 patch discipline; Section 08 stop-work; Section 09 research/evidence.

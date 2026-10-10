@@ -11,6 +11,11 @@ Set handling requirements according to the sensitivity and impact of data.
 - **Confidential:** business-sensitive information, private correspondence, customer details, and non-public source artifacts.
 - **Restricted:** passwords, API keys, access tokens, recovery codes, financial credentials, highly sensitive personal data, and data whose exposure could cause severe harm.
 
+## Data inventory
+| Data ID / category | Purpose / source | Classification / rationale | Storage / transit / processors | Access roles | Retention / deletion | Logging / backup handling | Owner / evidence |
+|---|---|---|---|---|---|---|---|
+| DATA-001 | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+
 ## Handling rules
 - Collect and retain only what the product and approved purpose require.
 - Grant access by least privilege and record sensitive access where appropriate.
@@ -22,6 +27,9 @@ Set handling requirements according to the sensitivity and impact of data.
 
 ## Dependencies
 Sections 03, 05, 09, and 11's secret/privacy/access controls.
+
+## Classification changes
+Record the owner, reason, approval, affected stores/processors, and effective date when a data class or handling rule changes. If uncertain, use the more protective class until resolved.
 
 ## Acceptance evidence
 A real project inventory assigns classes and handling rules to each material data category.

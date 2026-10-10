@@ -17,9 +17,12 @@ Begin only after the relevant structural blueprint, requirements, dependencies, 
 9. Mark the increment complete only when acceptance evidence is recorded.
 
 ## Increment register
-| ID | Requirement | Change scope | Tests / evidence | Regression impact | Approval needed | Outcome |
+| Increment ID | Requirement / decision IDs | Baseline branch + SHA | Bounded change scope / paths | Dependencies / risk | Commands and test IDs | Results / evidence link | Rollback / recovery | Reviewer / approval / outcome |
 |---|---|---|---|---|---|---|
-| INC-001 | TBD | TBD | TBD | TBD | TBD | Not started |
+| INC-001 | TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD / TBD / Not started |
+
+## Evidence record requirements
+For each increment, record environment and tool versions, exact commands, exit status, test names/IDs, artifact links, skipped tests with rationale, failures and follow-up, diff review, and the commit that contains the change. Distinguish local, CI, staging, and production evidence. A passing test in one environment does not imply success in another.
 
 ## Stop conditions
 Stop if the baseline is unknown, a critical dependency is blocked, an unexpected destructive/security-impacting change appears, or required approval is missing. Report evidence and options rather than guessing.

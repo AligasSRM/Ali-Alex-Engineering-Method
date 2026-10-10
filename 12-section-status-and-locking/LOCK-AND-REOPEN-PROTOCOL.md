@@ -13,6 +13,12 @@ A section may be LOCKED only after:
 ## Reopen triggers
 Reopen only for a documented reason: reproduced defect, failed regression, material security/privacy issue, changed requirement, invalidated dependency, or credible new evidence affecting acceptance.
 
+## Reopen status selection
+- Use **YELLOW** when authorized, bounded repair work is beginning and prior acceptance remains valid for unaffected scope.
+- Use **RED** when evidence shows the previous acceptance is invalid, a mandatory control failed, or the accepted scope cannot be relied upon.
+- Use **ORANGE** when reopening is blocked pending a decision, dependency, or safe recovery path.
+- Never keep a section LOCKED while making changes inside its locked scope; record the reopening event first.
+
 ## Reopen procedure
 - Record the trigger and evidence.
 - Identify affected scope, downstream sections, and release risk.

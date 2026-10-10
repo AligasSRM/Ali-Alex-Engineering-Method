@@ -12,8 +12,11 @@ Define what the assistant or project operator may execute independently after th
 - Prefer the smallest reversible action that satisfies the approved objective. Keep unrelated files and systems untouched.
 - If a blocker prevents safe execution, stop that action, preserve evidence, and report options rather than bypassing the control.
 
+## Authorization validity checks
+Before acting, verify that the task is within the approved project and environment, the requested action remains within bounded scope, required approvals are current and not revoked/expired, and no higher-priority legal/security/privacy or fail-closed gate blocks it. If any check is unknown, pause the affected action and record the missing evidence.
+
 ## Required execution record
-For each meaningful task, record the approved scope, intended action, risk/reversibility, checks performed, observed result, and any approval still needed.
+For each meaningful task, record the task/approval IDs, approved scope and exclusions, target/environment, intended action, risk/reversibility, preconditions, checks performed, observed result, execution timestamp, evidence link, and any approval still needed.
 
 ## Dependencies
 Sections 01–02 define purpose, scope, requirements, risks, and the current-state audit. Coordinate with Sections 11–13 for security, status gates, dependencies, and blockers.

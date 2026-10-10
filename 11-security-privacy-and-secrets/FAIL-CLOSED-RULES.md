@@ -15,8 +15,13 @@ Ensure that when a required security, safety, identity, or authorization control
 - If a dependency is degraded, restrict only the affected capability where safe; do not silently weaken security boundaries.
 - Make denial and recovery paths observable without exposing secrets or sensitive data.
 
+## Failure-mode matrix
+| Control ID | Required precondition / signal | Failure or unknown condition | Denied/limited behavior | User/operator feedback | Audit evidence / alert | Recovery owner / re-entry condition | Test ID |
+|---|---|---|---|---|---|---|---|
+| CTRL-001 | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+
 ## Exception control
-Any exception must be explicit, narrowly scoped, time-bounded where possible, approved by the proper authority, logged, and accompanied by compensating controls. No implicit fail-open behavior.
+Any exception must be explicit, narrowly scoped, time-bounded where possible, approved by the proper authority, logged, and accompanied by compensating controls. Record the control/threat ID, residual risk, affected environments, expiry/review date, rollback/re-entry condition, and test evidence. No implicit fail-open behavior; exceptions cannot bypass applicable law or mandatory authorization.
 
 ## Dependencies
 Sections 03, 05, 09–10, and all production/release sections.

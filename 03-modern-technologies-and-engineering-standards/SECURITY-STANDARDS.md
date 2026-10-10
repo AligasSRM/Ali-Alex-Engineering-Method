@@ -13,6 +13,11 @@
 | Logging and incident response | Avoid secret and unnecessary sensitive-data logging | TBD | Log/config review and incident plan | TBD | TBD |
 | Backup, recovery, and failure behavior | Define based on criticality | TBD | Recovery test evidence | TBD | TBD |
 
+## Control classification and exception governance
+Classify controls as **mandatory**, **conditional**, or **recommended** and state the condition for each conditional control. For every selected external standard, record authoritative URL, exact edition/version, date checked, applicable system/data scope, mapped control IDs, verification method, evidence location, owner, and review trigger. Separate legal obligations, contractual requirements, internal policy, and voluntary guidance.
+
+Any exception must record the threat/risk, affected assets and environments, reason, compensating controls, residual risk, accountable approver, expiry/review date, and remediation evidence. Exceptions cannot override applicable law or an explicit fail-closed safety requirement.
+
 ## Standard selection
 Choose applicable guidance based on product scope, threat model, jurisdiction, and deployment model. Cite authoritative versions and record the date checked. Do not state that the product is compliant or certified without a scoped assessment and evidence.
 

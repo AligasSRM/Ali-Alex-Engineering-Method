@@ -5,6 +5,12 @@
 ## Purpose
 Provide a concise, trustworthy transfer of work between sessions or operators.
 
+## Handoff metadata
+- Handoff ID / parent checkpoint ID:
+- Sender / receiving owner / timestamp and time zone:
+- Repository URL / branch / commit SHA / working-tree state:
+- Handoff state: READY FOR REVIEW / BLOCKED / INFORMATION ONLY:
+
 ## Handoff summary
 - **Objective and approved scope:**
 - **Current verified state:**
@@ -13,11 +19,14 @@ Provide a concise, trustworthy transfer of work between sessions or operators.
 - **Work not completed:**
 - **Failures and attempts already made:**
 - **Open risks and blockers:**
-- **Approvals required or explicitly denied:**
+- **Approval IDs, exact scope/target, expiry, revoked/denied approvals:**
 - **Files/sections/dependencies affected:**
 - **Links to logs, commits, tests, and checkpoints:**
 - **Next safe action and expected result:**
 - **Actions that must not be repeated without new evidence:**
+
+## Rules
+The receiver must independently verify the live state before action. A handoff note does not transfer or expand authorization. If the receiver, target, environment, or material conditions differ, confirm required approval again. Mark a handoff BLOCKED when the next action cannot be safely determined.
 
 ## Rules
 Distinguish fact, hypothesis, and plan. Never describe a proposed action as completed. Keep notes concise but sufficient to prevent dangerous repetition. Do not include secrets.

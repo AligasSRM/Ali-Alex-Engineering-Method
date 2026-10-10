@@ -14,6 +14,16 @@ Keep research bounded, useful, and evidence-driven instead of repeating low-valu
 6. Stop when acceptance criteria are met, additional sources are unlikely to change the decision, or the authorized time/scope is exhausted.
 7. If unresolved, report what was checked, what remains unknown, and the smallest next research step.
 
+## Stop-decision record
+- Research ID and exact question:
+- Scope, date/time window, source classes and queries checked:
+- Relevant sources/versions and evidence IDs:
+- Coverage limits, contradictory findings, and unresolved unknowns:
+- Stop reason: criteria met / low expected information gain / scope or time exhausted / blocked:
+- Owner and smallest next step if unresolved:
+
+Do not use a fixed search count as proof of completeness. If a time or scope limit is reached, report the bounded coverage and remaining unknowns; do not call the search exhaustive.
+
 ## Guardrails
 Do not claim exhaustive research without defining and checking the search scope. Do not use snippets alone for material claims. Do not contact third parties or transmit sensitive data without required approval.
 

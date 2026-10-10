@@ -37,9 +37,14 @@ For each production-critical service or workflow, identify applicable signals an
 7. Record timeline, cause confidence, residual risk, customer impact, and follow-up actions.
 8. Review recurring causes and feed approved lessons into Sections 14, 15, and 18.
 
+## Signal and alert register
+| Signal/alert ID | Service / user journey | Metric or event / data classification | Threshold and rationale | Dashboard/query / evidence | Severity / owner / route | Runbook / recovery check |
+|---|---|---|---|---|---|---|
+| OBS-001 | TBD | TBD | TBD | TBD | TBD | TBD |
+
 ## Required per-project record
 
-For each critical service/workflow, document: owner, critical user journeys, health signals, thresholds and their rationale, dashboards/queries, alert routes, response runbook, escalation authority, log/telemetry retention, privacy controls, known blind spots, recovery procedure, and review cadence.
+For each critical service/workflow, document: owner and backup owner, critical user journeys, health signals, threshold rationale/approval, dashboards/queries, alert routes, response runbook, escalation authority, log/telemetry retention and data classification, privacy controls, known blind spots, recovery procedure, last exercise evidence, and next review cadence.
 
 ## Acceptance evidence
 

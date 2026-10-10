@@ -5,6 +5,11 @@
 ## Purpose
 Keep systems reliable, supportable, and secure while minimizing unnecessary changes.
 
+## Maintenance register
+| Maintenance ID | Component / workflow | Task / trigger | Cadence / rationale | Owner / backup owner | Evidence / last run | Next review / escalation |
+|---|---|---|---|---|---|---|
+| MAINT-001 | TBD | TBD | TBD | TBD | TBD | TBD |
+
 ## Requirements
 - Assign an owner for each production-critical component.
 - Define maintenance tasks and review cadence according to risk and change rate.

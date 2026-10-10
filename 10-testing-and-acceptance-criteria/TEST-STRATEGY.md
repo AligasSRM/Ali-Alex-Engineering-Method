@@ -15,8 +15,18 @@ Define a layered, risk-based approach to testing and objective completion eviden
 - **Regression:** previously working behavior likely to be affected.
 - **Live verification:** only when explicitly authorized and safe; distinguish from mocks, local tests, and staging.
 
+## Test plan record
+| Requirement / risk ID | Test case ID / layer | Expected behavior / failure mode | Environment / data class | Owner / tool | Pass-fail oracle | Evidence/run ID | Coverage gap / disposition |
+|---|---|---|---|---|---|---|---|
+| REQ-001 / RISK-001 | TEST-001 / TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+
 ## Planning
 Map each requirement and risk to a test, expected result, environment, owner/tool, and retained evidence. Prioritize tests by impact and likelihood. Define stop conditions and data/production safety boundaries before execution.
+
+## Rules
+- Define pass/fail oracles before running the test; avoid changing expected results after observing the outcome without an approved requirement change.
+- Record flaky tests, retries, quarantines, and skipped tests separately; none count as a clean pass without an approved, time-bounded disposition.
+- Keep test data isolated and classify external side effects before running.
 
 ## Rules
 A test proves only the behavior and environment it actually exercised. A passing build is not proof of functional correctness; a mock is not proof of live integration. Never weaken acceptance criteria merely to obtain a pass.

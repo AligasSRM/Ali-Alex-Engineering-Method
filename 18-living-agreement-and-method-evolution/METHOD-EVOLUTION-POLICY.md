@@ -13,6 +13,14 @@ Improve the method from real outcomes without turning every incident into an unr
 - User feedback and documented usability friction.
 - Changes in technology, security expectations, regulation, or delivery context.
 
+## Proposal record
+- Proposal ID / lifecycle: PROPOSED / UNDER REVIEW / APPROVED / REJECTED / DEFERRED / SUPERSEDED.
+- Evidence/incident/lesson IDs and recurring-pattern assessment:
+- Affected sections/files, dependency edges, and approval rules:
+- Expected benefit, cost, risk, and compatibility/migration impact:
+- Validation scenario, pass/fail criteria, and owner:
+- Reviewer/approver, effective version/date, and revisit trigger:
+
 ## Improvement workflow
 1. Record the observed problem and supporting evidence.
 2. Distinguish a one-off event from a recurring or systemic pattern.
@@ -25,6 +33,7 @@ Improve the method from real outcomes without turning every incident into an unr
 9. Record outcome, unintended effects, and revisit triggers.
 
 ## Guardrails
+Do not make a proposed rule effective merely because its document was edited or merged. Preserve the prior effective baseline until approval and required validation are recorded. Any conflict with mandatory legal, safety, security/privacy, or user-approval controls blocks adoption until resolved through an authorized path.
 Do not claim a method improvement based only on intuition. Preserve prior versions and rationale. Do not weaken security, approval, evidence, or user-authority protections to improve speed.
 
 ## Dependencies

@@ -2,15 +2,15 @@
 
 **Status:** 🔴 RED — criteria drafted; real test plan and run pending.
 
-- [ ] Requirements and material risks map to appropriate test layers.
+- [ ] Each requirement and material risk maps to stable test IDs, expected behavior/pass-fail oracle, environment, owner, and retained evidence.
 - [ ] Unit and integration coverage includes normal, boundary, and failure cases.
 - [ ] Contract and E2E tests identify interfaces, workflows, and environment.
 - [ ] Security/resilience tests align with Section 11 risks and fail-closed requirements.
 - [ ] Regression plan covers direct and indirect impact.
-- [ ] Evidence records exact commands, versions, results, failures, and limitations.
+- [ ] Evidence records unique run ID, exact commit SHA, commands, tool/environment versions, timestamps, results, failures, skipped/not-run reasons, and artifact links.
 - [ ] Mocked, staging, and live verification are clearly distinguished.
 - [ ] Approval and safety gates are respected for intrusive or production testing.
-- [ ] No test is weakened or skipped without documented rationale and risk acceptance.
+- [ ] Flaky retries, quarantined tests, changed fixtures, and stale evidence are explicit and do not silently count as clean passes.\n- [ ] Security/resilience tests have authorized scope, test data boundaries, containment, and rollback where needed.\n- [ ] No test is weakened or skipped without documented rationale and risk acceptance.
 - [ ] A representative project test plan is reviewed and its results are traceable.
 
 ## GREEN gate

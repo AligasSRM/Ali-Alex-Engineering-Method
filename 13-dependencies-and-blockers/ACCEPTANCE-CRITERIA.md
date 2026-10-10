@@ -2,16 +2,18 @@
 
 **Status:** 🔴 RED — criteria drafted; project-specific inventory pending.
 
-- [ ] Internal and external dependencies have owners, versions/capabilities, and criticality.
+- [ ] Internal and external dependencies have stable IDs, owners, versions/capabilities, criticality, source/check date, failure behavior, and recovery owner.
 - [ ] The cross-section dependency map classifies each edge as blocking, coordination/reference, downstream consumer, or cross-cutting control.
-- [ ] Blocking edges have explicit clearing evidence and do not create an unresolved cycle.
+- [ ] Every cross-section edge has a stable ID, typed relationship, exact output/gate, owner, validation evidence, and status; blocking edges have clearing evidence and no unresolved blocking cycle.
+- [ ] The governance precedence matrix is owner-approved and each applicable scenario is executed, with expected/actual outcomes and evidence recorded.
 - [ ] Dependency failure impacts and safe fallbacks are explicit.
-- [ ] Active blockers have evidence, impact, owner, and next action.
+- [ ] Active blockers have lifecycle state, evidence IDs, impact, owner, next action, escalation route, and verification-based closure.
 - [ ] Escalation thresholds align with approvals and incident handling.
-- [ ] Deferred work records residual risk, authority, and re-entry conditions.
+- [ ] Deferred work records residual risk, authority/approval ID, expiry/review, and re-entry conditions; expiry does not auto-renew.
 - [ ] Cost, privacy, availability, and environment assumptions are verified or marked unknown.
 - [ ] Secrets are referenced safely and never stored in dependency records.
-- [ ] Registers are reconciled with project status and release readiness.
+- [ ] Dependency, blocker, and deferral registers are reconciled with project status and release readiness; mandatory gates are never cleared by deferral.
+- [ ] Source/consumer README dependencies and acceptance criteria reconcile with the cross-section map; each apparent reverse edge is explicitly classified as non-blocking, a baseline-only prerequisite, or a downstream consumer.
 
 ## GREEN gate
 A real project has a reviewed dependency map and actionable blocker/deferral records with no hidden critical dependency.
