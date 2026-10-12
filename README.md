@@ -1,47 +1,55 @@
-# ALI & ALEX — Engineering Method
+# علي وأليكس — منهجية هندسة المشاريع
 
-A continuously evolving, evidence-driven engineering methodology for planning, building, testing, releasing, and improving real-world projects.
+**الاسم الإنكليزي للتعرّف على المستودع:** Ali & Alex Engineering Method
 
-## Purpose
-Create a repeatable method for turning ideas into reliable, maintainable, secure, and testable products without confusing structure with verified completion.
+منهجية هندسية تتطور باستمرار، وتعتمد على الأدلة لتخطيط المشاريع الحقيقية وبنائها واختبارها وإطلاقها وتحسينها.
 
-## Working model
-1. **Structure first:** define all sections, planned documents, responsibilities, dependencies, and acceptance criteria.
-2. **Cross-section audit:** compare sections for missing dependencies, contradictions, duplication, outdated references, and inconsistent acceptance/status rules.
-3. **Implement section by section:** return to Section 01, complete its substance, validate it, and mark it GREEN only when evidence supports that status.
-4. **Lock verified work:** mark a section LOCKED only after its acceptance criteria pass and final review is recorded; reopen only for a documented, evidence-backed reason.
+## الهدف
 
-## Section status
-- 🔴 RED — not started or not yet verified
-- 🟡 YELLOW — active work in progress
-- 🟠 ORANGE — paused, blocked, or awaiting a decision/dependency
-- 🟢 GREEN — applicable acceptance criteria verified with evidence
-- 🔒 LOCKED — GREEN has passed final review and required regression checks; justified reopening remains possible
+تحويل الأفكار إلى مشاريع موثوقة، قابلة للصيانة، آمنة، وقابلة للاختبار، من دون الخلط بين إنشاء الهيكل وبين إثبات أن العمل اكتمل فعلاً.
 
-A status label never substitutes for inspectable evidence.
+## طريقة العمل
 
-## Current state
-The initial document structures for all 18 sections have been created. The repository-wide structure and consistency audit is now the next gate. All sections remain RED: structure creation is not substantive validation, implementation, or proof that the method works in a real project.
+1. **بناء الهيكل أولاً:** تحديد جميع الأقسام والوثائق المطلوبة والمسؤوليات والاعتماديات وشروط القبول.
+2. **تدقيق الأقسام معاً:** البحث عن الاعتماديات الناقصة والتناقضات والتكرار والمراجع القديمة واختلاف قواعد القبول والحالة.
+3. **تنفيذ قسم تلو الآخر:** نبدأ بالقسم الأول، ونكمل محتواه الفعلي، ثم نتحقق منه. لا يتحول إلى الأخضر إلا عندما تدعمه الأدلة.
+4. **تثبيت العمل الذي تم التحقق منه:** لا يُقفل القسم إلا بعد اجتياز شروط القبول وتسجيل المراجعة النهائية. ولا يُعاد فتحه إلا لسبب موثق ومدعوم بالأدلة.
 
-## Sections
-1. Identity and Core Purpose
-2. Planning Before Implementation
-3. Modern Technologies and Engineering Standards
-4. Two-Phase Project Construction
-5. Autonomous Execution and Approvals
-6. Root-Cause Problem Solving
-7. Preventing Unconsidered Patching
-8. Fatigue and Work-Stoppage Protocol
-9. Research, Evidence, and Communication
-10. Testing and Acceptance Criteria
-11. Security, Privacy, and Secrets
-12. Section Status and Locking
-13. Dependencies and Blockers
-14. Maintenance and Updates
-15. Documentation and Continuity
-16. Collaboration and Mutual Accountability
-17. Final Review and Release
-18. Living Agreement and Method Evolution
+## معاني حالات الأقسام
 
-## Repository visibility
-This repository is currently public. Do not add secrets, credentials, private customer information, or confidential project details.
+- 🔴 **أحمر — لم يبدأ:** العمل لم يبدأ أو لم يتم التحقق منه بعد.
+- 🟡 **أصفر — قيد العمل:** العمل جارٍ.
+- 🟠 **برتقالي — متوقف أو معطّل:** العمل متوقف مؤقتاً أو ينتظر قراراً أو اعتماداً من عمل آخر.
+- 🟢 **أخضر — تم التحقق:** تم التأكد من شروط القبول المطلوبة بواسطة أدلة.
+- 🔒 **مقفَل — تم تثبيته:** اجتاز القسم الحالة الخضراء والمراجعة النهائية واختبارات التراجع المطلوبة. ويمكن إعادة فتحه عند وجود سبب مبرر وموثق.
+
+**لون الحالة وحده ليس دليلاً؛ يجب أن تكون الأدلة قابلة للفحص.**
+
+## الحالة الحالية
+
+تم إنشاء الهياكل الأولية للأقسام الثمانية عشر. الخطوة التالية هي تدقيق هيكل المستودع كاملاً والتأكد من اتساق الأقسام مع بعضها. جميع الأقسام ما زالت **حمراء**؛ لأن إنشاء الهيكل لا يعني اكتمال المحتوى أو التحقق منه أو إثبات نجاح المنهج في مشروع حقيقي.
+
+## أقسام المنهجية الثمانية عشر
+
+1. **هوية المنهجية وهدفها الأساسي**
+2. **تخطيط المشاريع قبل التنفيذ**
+3. **التقنيات الحديثة والمعايير الهندسية**
+4. **بناء المشروع على مرحلتين**
+5. **التنفيذ المستقل والموافقات المطلوبة**
+6. **حل المشكلات من جذورها**
+7. **منع الترقيع من دون دراسة**
+8. **إدارة التعب والتوقف عن العمل عند الحاجة**
+9. **البحث والأدلة والتواصل**
+10. **الاختبارات وشروط القبول**
+11. **الأمان والخصوصية وحماية الأسرار**
+12. **حالات الأقسام وقواعد تثبيتها**
+13. **الاعتماديات والعوائق**
+14. **الصيانة والتحديثات**
+15. **التوثيق واستكمال العمل لاحقاً**
+16. **التعاون والمساءلة المشتركة**
+17. **المراجعة النهائية وإطلاق المشروع**
+18. **الاتفاقية الحية وتطوير المنهجية باستمرار**
+
+## خصوصية المستودع
+
+هذا المستودع عام حالياً. يُمنع إضافة كلمات المرور أو مفاتيح الوصول أو بيانات العملاء الخاصة أو أي معلومات سرية إليه.
